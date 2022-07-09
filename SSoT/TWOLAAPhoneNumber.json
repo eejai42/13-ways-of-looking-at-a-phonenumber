@@ -1,0 +1,274 @@
+{
+  "TWOLAAPhoneNumber": {
+    "Name": "13 Ways of Looking at a Phone Number",
+    "Countries": {
+      "Country": [
+        {
+          "Name": "UK",
+          "CountrySections": {
+            "CountrySection": [
+              {
+                "Name": "UK-CountryCode-##",
+                "IsRequired": "",
+                "SectionOrder": "1",
+                "MinValue": "44",
+                "MinValueString": "44",
+                "MaxValue": "44",
+                "MinLength": "2",
+                "MaxLength": "2",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "44"
+              },
+              {
+                "Name": "UK-AreaCode-###",
+                "IsRequired": "",
+                "SectionOrder": "2",
+                "MinValue": "208",
+                "MinValueString": "208",
+                "MaxValue": "299",
+                "MinLength": "3",
+                "MaxLength": "3",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "44"
+              },
+              {
+                "Name": "UK-CentralOfficeCode-###",
+                "IsRequired": "true",
+                "SectionOrder": "3",
+                "MinValue": "100",
+                "MinValueString": "100",
+                "MaxValue": "999",
+                "MinLength": "3",
+                "MaxLength": "3",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "44"
+              },
+              {
+                "Name": "UK-SubscriberNumber-####",
+                "IsRequired": "true",
+                "SectionOrder": "4",
+                "MinValue": "1000",
+                "MinValueString": "1000",
+                "MaxValue": "9999",
+                "MinLength": "4",
+                "MaxLength": "4",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "44"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Germany",
+          "CountrySections": {
+            "CountrySection": [
+              {
+                "Name": "Germany-CountryCode-##",
+                "IsRequired": "",
+                "SectionOrder": "1",
+                "MinValue": "49",
+                "MinValueString": "49",
+                "MaxValue": "49",
+                "MinLength": "2",
+                "MaxLength": "2",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "49"
+              },
+              {
+                "Name": "Germany-AreaCode-##..##",
+                "IsRequired": "",
+                "SectionOrder": "2",
+                "MinValue": "10",
+                "MinValueString": "10",
+                "MaxValue": "9999",
+                "MinLength": "2",
+                "MaxLength": "4",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "49"
+              },
+              {
+                "Name": "Germany-SubscriberNumber-#####..###",
+                "IsRequired": "true",
+                "SectionOrder": "3",
+                "MinValue": "10000",
+                "MinValueString": "10000",
+                "MaxValue": "99999999",
+                "MinLength": "5",
+                "MaxLength": "8",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "49"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Canada",
+          "CountrySections": {
+            "CountrySection": [
+              {
+                "Name": "Canada-CountryCode-#",
+                "IsRequired": "",
+                "SectionOrder": "1",
+                "MinValue": "1",
+                "MinValueString": "1",
+                "MaxValue": "1",
+                "MinLength": "1",
+                "MaxLength": "1",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "1"
+              },
+              {
+                "Name": "Canada-AreaCode-###",
+                "IsRequired": "",
+                "SectionOrder": "2",
+                "MinValue": "204",
+                "MinValueString": "204",
+                "MaxValue": "905",
+                "MinLength": "3",
+                "MaxLength": "3",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "1"
+              },
+              {
+                "Name": "Canada-CentralOfficeCode-###",
+                "IsRequired": "true",
+                "SectionOrder": "3",
+                "MinValue": "100",
+                "MinValueString": "100",
+                "MaxValue": "999",
+                "MinLength": "3",
+                "MaxLength": "3",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "1"
+              },
+              {
+                "Name": "Canada-SubscriberNumber-####",
+                "IsRequired": "true",
+                "SectionOrder": "4",
+                "MinValue": "0",
+                "MinValueString": "0000",
+                "MaxValue": "9999",
+                "MinLength": "4",
+                "MaxLength": "4",
+                "MinAndMaxLengthsMatch": "true",
+                "CountryCode": "1"
+              },
+              {
+                "Name": "Canada-ExtraNumbers-IGNORED",
+                "IsRequired": "",
+                "SectionOrder": "5",
+                "MinValue": "",
+                "MinValueString": "",
+                "MaxValue": "",
+                "MinLength": "0",
+                "MaxLength": "0",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "1"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "US",
+          "CountrySections": {
+            "CountrySection": [
+              {
+                "Name": "US-CountryCode-#",
+                "IsRequired": "",
+                "SectionOrder": "1",
+                "MinValue": "1",
+                "MinValueString": "1",
+                "MaxValue": "1",
+                "MinLength": "1",
+                "MaxLength": "1",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "1"
+              },
+              {
+                "Name": "US-AreaCode-###",
+                "IsRequired": "",
+                "SectionOrder": "2",
+                "MinValue": "201",
+                "MinValueString": "201",
+                "MaxValue": "919",
+                "MinLength": "3",
+                "MaxLength": "3",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "1"
+              },
+              {
+                "Name": "US-CentralOfficeCode-###",
+                "IsRequired": "true",
+                "SectionOrder": "3",
+                "MinValue": "111",
+                "MinValueString": "111",
+                "MaxValue": "999",
+                "MinLength": "3",
+                "MaxLength": "3",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "1"
+              },
+              {
+                "Name": "US-SubscriberNumber-####",
+                "IsRequired": "true",
+                "SectionOrder": "4",
+                "MinValue": "0",
+                "MinValueString": "0000",
+                "MaxValue": "9999",
+                "MinLength": "4",
+                "MaxLength": "4",
+                "MinAndMaxLengthsMatch": "true",
+                "CountryCode": "1"
+              },
+              {
+                "Name": "US-ExtraNumbers-IGNORED",
+                "IsRequired": "",
+                "SectionOrder": "5",
+                "MinValue": "",
+                "MinValueString": "",
+                "MaxValue": "",
+                "MinLength": "0",
+                "MaxLength": "0",
+                "MinAndMaxLengthsMatch": "",
+                "CountryCode": "1"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Ireland",
+          "CountrySections": ""
+        }
+      ]
+    },
+    "PhoneNumberSections": {
+      "PhoneNumberSection": [
+        {
+          "Name": "CountryCode",
+          "Notes": "Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999",
+          "SectionOrder": "1"
+        },
+        {
+          "Name": "AreaCode",
+          "Notes": "Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.",
+          "SectionOrder": "2"
+        },
+        {
+          "Name": "CentralOfficeCode",
+          "Notes": "Most phone numbers include a section after the area code which locates a specific district or region within the area code.\r\n",
+          "SectionOrder": "3"
+        },
+        {
+          "Name": "SubscriberNumber",
+          "Notes": "This refers to whatever remaining parts of the number are left that identify the specific subscriber being called.",
+          "SectionOrder": "4"
+        },
+        {
+          "Name": "ExtraNumbers",
+          "Notes": "This refers to any extra numbers after the subscriber number.  In some situations these numbers are just ignored, in other cases, they will make the number unroutable.",
+          "SectionOrder": "5"
+        }
+      ]
+    }
+  }
+}

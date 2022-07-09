@@ -1,0 +1,49 @@
+{
+  "ShowHidden": false,
+  "ShowAllFiles": false,
+  "SaveDisabled": false,
+  "SSoTmeProjectId": "77470da4-7d55-4adc-a689-bfe2f09cc447",
+  "Name": "13-ways-of-looking-at-a-phone-number",
+  "ProjectSettings": [
+    {
+      "ProjectSettingId": "fe67c46f-6f7e-44d6-8ba9-529f7b4565f0",
+      "Name": "project-name",
+      "Value": "13-ways-of-looking-at-a-phone-number"
+    }
+  ],
+  "ProjectTranspilers": [
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "19d8142a-2f4d-46ac-9de6-77441f233192",
+        "Name": "AirtableToXml",
+        "Description": "Extracts the contents of an airtable base as a single Xml file."
+      },
+      "ProjectTranspilerId": "43da85ac-2c36-4b68-b3c4-4921cddeae7b",
+      "Name": "AirtableToXml",
+      "RelativePath": "/SSoT",
+      "CommandLine": "airtable/airtable-to-xml -p baseid=appvPQpdOTorgkY0m"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "ProjectTranspilerId": "80655827-5f2f-477e-ae30-4e88e5147eb7",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/SSoT/CreateSSoT",
+      "CommandLine": "xml-xslt-transform -i ..\\Airtable.xml -i CreateSSoT.xslt"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "ba509977-74bf-486e-a405-1b2125bd5d15",
+        "Name": "XmlToJson",
+        "Description": "Converts XML to JSON using the NewtonSoft C# conversion tools."
+      },
+      "ProjectTranspilerId": "aab8a7e1-a112-4d2c-ae9e-2e4a77817a7c",
+      "Name": "XmlToJson",
+      "RelativePath": "/SSoT/CreateSSoT",
+      "CommandLine": "codee42/xml-to-json -i ../TWOLAAPhoneNumber.xml -o ../TWOLAAPhoneNumber.json"
+    }
+  ]
+}

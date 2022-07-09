@@ -37,12 +37,51 @@
             </xsl:copy>    
         </xsl:for-each>
     </PhoneNumberSections>
+    <UnitTests>
+        <xsl:for-each select="$root/*/UnitTests/UnitTest"><xsl:sort select="SectionOrder" />
+            <xsl:copy>
+                <xsl:apply-templates select="." />
+            </xsl:copy>    
+        </xsl:for-each>
+    </UnitTests>
 </TWOLAAPhoneNumber>                        
                     </xsl:element>
                 </FileSetFile>
             </FileSetFiles>
         </FileSet>
     </xsl:template>
+    <xsl:template match="/*/UnitTests/UnitTest">
+        <UnitTest>
+            <CountryName><xsl:value-of select="CountryName" /></CountryName>
+            <Assertions>
+                <xsl:for-each select="/*/Assertions/Assertion">
+                    <xsl:copy>
+                        <xsl:apply-templates select="." />
+                    </xsl:copy>                    
+                </xsl:for-each>
+            </Assertions>
+        </UnitTest>
+    </xsl:template>
+
+    <xsl:template match="/*/Assertions/Assertion">
+        <Name><xsl:value-of select="Name" /></Name>
+        <TestValue><xsl:value-of select="TestValue" /></TestValue>
+        <SectionName><xsl:value-of select="SectionName" /></SectionName>
+        <ExtractedValue><xsl:value-of select="ExtractedValue" /></ExtractedValue>
+        <AssertionFailed><xsl:value-of select="AssertionFailed" /></AssertionFailed>
+        <ParameterMin><xsl:value-of select="ParameterMin" /></ParameterMin>
+        <ParameterMax><xsl:value-of select="ParameterMax" /></ParameterMax>
+        <SectionMinlength><xsl:value-of select="SectionMinlength" /></SectionMinlength>
+        <SectionMaxLength><xsl:value-of select="SectionMaxLength" /></SectionMaxLength>
+        <TooLow><xsl:value-of select="TooLow" /></TooLow>
+        <TooHigh><xsl:value-of select="TooHigh" /></TooHigh>
+        <Section1><xsl:value-of select="Section1" /></Section1>
+        <Section2><xsl:value-of select="Section2" /></Section2>
+        <Section3><xsl:value-of select="Section3" /></Section3>
+        <Section4><xsl:value-of select="Section4" /></Section4>
+        <Section5><xsl:value-of select="Section5" /></Section5>
+    </xsl:template>
+
     <xsl:template match="/*/Countries/Country">
         <Name><xsl:value-of select="Name" /></Name>
         <CountrySections>
@@ -62,14 +101,28 @@
 
     <xsl:template match="/*/CountrySections/CountrySection">
         <Name><xsl:value-of select="Name" /></Name>
-        <IsRequired><xsl:value-of select="IsRequired" /></IsRequired>
-        <SectionOrder><xsl:value-of select="SectionOrder" /></SectionOrder>
-        <MinValue><xsl:value-of select="MinValue" /></MinValue>
-        <MinValueString><xsl:value-of select="MinValueString" /></MinValueString>
-        <MaxValue><xsl:value-of select="MaxValue" /></MaxValue>
-        <MinLength><xsl:value-of select="MinLength" /></MinLength>
-        <MaxLength><xsl:value-of select="MaxLength" /></MaxLength>
-        <MinAndMaxLengthsMatch><xsl:value-of select="MinAndMaxLengthsMatch" /></MinAndMaxLengthsMatch>
-        <CountryCode><xsl:value-of select="CountryCode" /></CountryCode>
+        <xsl:choose>
+            <xsl:when test="normalize-space(IsIgnored)='true'">
+                <IsIgnored>true</IsIgnored>
+                <IsRequired>false</IsRequired>
+            </xsl:when>
+            <xsl:otherwise>
+                <PhoneNumberSectionName><xsl:value-of select="PhoneNumberSectionName" /></PhoneNumberSectionName>
+                <CountryName><xsl:value-of select="CountryName" /></CountryName>
+                <CountryCode><xsl:value-of select="CountryCode" /></CountryCode>        
+                <IsRequired>
+                    <xsl:choose>
+                        <xsl:when test="normalize-space(IsRequired)=''">false</xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="IsRequired" />
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </IsRequired>
+                <MinValue><xsl:value-of select="MinValueString" /></MinValue>
+                <MaxValue><xsl:value-of select="MaxValue" /></MaxValue>
+                <MinLength><xsl:value-of select="MinLength" /></MinLength>
+                <MaxLength><xsl:value-of select="MaxLength" /></MaxLength>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>

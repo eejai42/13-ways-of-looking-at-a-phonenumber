@@ -63,6 +63,7 @@
       <Section3Plus>356-1234</Section3Plus>
       <Section4Plus>1234</Section4Plus>
       <Section4>1234</Section4>
+      <CountryName>US</CountryName>
     </UnitTest>
     <UnitTest>
       <UnitTestId>recDhvRaMm4ocz8dt</UnitTestId>
@@ -83,26 +84,28 @@
       <Section3Plus>000-1348</Section3Plus>
       <Section4Plus>1348</Section4Plus>
       <Section4>1348</Section4>
+      <CountryName>US</CountryName>
     </UnitTest>
     <UnitTest>
       <UnitTestId>rece8egpHIUeTLJw5</UnitTestId>
       <createdTime>2022-03-12T19:51:43Z</createdTime>
-      <PhoneNumber>212-5555-2134-4544-12323</PhoneNumber>
+      <PhoneNumber>-212-5555-2134-4544-12323</PhoneNumber>
       <Country>recIOYUbocXcygpIC</Country>
       <Assertions>recMxJ6Q7SEOwsc8Q</Assertions>
       <Assertions>recpuM0BgzYqkexxG</Assertions>
       <Assertions>recM1V8iuML15A7zJ</Assertions>
       <Assertions>recFw9cuq1TZXKJrB</Assertions>
+      <Assertions>recHcNysMbtkfHXTs</Assertions>
       <AutoNumber>3</AutoNumber>
       <Name>UnitTest3</Name>
-      <Section2>5555</Section2>
-      <Section3>2134</Section3>
-      <Section1>212</Section1>
-      <Section2Plus>5555-2134-4544-12323</Section2Plus>
-      <Section3Plus>2134-4544-12323</Section3Plus>
-      <Section4Plus>4544-12323</Section4Plus>
-      <Section4>4544</Section4>
-      <Section5Plus>12323</Section5Plus>
+      <Section2>212</Section2>
+      <Section3>5555</Section3>
+      <Section2Plus>212-5555-2134-4544-12323</Section2Plus>
+      <Section3Plus>5555-2134-4544-12323</Section3Plus>
+      <Section4Plus>2134-4544-12323</Section4Plus>
+      <Section4>2134</Section4>
+      <Section5Plus>4544-12323</Section5Plus>
+      <CountryName>US</CountryName>
     </UnitTest>
   </UnitTests>
   <Countries>
@@ -150,12 +153,6 @@
       <UnitTests>recDhvRaMm4ocz8dt</UnitTests>
       <UnitTests>rece8egpHIUeTLJw5</UnitTests>
     </Country>
-    <Country>
-      <CountryId>recSKuEEPbu7CYmOx</CountryId>
-      <createdTime>2022-07-08T22:55:43Z</createdTime>
-      <Name>Ireland</Name>
-      <CountryCode>353</CountryCode>
-    </Country>
   </Countries>
   <CountrySections>
     <CountrySection>
@@ -172,6 +169,8 @@
       <MinLength>4</MinLength>
       <MaxLength>4</MaxLength>
       <MinValueString>1000</MinValueString>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>SubscriberNumber</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recDMzkkk1emQkOBr</CountrySectionId>
@@ -188,6 +187,8 @@
       <MinLength>4</MinLength>
       <MaxLength>4</MaxLength>
       <MinValueString>0000</MinValueString>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>SubscriberNumber</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recIQXPGZxc1T6xcF</CountrySectionId>
@@ -203,6 +204,8 @@
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
       <MinValueString>100</MinValueString>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recJ7wLWRrRovx3sS</CountrySectionId>
@@ -217,6 +220,8 @@
       <MinLength>1</MinLength>
       <MaxLength>1</MaxLength>
       <MinValueString>1</MinValueString>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recJkndWmmqluwswT</CountrySectionId>
@@ -272,6 +277,8 @@
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
       <MinValueString>204</MinValueString>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recM1hOxDO5e1Cseo</CountrySectionId>
@@ -287,6 +294,8 @@
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
       <MinValueString>100</MinValueString>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recUdB1NVDOQsaZU4</CountrySectionId>
@@ -297,12 +306,15 @@
       <MaxValue>1</MaxValue>
       <Assertions>recytYxQdt8Oyo45d</Assertions>
       <Assertions>recqw4Kct8g5sPfKM</Assertions>
+      <Assertions>recMxJ6Q7SEOwsc8Q</Assertions>
       <SectionOrder>1</SectionOrder>
       <Name>US-CountryCode-#</Name>
       <CountryCode>1</CountryCode>
       <MinLength>1</MinLength>
       <MaxLength>1</MaxLength>
       <MinValueString>1</MinValueString>
+      <CountryName>US</CountryName>
+      <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recas7of8hug9Zetk</CountrySectionId>
@@ -315,6 +327,8 @@
       <CountryCode>1</CountryCode>
       <MinLength>0</MinLength>
       <MaxLength>0</MaxLength>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>ExtraNumbers</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recd4OhL299QgJ9TW</CountrySectionId>
@@ -329,6 +343,8 @@
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
       <MinValueString>208</MinValueString>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recdp1d9U4YnX0XnR</CountrySectionId>
@@ -344,6 +360,8 @@
       <MinLength>5</MinLength>
       <MaxLength>8</MaxLength>
       <MinValueString>10000</MinValueString>
+      <CountryName>Germany</CountryName>
+      <PhoneNumberSectionName>SubscriberNumber</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recfU78LlEp6fkNWY</CountrySectionId>
@@ -358,6 +376,8 @@
       <MinLength>2</MinLength>
       <MaxLength>2</MaxLength>
       <MinValueString>49</MinValueString>
+      <CountryName>Germany</CountryName>
+      <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>reck53YMR0eUuZavr</CountrySectionId>
@@ -372,6 +392,8 @@
       <MinLength>2</MinLength>
       <MaxLength>4</MaxLength>
       <MinValueString>10</MinValueString>
+      <CountryName>Germany</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>reckrIBNTxMjhC18Q</CountrySectionId>
@@ -382,8 +404,8 @@
       <MaxValue>9999</MaxValue>
       <MinAndMaxLengthsMatch>true</MinAndMaxLengthsMatch>
       <Assertions>recobaRjNW3jaBlaQ</Assertions>
-      <Assertions>recM1V8iuML15A7zJ</Assertions>
       <Assertions>recOtGK8arwlmJ1pJ</Assertions>
+      <Assertions>recFw9cuq1TZXKJrB</Assertions>
       <SectionOrder>4</SectionOrder>
       <IsRequired>true</IsRequired>
       <Name>US-SubscriberNumber-####</Name>
@@ -391,6 +413,8 @@
       <MinLength>4</MinLength>
       <MaxLength>4</MaxLength>
       <MinValueString>0000</MinValueString>
+      <CountryName>US</CountryName>
+      <PhoneNumberSectionName>SubscriberNumber</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recmY1uBqoloVWQyj</CountrySectionId>
@@ -398,14 +422,16 @@
       <Country>recIOYUbocXcygpIC</Country>
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <Assertions>rec5W9CnhSt2HvMsl</Assertions>
-      <Assertions>recFw9cuq1TZXKJrB</Assertions>
       <Assertions>rec7rSXXX0haCsqEa</Assertions>
+      <Assertions>recHcNysMbtkfHXTs</Assertions>
       <SectionOrder>5</SectionOrder>
       <IsIgnored>true</IsIgnored>
       <Name>US-ExtraNumbers-IGNORED</Name>
       <CountryCode>1</CountryCode>
       <MinLength>0</MinLength>
       <MaxLength>0</MaxLength>
+      <CountryName>US</CountryName>
+      <PhoneNumberSectionName>ExtraNumbers</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recuHEv9m1Y006bTB</CountrySectionId>
@@ -415,14 +441,16 @@
       <MinValue>201</MinValue>
       <MaxValue>919</MaxValue>
       <Assertions>rec95onzSofZexZ8w</Assertions>
-      <Assertions>recMxJ6Q7SEOwsc8Q</Assertions>
       <Assertions>rec2G8CXnQY93ecHF</Assertions>
+      <Assertions>recpuM0BgzYqkexxG</Assertions>
       <SectionOrder>2</SectionOrder>
       <Name>US-AreaCode-###</Name>
       <CountryCode>1</CountryCode>
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
       <MinValueString>201</MinValueString>
+      <CountryName>US</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recxoHnpLmnUBL8WY</CountrySectionId>
@@ -432,8 +460,8 @@
       <MinValue>111</MinValue>
       <MaxValue>999</MaxValue>
       <Assertions>rec2bIKNNlGussNCU</Assertions>
-      <Assertions>recpuM0BgzYqkexxG</Assertions>
       <Assertions>recEiRxowSnKAn5aP</Assertions>
+      <Assertions>recM1V8iuML15A7zJ</Assertions>
       <SectionOrder>3</SectionOrder>
       <IsRequired>true</IsRequired>
       <Name>US-CentralOfficeCode-###</Name>
@@ -441,6 +469,8 @@
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
       <MinValueString>111</MinValueString>
+      <CountryName>US</CountryName>
+      <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recxwFYop1v56Ki8X</CountrySectionId>
@@ -455,6 +485,8 @@
       <MinLength>2</MinLength>
       <MaxLength>2</MaxLength>
       <MinValueString>44</MinValueString>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
     </CountrySection>
   </CountrySections>
   <PhoneNumberSections>
@@ -803,14 +835,6 @@
   </SpecialSectionValues>
   <Assertions>
     <Assertion>
-      <AssertionId>rec0CEmU7JCgTudz8</AssertionId>
-      <createdTime>2022-03-14T09:06:35Z</createdTime>
-      <Name>:=</Name>
-      <TooLow>0</TooLow>
-      <TooHigh>0</TooHigh>
-      <AssertionFailed>0</AssertionFailed>
-    </Assertion>
-    <Assertion>
       <AssertionId>rec2G8CXnQY93ecHF</AssertionId>
       <createdTime>2022-03-14T09:06:30Z</createdTime>
       <UnitTest>recAG8JkHDKq39agU</UnitTest>
@@ -834,6 +858,7 @@
       <Section5 />
       <DefaultSectionOrder>2</DefaultSectionOrder>
       <SectionName>AreaCode</SectionName>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>rec2bIKNNlGussNCU</AssertionId>
@@ -859,6 +884,7 @@
       <Section5 />
       <DefaultSectionOrder>3</DefaultSectionOrder>
       <SectionName>CentralOfficeCode</SectionName>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>rec5W9CnhSt2HvMsl</AssertionId>
@@ -882,6 +908,7 @@
       <Section5 />
       <DefaultSectionOrder>5</DefaultSectionOrder>
       <SectionName>ExtraNumbers</SectionName>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>rec7rSXXX0haCsqEa</AssertionId>
@@ -905,6 +932,7 @@
       <Section5 />
       <DefaultSectionOrder>5</DefaultSectionOrder>
       <SectionName>ExtraNumbers</SectionName>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>rec95onzSofZexZ8w</AssertionId>
@@ -930,6 +958,7 @@
       <Section5 />
       <DefaultSectionOrder>2</DefaultSectionOrder>
       <SectionName>AreaCode</SectionName>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recEiRxowSnKAn5aP</AssertionId>
@@ -955,41 +984,15 @@
       <Section5 />
       <DefaultSectionOrder>3</DefaultSectionOrder>
       <SectionName>CentralOfficeCode</SectionName>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recFw9cuq1TZXKJrB</AssertionId>
       <createdTime>2022-07-09T00:13:44Z</createdTime>
       <UnitTest>rece8egpHIUeTLJw5</UnitTest>
-      <CountrySection>recmY1uBqoloVWQyj</CountrySection>
       <CustomSectionNumber>4</CustomSectionNumber>
-      <Name>ExtraNumbers:=4544 - FAIL</Name>
-      <TestValue>212-5555-2134-4544-12323</TestValue>
-      <SectionMinlength>0</SectionMinlength>
-      <SectionMaxLength>0</SectionMaxLength>
-      <ExtractedValue>4544</ExtractedValue>
-      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
-      <TooLow>0</TooLow>
-      <TooHigh>1</TooHigh>
-      <AssertionFailed>1</AssertionFailed>
-      <SectionOrder>4</SectionOrder>
-      <Section1>212</Section1>
-      <Section2>5555</Section2>
-      <Section3>2134</Section3>
-      <Section4>4544</Section4>
-      <Section5>12323</Section5>
-      <DefaultSectionOrder>5</DefaultSectionOrder>
-      <SectionName>ExtraNumbers</SectionName>
-    </Assertion>
-    <Assertion>
-      <AssertionId>recM1V8iuML15A7zJ</AssertionId>
-      <createdTime>2022-03-14T09:06:38Z</createdTime>
-      <UnitTest>rece8egpHIUeTLJw5</UnitTest>
-      <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
-      <CustomSectionNumber>3</CustomSectionNumber>
       <Name>SubscriberNumber:=2134</Name>
-      <TestValue>212-5555-2134-4544-12323</TestValue>
-      <ParameterMin>0</ParameterMin>
-      <ParameterMax>9999</ParameterMax>
+      <TestValue>-212-5555-2134-4544-12323</TestValue>
       <SectionMinlength>4</SectionMinlength>
       <SectionMaxLength>4</SectionMaxLength>
       <ExtractedValue>2134</ExtractedValue>
@@ -997,40 +1000,96 @@
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
       <AssertionFailed>0</AssertionFailed>
-      <SectionOrder>3</SectionOrder>
-      <Section1>212</Section1>
-      <Section2>5555</Section2>
-      <Section3>2134</Section3>
-      <Section4>4544</Section4>
-      <Section5>12323</Section5>
+      <SectionOrder>4</SectionOrder>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>5555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
       <DefaultSectionOrder>4</DefaultSectionOrder>
       <SectionName>SubscriberNumber</SectionName>
+      <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
+      <ParameterMin>0</ParameterMin>
+      <ParameterMax>9999</ParameterMax>
+      <CountryName>US</CountryName>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recHcNysMbtkfHXTs</AssertionId>
+      <createdTime>2022-07-09T21:28:49Z</createdTime>
+      <UnitTest>rece8egpHIUeTLJw5</UnitTest>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>5555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
+      <ExtractedValue>4544-12323</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>ExtraNumbers:=4544-12323</Name>
+      <TestValue>-212-5555-2134-4544-12323</TestValue>
+      <SectionName>ExtraNumbers</SectionName>
+      <CountrySection>recmY1uBqoloVWQyj</CountrySection>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <DefaultSectionOrder>5</DefaultSectionOrder>
+      <SectionOrder>5</SectionOrder>
+      <SectionMinlength>0</SectionMinlength>
+      <SectionMaxLength>0</SectionMaxLength>
+      <CountryName>US</CountryName>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recM1V8iuML15A7zJ</AssertionId>
+      <createdTime>2022-03-14T09:06:38Z</createdTime>
+      <UnitTest>rece8egpHIUeTLJw5</UnitTest>
+      <CustomSectionNumber>3</CustomSectionNumber>
+      <Name>CentralOfficeCode:=5555 - FAIL</Name>
+      <TestValue>-212-5555-2134-4544-12323</TestValue>
+      <ParameterMin>111</ParameterMin>
+      <ParameterMax>999</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ExtractedValue>5555</ExtractedValue>
+      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>1</TooHigh>
+      <AssertionFailed>1</AssertionFailed>
+      <SectionOrder>3</SectionOrder>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>5555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
+      <DefaultSectionOrder>3</DefaultSectionOrder>
+      <SectionName>CentralOfficeCode</SectionName>
+      <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recMxJ6Q7SEOwsc8Q</AssertionId>
       <createdTime>2022-03-14T09:06:38Z</createdTime>
       <UnitTest>rece8egpHIUeTLJw5</UnitTest>
-      <CountrySection>recuHEv9m1Y006bTB</CountrySection>
       <CustomSectionNumber>1</CustomSectionNumber>
-      <Name>AreaCode:=212</Name>
-      <TestValue>212-5555-2134-4544-12323</TestValue>
-      <ParameterMin>201</ParameterMin>
-      <ParameterMax>919</ParameterMax>
-      <SectionMinlength>3</SectionMinlength>
-      <SectionMaxLength>3</SectionMaxLength>
-      <ExtractedValue>212</ExtractedValue>
-      <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
-      <TooLow>0</TooLow>
+      <Name>CountryCode:= - FAIL</Name>
+      <TestValue>-212-5555-2134-4544-12323</TestValue>
+      <ParameterMin>1</ParameterMin>
+      <ParameterMax>1</ParameterMax>
+      <SectionMinlength>1</SectionMinlength>
+      <SectionMaxLength>1</SectionMaxLength>
+      <ExtractedValue />
+      <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
+      <TooLow>1</TooLow>
       <TooHigh>0</TooHigh>
-      <AssertionFailed>0</AssertionFailed>
+      <AssertionFailed>1</AssertionFailed>
       <SectionOrder>1</SectionOrder>
-      <Section1>212</Section1>
-      <Section2>5555</Section2>
-      <Section3>2134</Section3>
-      <Section4>4544</Section4>
-      <Section5>12323</Section5>
-      <DefaultSectionOrder>2</DefaultSectionOrder>
-      <SectionName>AreaCode</SectionName>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>5555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
+      <DefaultSectionOrder>1</DefaultSectionOrder>
+      <SectionName>CountryCode</SectionName>
+      <CountrySection>recUdB1NVDOQsaZU4</CountrySection>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recOtGK8arwlmJ1pJ</AssertionId>
@@ -1056,22 +1115,7 @@
       <Section5 />
       <DefaultSectionOrder>4</DefaultSectionOrder>
       <SectionName>SubscriberNumber</SectionName>
-    </Assertion>
-    <Assertion>
-      <AssertionId>recU0XnlRnQSZMPfh</AssertionId>
-      <createdTime>2022-03-14T09:06:35Z</createdTime>
-      <Name>:=</Name>
-      <TooLow>0</TooLow>
-      <TooHigh>0</TooHigh>
-      <AssertionFailed>0</AssertionFailed>
-    </Assertion>
-    <Assertion>
-      <AssertionId>reck3l53HE88pNhJj</AssertionId>
-      <createdTime>2022-03-14T09:06:35Z</createdTime>
-      <Name>:=</Name>
-      <TooLow>0</TooLow>
-      <TooHigh>0</TooHigh>
-      <AssertionFailed>0</AssertionFailed>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recobaRjNW3jaBlaQ</AssertionId>
@@ -1097,32 +1141,34 @@
       <Section5 />
       <DefaultSectionOrder>4</DefaultSectionOrder>
       <SectionName>SubscriberNumber</SectionName>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recpuM0BgzYqkexxG</AssertionId>
       <createdTime>2022-03-14T09:06:38Z</createdTime>
       <UnitTest>rece8egpHIUeTLJw5</UnitTest>
-      <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
       <CustomSectionNumber>2</CustomSectionNumber>
-      <Name>CentralOfficeCode:=5555 - FAIL</Name>
-      <TestValue>212-5555-2134-4544-12323</TestValue>
-      <ParameterMin>111</ParameterMin>
-      <ParameterMax>999</ParameterMax>
+      <Name>AreaCode:=212</Name>
+      <TestValue>-212-5555-2134-4544-12323</TestValue>
+      <ParameterMin>201</ParameterMin>
+      <ParameterMax>919</ParameterMax>
       <SectionMinlength>3</SectionMinlength>
       <SectionMaxLength>3</SectionMaxLength>
-      <ExtractedValue>5555</ExtractedValue>
-      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <ExtractedValue>212</ExtractedValue>
+      <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
       <TooLow>0</TooLow>
-      <TooHigh>1</TooHigh>
-      <AssertionFailed>1</AssertionFailed>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
       <SectionOrder>2</SectionOrder>
-      <Section1>212</Section1>
-      <Section2>5555</Section2>
-      <Section3>2134</Section3>
-      <Section4>4544</Section4>
-      <Section5>12323</Section5>
-      <DefaultSectionOrder>3</DefaultSectionOrder>
-      <SectionName>CentralOfficeCode</SectionName>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>5555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
+      <DefaultSectionOrder>2</DefaultSectionOrder>
+      <SectionName>AreaCode</SectionName>
+      <CountrySection>recuHEv9m1Y006bTB</CountrySection>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recqw4Kct8g5sPfKM</AssertionId>
@@ -1148,14 +1194,7 @@
       <Section5 />
       <DefaultSectionOrder>1</DefaultSectionOrder>
       <SectionName>CountryCode</SectionName>
-    </Assertion>
-    <Assertion>
-      <AssertionId>recxoXPsakAk7tPS7</AssertionId>
-      <createdTime>2022-03-12T21:02:04Z</createdTime>
-      <Name>:=</Name>
-      <TooLow>0</TooLow>
-      <TooHigh>0</TooHigh>
-      <AssertionFailed>0</AssertionFailed>
+      <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recytYxQdt8Oyo45d</AssertionId>
@@ -1181,6 +1220,7 @@
       <Section5 />
       <DefaultSectionOrder>1</DefaultSectionOrder>
       <SectionName>CountryCode</SectionName>
+      <CountryName>US</CountryName>
     </Assertion>
   </Assertions>
 </Airtable>

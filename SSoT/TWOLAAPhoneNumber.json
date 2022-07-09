@@ -13,43 +13,234 @@
                 "CountryName": "UK",
                 "CountryCode": "44",
                 "IsRequired": "false",
-                "MinValue": "44",
+                "MinValue": "",
                 "MaxValue": "44",
                 "MinLength": "2",
-                "MaxLength": "2"
+                "MaxLength": "2",
+                "SectionValues": ""
               },
               {
-                "Name": "UK-AreaCode-###",
+                "Name": "UK-AreaCode-###..##",
                 "PhoneNumberSectionName": "AreaCode",
                 "CountryName": "UK",
                 "CountryCode": "44",
                 "IsRequired": "false",
-                "MinValue": "208",
-                "MaxValue": "299",
+                "MinValue": "",
+                "MaxValue": "16977",
                 "MinLength": "3",
-                "MaxLength": "3"
+                "MaxLength": "5",
+                "SectionValues": {
+                  "SectionValue": [
+                    {
+                      "Name": "Birmingham",
+                      "Value": "0121",
+                      "FollowingFormat": "xxx xxxx",
+                      "COCTypeName": "XXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Bolton",
+                      "Value": "01204",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Brampton",
+                      "Value": "016977",
+                      "FollowingFormat": "xxxx or xxxxx",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "5"
+                    },
+                    {
+                      "Name": "Cambridge",
+                      "Value": "01223",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Cardiff",
+                      "Value": "029",
+                      "FollowingFormat": "xxxx xxxx",
+                      "COCTypeName": "XXXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Chorley",
+                      "Value": "01257",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Coventry",
+                      "Value": "024",
+                      "FollowingFormat": "7xxx xxxx",
+                      "COCTypeName": "7XXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Dundee",
+                      "Value": "01382",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Edinburgh",
+                      "Value": "0131",
+                      "FollowingFormat": "xxx xxxx",
+                      "COCTypeName": "XXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Evesham",
+                      "Value": "01386",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Glasgow",
+                      "Value": "0141",
+                      "FollowingFormat": "xxx xxxx",
+                      "COCTypeName": "XXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Greater Manchester",
+                      "Value": "0161",
+                      "FollowingFormat": "xxx xxxx",
+                      "COCTypeName": "XXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Hartford",
+                      "Value": "016064",
+                      "FollowingFormat": "xxxx or xxxxx",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "5"
+                    },
+                    {
+                      "Name": "Leeds",
+                      "Value": "0113",
+                      "FollowingFormat": "xxx xxxx",
+                      "COCTypeName": "XXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "London",
+                      "Value": "020",
+                      "FollowingFormat": "xxxx xxxx",
+                      "COCTypeName": "XXXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Merseyside",
+                      "Value": "0151",
+                      "FollowingFormat": "xxx xxxx",
+                      "COCTypeName": "XXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Oxford",
+                      "Value": "01865",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Preston",
+                      "Value": "01772",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Sedbergh",
+                      "Value": "015396",
+                      "FollowingFormat": "xx xxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Sheffield",
+                      "Value": "0114",
+                      "FollowingFormat": "xxx xxxx",
+                      "COCTypeName": "XXXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Swansea",
+                      "Value": "01792",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Teesside",
+                      "Value": "01642",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    },
+                    {
+                      "Name": "Yeovil",
+                      "Value": "01935",
+                      "FollowingFormat": "xx xxxx",
+                      "COCTypeName": "XXCOC",
+                      "SubscriberNumberMinLength": "4",
+                      "SubscriberNumberMaxLength": "4"
+                    }
+                  ]
+                }
               },
               {
-                "Name": "UK-CentralOfficeCode-###",
+                "Name": "UK-CentralOfficeCode-#..###",
                 "PhoneNumberSectionName": "CentralOfficeCode",
                 "CountryName": "UK",
                 "CountryCode": "44",
-                "IsRequired": "true",
-                "MinValue": "100",
-                "MaxValue": "999",
-                "MinLength": "3",
-                "MaxLength": "3"
+                "IsRequired": "false",
+                "MinValue": "",
+                "MaxValue": "9999",
+                "MinLength": "1",
+                "MaxLength": "4",
+                "SectionValues": ""
               },
               {
-                "Name": "UK-SubscriberNumber-####",
+                "Name": "UK-SubscriberNumber-####..#",
                 "PhoneNumberSectionName": "SubscriberNumber",
                 "CountryName": "UK",
                 "CountryCode": "44",
                 "IsRequired": "true",
-                "MinValue": "1000",
-                "MaxValue": "9999",
+                "MinValue": "",
+                "MaxValue": "99999",
                 "MinLength": "4",
-                "MaxLength": "4"
+                "MaxLength": "5",
+                "SectionValues": ""
               }
             ]
           }
@@ -64,10 +255,11 @@
                 "CountryName": "Germany",
                 "CountryCode": "49",
                 "IsRequired": "false",
-                "MinValue": "49",
+                "MinValue": "",
                 "MaxValue": "49",
                 "MinLength": "2",
-                "MaxLength": "2"
+                "MaxLength": "2",
+                "SectionValues": ""
               },
               {
                 "Name": "Germany-AreaCode-##..##",
@@ -75,10 +267,11 @@
                 "CountryName": "Germany",
                 "CountryCode": "49",
                 "IsRequired": "false",
-                "MinValue": "10",
+                "MinValue": "",
                 "MaxValue": "9999",
                 "MinLength": "2",
-                "MaxLength": "4"
+                "MaxLength": "4",
+                "SectionValues": ""
               },
               {
                 "Name": "Germany-SubscriberNumber-#####..###",
@@ -86,10 +279,11 @@
                 "CountryName": "Germany",
                 "CountryCode": "49",
                 "IsRequired": "true",
-                "MinValue": "10000",
+                "MinValue": "",
                 "MaxValue": "99999999",
                 "MinLength": "5",
-                "MaxLength": "8"
+                "MaxLength": "8",
+                "SectionValues": ""
               }
             ]
           }
@@ -104,10 +298,11 @@
                 "CountryName": "Canada",
                 "CountryCode": "1",
                 "IsRequired": "false",
-                "MinValue": "1",
+                "MinValue": "",
                 "MaxValue": "1",
                 "MinLength": "1",
-                "MaxLength": "1"
+                "MaxLength": "1",
+                "SectionValues": ""
               },
               {
                 "Name": "Canada-AreaCode-###",
@@ -115,10 +310,342 @@
                 "CountryName": "Canada",
                 "CountryCode": "1",
                 "IsRequired": "false",
-                "MinValue": "204",
+                "MinValue": "",
                 "MaxValue": "905",
                 "MinLength": "3",
-                "MaxLength": "3"
+                "MaxLength": "3",
+                "SectionValues": {
+                  "SectionValue": [
+                    {
+                      "Name": "Alberta",
+                      "Value": "403",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Alberta",
+                      "Value": "587",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Alberta",
+                      "Value": "780",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Alberta",
+                      "Value": "825",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "British Columbia",
+                      "Value": "236",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "British Columbia",
+                      "Value": "250",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "British Columbia",
+                      "Value": "604",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "British Columbia",
+                      "Value": "672",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "British Columbia",
+                      "Value": "778",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Manitoba",
+                      "Value": "204",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Manitoba",
+                      "Value": "431",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "New Brunswick",
+                      "Value": "506",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Newfoundland and Labrador",
+                      "Value": "709",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Nova Scotia and Prince Edward Island",
+                      "Value": "782",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Nova Scotia and Prince Edward Island",
+                      "Value": "902",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "226",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "249",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "289",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "343",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "365",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "416",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "437",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "519",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "548",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "613",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "647",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "705",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "807",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Ontario",
+                      "Value": "905",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Quebec",
+                      "Value": "367",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Quebec",
+                      "Value": "418",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Quebec",
+                      "Value": "438",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Quebec",
+                      "Value": "450",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Quebec",
+                      "Value": "514",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Quebec",
+                      "Value": "579",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Quebec",
+                      "Value": "581",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Quebec",
+                      "Value": "819",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Quebec",
+                      "Value": "873",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Saskatchewan",
+                      "Value": "306",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Saskatchewan",
+                      "Value": "639",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    },
+                    {
+                      "Name": "Yukon, Northwest Territories and Nunavut",
+                      "Value": "867",
+                      "FollowingFormat": "",
+                      "COCTypeName": "",
+                      "SubscriberNumberMinLength": "",
+                      "SubscriberNumberMaxLength": ""
+                    }
+                  ]
+                }
               },
               {
                 "Name": "Canada-CentralOfficeCode-###",
@@ -126,10 +653,11 @@
                 "CountryName": "Canada",
                 "CountryCode": "1",
                 "IsRequired": "true",
-                "MinValue": "100",
+                "MinValue": "",
                 "MaxValue": "999",
                 "MinLength": "3",
-                "MaxLength": "3"
+                "MaxLength": "3",
+                "SectionValues": ""
               },
               {
                 "Name": "Canada-SubscriberNumber-####",
@@ -137,15 +665,17 @@
                 "CountryName": "Canada",
                 "CountryCode": "1",
                 "IsRequired": "true",
-                "MinValue": "0000",
+                "MinValue": "",
                 "MaxValue": "9999",
                 "MinLength": "4",
-                "MaxLength": "4"
+                "MaxLength": "4",
+                "SectionValues": ""
               },
               {
                 "Name": "Canada-ExtraNumbers-IGNORED",
                 "IsIgnored": "true",
-                "IsRequired": "false"
+                "IsRequired": "false",
+                "SectionValues": ""
               }
             ]
           }
@@ -160,10 +690,11 @@
                 "CountryName": "US",
                 "CountryCode": "1",
                 "IsRequired": "false",
-                "MinValue": "1",
+                "MinValue": "",
                 "MaxValue": "1",
                 "MinLength": "1",
-                "MaxLength": "1"
+                "MaxLength": "1",
+                "SectionValues": ""
               },
               {
                 "Name": "US-AreaCode-###",
@@ -171,10 +702,11 @@
                 "CountryName": "US",
                 "CountryCode": "1",
                 "IsRequired": "false",
-                "MinValue": "201",
+                "MinValue": "",
                 "MaxValue": "919",
                 "MinLength": "3",
-                "MaxLength": "3"
+                "MaxLength": "3",
+                "SectionValues": ""
               },
               {
                 "Name": "US-CentralOfficeCode-###",
@@ -182,10 +714,11 @@
                 "CountryName": "US",
                 "CountryCode": "1",
                 "IsRequired": "true",
-                "MinValue": "111",
+                "MinValue": "",
                 "MaxValue": "999",
                 "MinLength": "3",
-                "MaxLength": "3"
+                "MaxLength": "3",
+                "SectionValues": ""
               },
               {
                 "Name": "US-SubscriberNumber-####",
@@ -193,15 +726,17 @@
                 "CountryName": "US",
                 "CountryCode": "1",
                 "IsRequired": "true",
-                "MinValue": "0000",
+                "MinValue": "",
                 "MaxValue": "9999",
                 "MinLength": "4",
-                "MaxLength": "4"
+                "MaxLength": "4",
+                "SectionValues": ""
               },
               {
                 "Name": "US-ExtraNumbers-IGNORED",
                 "IsIgnored": "true",
-                "IsRequired": "false"
+                "IsRequired": "false",
+                "SectionValues": ""
               }
             ]
           }
@@ -210,6 +745,31 @@
     },
     "PhoneNumberSections": {
       "PhoneNumberSection": [
+        {
+          "Name": "7XXXCOC",
+          "Notes": "7###",
+          "SectionOrder": ""
+        },
+        {
+          "Name": "XCOC",
+          "Notes": "#",
+          "SectionOrder": ""
+        },
+        {
+          "Name": "XXXCOC",
+          "Notes": "###",
+          "SectionOrder": ""
+        },
+        {
+          "Name": "XXXXCOC",
+          "Notes": "####",
+          "SectionOrder": ""
+        },
+        {
+          "Name": "XXCOC",
+          "Notes": "##",
+          "SectionOrder": ""
+        },
         {
           "Name": "CountryCode",
           "Notes": "Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999",
@@ -358,7 +918,7 @@
                   "SectionName": "SubscriberNumber",
                   "ExtractedValue": "2134",
                   "AssertionFailed": "0",
-                  "ParameterMin": "0",
+                  "ParameterMin": "0000",
                   "ParameterMax": "9999",
                   "SectionMinlength": "4",
                   "SectionMaxLength": "4",
@@ -371,17 +931,17 @@
                   "Section5": "4544-12323"
                 },
                 {
-                  "Name": "ExtraNumbers:=4544-12323",
+                  "Name": "ExtraNumbers:=4544-12323 - FAIL",
                   "TestValue": "-212-5555-2134-4544-12323",
                   "SectionName": "ExtraNumbers",
                   "ExtractedValue": "4544-12323",
-                  "AssertionFailed": "0",
+                  "AssertionFailed": "1",
                   "ParameterMin": "",
                   "ParameterMax": "",
                   "SectionMinlength": "0",
                   "SectionMaxLength": "0",
                   "TooLow": "0",
-                  "TooHigh": "0",
+                  "TooHigh": "1",
                   "Section1": "",
                   "Section2": "212",
                   "Section3": "5555",
@@ -389,17 +949,17 @@
                   "Section5": "4544-12323"
                 },
                 {
-                  "Name": "CentralOfficeCode:=5555 - FAIL",
+                  "Name": "CentralOfficeCode:=5555",
                   "TestValue": "-212-5555-2134-4544-12323",
                   "SectionName": "CentralOfficeCode",
                   "ExtractedValue": "5555",
-                  "AssertionFailed": "1",
+                  "AssertionFailed": "0",
                   "ParameterMin": "111",
                   "ParameterMax": "999",
                   "SectionMinlength": "3",
                   "SectionMaxLength": "3",
                   "TooLow": "0",
-                  "TooHigh": "1",
+                  "TooHigh": "0",
                   "Section1": "",
                   "Section2": "212",
                   "Section3": "5555",
@@ -430,7 +990,7 @@
                   "SectionName": "SubscriberNumber",
                   "ExtractedValue": "1234",
                   "AssertionFailed": "0",
-                  "ParameterMin": "0",
+                  "ParameterMin": "0000",
                   "ParameterMax": "9999",
                   "SectionMinlength": "4",
                   "SectionMaxLength": "4",
@@ -448,7 +1008,7 @@
                   "SectionName": "SubscriberNumber",
                   "ExtractedValue": "1348",
                   "AssertionFailed": "0",
-                  "ParameterMin": "0",
+                  "ParameterMin": "0000",
                   "ParameterMax": "9999",
                   "SectionMinlength": "4",
                   "SectionMaxLength": "4",
@@ -637,7 +1197,7 @@
                   "SectionName": "SubscriberNumber",
                   "ExtractedValue": "2134",
                   "AssertionFailed": "0",
-                  "ParameterMin": "0",
+                  "ParameterMin": "0000",
                   "ParameterMax": "9999",
                   "SectionMinlength": "4",
                   "SectionMaxLength": "4",
@@ -650,17 +1210,17 @@
                   "Section5": "4544-12323"
                 },
                 {
-                  "Name": "ExtraNumbers:=4544-12323",
+                  "Name": "ExtraNumbers:=4544-12323 - FAIL",
                   "TestValue": "-212-5555-2134-4544-12323",
                   "SectionName": "ExtraNumbers",
                   "ExtractedValue": "4544-12323",
-                  "AssertionFailed": "0",
+                  "AssertionFailed": "1",
                   "ParameterMin": "",
                   "ParameterMax": "",
                   "SectionMinlength": "0",
                   "SectionMaxLength": "0",
                   "TooLow": "0",
-                  "TooHigh": "0",
+                  "TooHigh": "1",
                   "Section1": "",
                   "Section2": "212",
                   "Section3": "5555",
@@ -668,17 +1228,17 @@
                   "Section5": "4544-12323"
                 },
                 {
-                  "Name": "CentralOfficeCode:=5555 - FAIL",
+                  "Name": "CentralOfficeCode:=5555",
                   "TestValue": "-212-5555-2134-4544-12323",
                   "SectionName": "CentralOfficeCode",
                   "ExtractedValue": "5555",
-                  "AssertionFailed": "1",
+                  "AssertionFailed": "0",
                   "ParameterMin": "111",
                   "ParameterMax": "999",
                   "SectionMinlength": "3",
                   "SectionMaxLength": "3",
                   "TooLow": "0",
-                  "TooHigh": "1",
+                  "TooHigh": "0",
                   "Section1": "",
                   "Section2": "212",
                   "Section3": "5555",
@@ -709,7 +1269,7 @@
                   "SectionName": "SubscriberNumber",
                   "ExtractedValue": "1234",
                   "AssertionFailed": "0",
-                  "ParameterMin": "0",
+                  "ParameterMin": "0000",
                   "ParameterMax": "9999",
                   "SectionMinlength": "4",
                   "SectionMaxLength": "4",
@@ -727,7 +1287,7 @@
                   "SectionName": "SubscriberNumber",
                   "ExtractedValue": "1348",
                   "AssertionFailed": "0",
-                  "ParameterMin": "0",
+                  "ParameterMin": "0000",
                   "ParameterMax": "9999",
                   "SectionMinlength": "4",
                   "SectionMaxLength": "4",
@@ -916,7 +1476,7 @@
                   "SectionName": "SubscriberNumber",
                   "ExtractedValue": "2134",
                   "AssertionFailed": "0",
-                  "ParameterMin": "0",
+                  "ParameterMin": "0000",
                   "ParameterMax": "9999",
                   "SectionMinlength": "4",
                   "SectionMaxLength": "4",
@@ -929,17 +1489,17 @@
                   "Section5": "4544-12323"
                 },
                 {
-                  "Name": "ExtraNumbers:=4544-12323",
+                  "Name": "ExtraNumbers:=4544-12323 - FAIL",
                   "TestValue": "-212-5555-2134-4544-12323",
                   "SectionName": "ExtraNumbers",
                   "ExtractedValue": "4544-12323",
-                  "AssertionFailed": "0",
+                  "AssertionFailed": "1",
                   "ParameterMin": "",
                   "ParameterMax": "",
                   "SectionMinlength": "0",
                   "SectionMaxLength": "0",
                   "TooLow": "0",
-                  "TooHigh": "0",
+                  "TooHigh": "1",
                   "Section1": "",
                   "Section2": "212",
                   "Section3": "5555",
@@ -947,17 +1507,17 @@
                   "Section5": "4544-12323"
                 },
                 {
-                  "Name": "CentralOfficeCode:=5555 - FAIL",
+                  "Name": "CentralOfficeCode:=5555",
                   "TestValue": "-212-5555-2134-4544-12323",
                   "SectionName": "CentralOfficeCode",
                   "ExtractedValue": "5555",
-                  "AssertionFailed": "1",
+                  "AssertionFailed": "0",
                   "ParameterMin": "111",
                   "ParameterMax": "999",
                   "SectionMinlength": "3",
                   "SectionMaxLength": "3",
                   "TooLow": "0",
-                  "TooHigh": "1",
+                  "TooHigh": "0",
                   "Section1": "",
                   "Section2": "212",
                   "Section3": "5555",
@@ -988,7 +1548,7 @@
                   "SectionName": "SubscriberNumber",
                   "ExtractedValue": "1234",
                   "AssertionFailed": "0",
-                  "ParameterMin": "0",
+                  "ParameterMin": "0000",
                   "ParameterMax": "9999",
                   "SectionMinlength": "4",
                   "SectionMaxLength": "4",
@@ -1006,7 +1566,7 @@
                   "SectionName": "SubscriberNumber",
                   "ExtractedValue": "1348",
                   "AssertionFailed": "0",
-                  "ParameterMin": "0",
+                  "ParameterMin": "0000",
                   "ParameterMax": "9999",
                   "SectionMinlength": "4",
                   "SectionMaxLength": "4",

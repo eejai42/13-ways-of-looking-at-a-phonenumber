@@ -124,5 +124,21 @@
                 <MaxLength><xsl:value-of select="MaxLength" /></MaxLength>
             </xsl:otherwise>
         </xsl:choose>
+        <SectionValues>
+            <xsl:for-each select="/*/SpecialSectionValues/SpecialSectionValue[CountryName=current()/CountryName and PhoneNumberSectionName=current()/PhoneNumberSectionName]"><xsl:sort select="SpecialName" /><xsl:sort select="Value" />
+            <xsl:apply-templates select="." />
+        </xsl:for-each>
+        </SectionValues>
     </xsl:template>
+
+    <xsl:template match="/*/SpecialSectionValues/SpecialSectionValue">
+        <SectionValue>
+            <Name><xsl:value-of select="SpecialName" /></Name>
+            <Value><xsl:value-of select="Value" /></Value>          
+            <FollowingFormat><xsl:value-of select="FollowingFormat" /></FollowingFormat>          
+            <COCTypeName><xsl:value-of select="COCTypeName" /></COCTypeName>          
+            <SubscriberNumberMinLength><xsl:value-of select="SubscriberNumberMinLength" /></SubscriberNumberMinLength>          
+            <SubscriberNumberMaxLength><xsl:value-of select="SubscriberNumberMaxLength" /></SubscriberNumberMaxLength>          
+        </SectionValue>
+</xsl:template>
 </xsl:stylesheet>

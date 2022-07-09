@@ -161,14 +161,13 @@
       <Country>rec6FlKdisYBvkXlA</Country>
       <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
       <MinValue>1000</MinValue>
-      <MaxValue>9999</MaxValue>
+      <MaxValue>99999</MaxValue>
       <SectionOrder>4</SectionOrder>
       <IsRequired>true</IsRequired>
-      <Name>UK-SubscriberNumber-####</Name>
+      <Name>UK-SubscriberNumber-####..#</Name>
       <CountryCode>44</CountryCode>
       <MinLength>4</MinLength>
-      <MaxLength>4</MaxLength>
-      <MinValueString>1000</MinValueString>
+      <MaxLength>5</MaxLength>
       <CountryName>UK</CountryName>
       <PhoneNumberSectionName>SubscriberNumber</PhoneNumberSectionName>
     </CountrySection>
@@ -186,7 +185,6 @@
       <CountryCode>1</CountryCode>
       <MinLength>4</MinLength>
       <MaxLength>4</MaxLength>
-      <MinValueString>0000</MinValueString>
       <CountryName>Canada</CountryName>
       <PhoneNumberSectionName>SubscriberNumber</PhoneNumberSectionName>
     </CountrySection>
@@ -203,7 +201,6 @@
       <CountryCode>1</CountryCode>
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
-      <MinValueString>100</MinValueString>
       <CountryName>Canada</CountryName>
       <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
     </CountrySection>
@@ -219,7 +216,6 @@
       <CountryCode>1</CountryCode>
       <MinLength>1</MinLength>
       <MaxLength>1</MaxLength>
-      <MinValueString>1</MinValueString>
       <CountryName>Canada</CountryName>
       <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
     </CountrySection>
@@ -276,7 +272,6 @@
       <CountryCode>1</CountryCode>
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
-      <MinValueString>204</MinValueString>
       <CountryName>Canada</CountryName>
       <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </CountrySection>
@@ -285,15 +280,13 @@
       <createdTime>2022-07-09T00:45:13Z</createdTime>
       <Country>rec6FlKdisYBvkXlA</Country>
       <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
-      <MinValue>100</MinValue>
-      <MaxValue>999</MaxValue>
+      <MinValue>0</MinValue>
+      <MaxValue>9999</MaxValue>
       <SectionOrder>3</SectionOrder>
-      <IsRequired>true</IsRequired>
-      <Name>UK-CentralOfficeCode-###</Name>
+      <Name>UK-CentralOfficeCode-#..###</Name>
       <CountryCode>44</CountryCode>
-      <MinLength>3</MinLength>
-      <MaxLength>3</MaxLength>
-      <MinValueString>100</MinValueString>
+      <MinLength>1</MinLength>
+      <MaxLength>4</MaxLength>
       <CountryName>UK</CountryName>
       <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
     </CountrySection>
@@ -312,7 +305,6 @@
       <CountryCode>1</CountryCode>
       <MinLength>1</MinLength>
       <MaxLength>1</MaxLength>
-      <MinValueString>1</MinValueString>
       <CountryName>US</CountryName>
       <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
     </CountrySection>
@@ -335,16 +327,38 @@
       <createdTime>2022-07-09T00:44:41Z</createdTime>
       <Country>rec6FlKdisYBvkXlA</Country>
       <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
-      <MinValue>208</MinValue>
-      <MaxValue>299</MaxValue>
+      <MinValue>020</MinValue>
+      <MaxValue>16977</MaxValue>
       <SectionOrder>2</SectionOrder>
-      <Name>UK-AreaCode-###</Name>
+      <Name>UK-AreaCode-###..##</Name>
       <CountryCode>44</CountryCode>
       <MinLength>3</MinLength>
-      <MaxLength>3</MaxLength>
-      <MinValueString>208</MinValueString>
+      <MaxLength>5</MaxLength>
       <CountryName>UK</CountryName>
       <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <SpecificSectionValues>recYZi7wJhC8xOhTE</SpecificSectionValues>
+      <SpecificSectionValues>rec8L5e3FnhyotCeu</SpecificSectionValues>
+      <SpecificSectionValues>recaPYCbNTcQaWhJ4</SpecificSectionValues>
+      <SpecificSectionValues>recPEAYIlaiUcscKs</SpecificSectionValues>
+      <SpecificSectionValues>recoTVmDntkBhqu8Z</SpecificSectionValues>
+      <SpecificSectionValues>recC1luWR2dCfSmSk</SpecificSectionValues>
+      <SpecificSectionValues>recORRLuV3JK22Zbv</SpecificSectionValues>
+      <SpecificSectionValues>reczdmJZrdUGnGHrd</SpecificSectionValues>
+      <SpecificSectionValues>recgi67hByiGBMroI</SpecificSectionValues>
+      <SpecificSectionValues>rec6NaGM6dh9Ex7vk</SpecificSectionValues>
+      <SpecificSectionValues>rec6f8RPtlT72pQpN</SpecificSectionValues>
+      <SpecificSectionValues>rec7qcsVektEr2Ses</SpecificSectionValues>
+      <SpecificSectionValues>recjdVTUZvP3wss9k</SpecificSectionValues>
+      <SpecificSectionValues>rec873XuUaaCdd5Jf</SpecificSectionValues>
+      <SpecificSectionValues>recMuO0VTaGjab1PL</SpecificSectionValues>
+      <SpecificSectionValues>rec8YEjCwQdcGErzp</SpecificSectionValues>
+      <SpecificSectionValues>rec2xr3IOcSAxv0cU</SpecificSectionValues>
+      <SpecificSectionValues>recyt4GAoAewyQv8v</SpecificSectionValues>
+      <SpecificSectionValues>recZKdLxQwtzMCLBG</SpecificSectionValues>
+      <SpecificSectionValues>recg1F9SLhIZrKafy</SpecificSectionValues>
+      <SpecificSectionValues>recHrquIq5qNsa0Yl</SpecificSectionValues>
+      <SpecificSectionValues>recOL5rucXsqywrLo</SpecificSectionValues>
+      <SpecificSectionValues>reccENT5Heva0EVof</SpecificSectionValues>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recdp1d9U4YnX0XnR</CountrySectionId>
@@ -359,7 +373,6 @@
       <CountryCode>49</CountryCode>
       <MinLength>5</MinLength>
       <MaxLength>8</MaxLength>
-      <MinValueString>10000</MinValueString>
       <CountryName>Germany</CountryName>
       <PhoneNumberSectionName>SubscriberNumber</PhoneNumberSectionName>
     </CountrySection>
@@ -375,7 +388,6 @@
       <CountryCode>49</CountryCode>
       <MinLength>2</MinLength>
       <MaxLength>2</MaxLength>
-      <MinValueString>49</MinValueString>
       <CountryName>Germany</CountryName>
       <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
     </CountrySection>
@@ -391,7 +403,6 @@
       <CountryCode>49</CountryCode>
       <MinLength>2</MinLength>
       <MaxLength>4</MaxLength>
-      <MinValueString>10</MinValueString>
       <CountryName>Germany</CountryName>
       <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </CountrySection>
@@ -400,7 +411,7 @@
       <createdTime>2022-07-08T23:25:38Z</createdTime>
       <Country>recIOYUbocXcygpIC</Country>
       <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
-      <MinValue>0</MinValue>
+      <MinValue>0000</MinValue>
       <MaxValue>9999</MaxValue>
       <MinAndMaxLengthsMatch>true</MinAndMaxLengthsMatch>
       <Assertions>recobaRjNW3jaBlaQ</Assertions>
@@ -412,7 +423,6 @@
       <CountryCode>1</CountryCode>
       <MinLength>4</MinLength>
       <MaxLength>4</MaxLength>
-      <MinValueString>0000</MinValueString>
       <CountryName>US</CountryName>
       <PhoneNumberSectionName>SubscriberNumber</PhoneNumberSectionName>
     </CountrySection>
@@ -448,7 +458,6 @@
       <CountryCode>1</CountryCode>
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
-      <MinValueString>201</MinValueString>
       <CountryName>US</CountryName>
       <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </CountrySection>
@@ -468,7 +477,6 @@
       <CountryCode>1</CountryCode>
       <MinLength>3</MinLength>
       <MaxLength>3</MaxLength>
-      <MinValueString>111</MinValueString>
       <CountryName>US</CountryName>
       <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
     </CountrySection>
@@ -484,7 +492,6 @@
       <CountryCode>44</CountryCode>
       <MinLength>2</MinLength>
       <MaxLength>2</MaxLength>
-      <MinValueString>44</MinValueString>
       <CountryName>UK</CountryName>
       <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
     </CountrySection>
@@ -500,6 +507,19 @@
       <CountrySections>recas7of8hug9Zetk</CountrySections>
     </PhoneNumberSection>
     <PhoneNumberSection>
+      <PhoneNumberSectionId>rec8ucJlprbX5rS4E</PhoneNumberSectionId>
+      <createdTime>2022-07-09T22:50:42Z</createdTime>
+      <Name>7XXXCOC</Name>
+      <Notes>7###</Notes>
+      <SpecialSectionValues>rec8L5e3FnhyotCeu</SpecialSectionValues>
+    </PhoneNumberSection>
+    <PhoneNumberSection>
+      <PhoneNumberSectionId>rec9ChHORemu27CTY</PhoneNumberSectionId>
+      <createdTime>2022-07-09T22:50:56Z</createdTime>
+      <Name>XCOC</Name>
+      <Notes>#</Notes>
+    </PhoneNumberSection>
+    <PhoneNumberSection>
       <PhoneNumberSectionId>recBkAACuVdIuKl9Q</PhoneNumberSectionId>
       <createdTime>2022-07-08T23:20:35Z</createdTime>
       <Name>AreaCode</Name>
@@ -511,6 +531,19 @@
       <CountrySections>recd4OhL299QgJ9TW</CountrySections>
     </PhoneNumberSection>
     <PhoneNumberSection>
+      <PhoneNumberSectionId>recLaAxMP9jGJzGUc</PhoneNumberSectionId>
+      <createdTime>2022-07-09T22:50:49Z</createdTime>
+      <Name>XXXCOC</Name>
+      <Notes>###</Notes>
+      <SpecialSectionValues>recPEAYIlaiUcscKs</SpecialSectionValues>
+      <SpecialSectionValues>recoTVmDntkBhqu8Z</SpecialSectionValues>
+      <SpecialSectionValues>recC1luWR2dCfSmSk</SpecialSectionValues>
+      <SpecialSectionValues>recORRLuV3JK22Zbv</SpecialSectionValues>
+      <SpecialSectionValues>reczdmJZrdUGnGHrd</SpecialSectionValues>
+      <SpecialSectionValues>recgi67hByiGBMroI</SpecialSectionValues>
+      <SpecialSectionValues>rec6NaGM6dh9Ex7vk</SpecialSectionValues>
+    </PhoneNumberSection>
+    <PhoneNumberSection>
       <PhoneNumberSectionId>recOzJBUafTHkRPD5</PhoneNumberSectionId>
       <createdTime>2022-07-08T23:20:35Z</createdTime>
       <Name>CentralOfficeCode</Name>
@@ -520,6 +553,31 @@
       <CountrySections>recxoHnpLmnUBL8WY</CountrySections>
       <CountrySections>recIQXPGZxc1T6xcF</CountrySections>
       <CountrySections>recM1hOxDO5e1Cseo</CountrySections>
+    </PhoneNumberSection>
+    <PhoneNumberSection>
+      <PhoneNumberSectionId>recPCTKEzuzPN6Skp</PhoneNumberSectionId>
+      <createdTime>2022-07-09T22:50:33Z</createdTime>
+      <Name>XXXXCOC</Name>
+      <Notes>####</Notes>
+      <SpecialSectionValues>recYZi7wJhC8xOhTE</SpecialSectionValues>
+      <SpecialSectionValues>recaPYCbNTcQaWhJ4</SpecialSectionValues>
+    </PhoneNumberSection>
+    <PhoneNumberSection>
+      <PhoneNumberSectionId>recU8hbabR4puZkwz</PhoneNumberSectionId>
+      <createdTime>2022-07-09T22:50:49Z</createdTime>
+      <Name>XXCOC</Name>
+      <Notes>##</Notes>
+      <SpecialSectionValues>recg1F9SLhIZrKafy</SpecialSectionValues>
+      <SpecialSectionValues>rec7qcsVektEr2Ses</SpecialSectionValues>
+      <SpecialSectionValues>recjdVTUZvP3wss9k</SpecialSectionValues>
+      <SpecialSectionValues>rec873XuUaaCdd5Jf</SpecialSectionValues>
+      <SpecialSectionValues>recMuO0VTaGjab1PL</SpecialSectionValues>
+      <SpecialSectionValues>rec6f8RPtlT72pQpN</SpecialSectionValues>
+      <SpecialSectionValues>recyt4GAoAewyQv8v</SpecialSectionValues>
+      <SpecialSectionValues>recZKdLxQwtzMCLBG</SpecialSectionValues>
+      <SpecialSectionValues>rec2xr3IOcSAxv0cU</SpecialSectionValues>
+      <SpecialSectionValues>rec8YEjCwQdcGErzp</SpecialSectionValues>
+      <SpecialSectionValues>recHrquIq5qNsa0Yl</SpecialSectionValues>
     </PhoneNumberSection>
     <PhoneNumberSection>
       <PhoneNumberSectionId>recZ0CklAws9mZ4nF</PhoneNumberSectionId>
@@ -551,6 +609,22 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>343</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>rec2xr3IOcSAxv0cU</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Oxford</SpecialName>
+      <Value>01865</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>rec3zG9P7EhwILxag</SpecialSectionValueId>
@@ -558,6 +632,36 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>902</Value>
       <SpecialName>Nova Scotia and Prince Edward Island</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>rec6NaGM6dh9Ex7vk</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxx xxxx</FollowingFormat>
+      <SpecialName>Greater Manchester</SpecialName>
+      <Value>0161</Value>
+      <COCType>recLaAxMP9jGJzGUc</COCType>
+      <COCTypeName>XXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>rec6f8RPtlT72pQpN</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Teesside</SpecialName>
+      <Value>01642</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>rec6vSKk87VTofgqp</SpecialSectionValueId>
@@ -565,6 +669,64 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>778</Value>
       <SpecialName>British Columbia</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>rec7qcsVektEr2Ses</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Cambridge</SpecialName>
+      <Value>01223</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>rec873XuUaaCdd5Jf</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Dundee</SpecialName>
+      <Value>01382</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>rec8L5e3FnhyotCeu</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>7xxx xxxx</FollowingFormat>
+      <SpecialName>Coventry</SpecialName>
+      <Value>024</Value>
+      <COCType>rec8ucJlprbX5rS4E</COCType>
+      <COCTypeName>7XXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>rec8YEjCwQdcGErzp</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Yeovil</SpecialName>
+      <Value>01935</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>rec97RC0NRN7QlJyt</SpecialSectionValueId>
@@ -572,6 +734,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>581</Value>
       <SpecialName>Quebec</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>rec9cUf87Gtunle2Z</SpecialSectionValueId>
@@ -579,6 +743,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>807</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>rec9ws18VNNBWIeV4</SpecialSectionValueId>
@@ -586,6 +752,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>226</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recAHiysSSd9AgzUW</SpecialSectionValueId>
@@ -593,6 +761,22 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>437</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recC1luWR2dCfSmSk</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxx xxxx</FollowingFormat>
+      <SpecialName>Birmingham</SpecialName>
+      <Value>0121</Value>
+      <COCType>recLaAxMP9jGJzGUc</COCType>
+      <COCTypeName>XXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recDsiMPJpSZVTsOF</SpecialSectionValueId>
@@ -600,6 +784,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>873</Value>
       <SpecialName>Quebec</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recHA2WpmIMylJWIt</SpecialSectionValueId>
@@ -607,6 +793,22 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>514</Value>
       <SpecialName>Quebec</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recHrquIq5qNsa0Yl</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxx</FollowingFormat>
+      <SpecialName>Sedbergh</SpecialName>
+      <Value>015396</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recHx1qUadd51XYVE</SpecialSectionValueId>
@@ -614,6 +816,22 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>782</Value>
       <SpecialName>Nova Scotia and Prince Edward Island</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recMuO0VTaGjab1PL</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Evesham</SpecialName>
+      <Value>01386</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recMviosQPcReZs7A</SpecialSectionValueId>
@@ -621,6 +839,34 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>905</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recOL5rucXsqywrLo</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxxx or xxxxx</FollowingFormat>
+      <SpecialName>Brampton</SpecialName>
+      <Value>016977</Value>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>5</SubscriberNumberMaxLength>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recORRLuV3JK22Zbv</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxx xxxx</FollowingFormat>
+      <SpecialName>Edinburgh</SpecialName>
+      <Value>0131</Value>
+      <COCType>recLaAxMP9jGJzGUc</COCType>
+      <COCTypeName>XXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recOmkrg1cqTh6rec</SpecialSectionValueId>
@@ -628,6 +874,22 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>825</Value>
       <SpecialName>Alberta</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recPEAYIlaiUcscKs</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxx xxxx</FollowingFormat>
+      <SpecialName>Leeds</SpecialName>
+      <Value>0113</Value>
+      <COCType>recLaAxMP9jGJzGUc</COCType>
+      <COCTypeName>XXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recPopVeEedseVy6w</SpecialSectionValueId>
@@ -635,6 +897,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>289</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recR0ruYxT5bP1i8w</SpecialSectionValueId>
@@ -642,6 +906,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>613</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recSam6oAvIhVlR4u</SpecialSectionValueId>
@@ -649,6 +915,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>250</Value>
       <SpecialName>British Columbia</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recTumAvKgvAoi7CW</SpecialSectionValueId>
@@ -656,6 +924,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>403</Value>
       <SpecialName>Alberta</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recY9lVXDRbuKuq1y</SpecialSectionValueId>
@@ -663,6 +933,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>365</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recYKPXLJ59S729sA</SpecialSectionValueId>
@@ -670,6 +942,50 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>548</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recYZi7wJhC8xOhTE</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:26Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxxx xxxx</FollowingFormat>
+      <SpecialName>London</SpecialName>
+      <Value>020</Value>
+      <COCType>recPCTKEzuzPN6Skp</COCType>
+      <COCTypeName>XXXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recZKdLxQwtzMCLBG</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Swansea</SpecialName>
+      <Value>01792</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recaPYCbNTcQaWhJ4</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxxx xxxx</FollowingFormat>
+      <SpecialName>Cardiff</SpecialName>
+      <Value>029</Value>
+      <COCType>recPCTKEzuzPN6Skp</COCType>
+      <COCTypeName>XXXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recbdB4TaSs8bSOaq</SpecialSectionValueId>
@@ -677,6 +993,20 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>587</Value>
       <SpecialName>Alberta</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>reccENT5Heva0EVof</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxxx or xxxxx</FollowingFormat>
+      <SpecialName>Hartford</SpecialName>
+      <Value>016064</Value>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>5</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recciU6yTdpmzO1XH</SpecialSectionValueId>
@@ -684,6 +1014,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>506</Value>
       <SpecialName>New Brunswick</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recclTsDGgG4VNJ6X</SpecialSectionValueId>
@@ -691,6 +1023,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>867</Value>
       <SpecialName>Yukon, Northwest Territories and Nunavut</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recdCRg7tmM3QI49G</SpecialSectionValueId>
@@ -698,6 +1032,36 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>306</Value>
       <SpecialName>Saskatchewan</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recg1F9SLhIZrKafy</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Bolton</SpecialName>
+      <Value>01204</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recgi67hByiGBMroI</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxx xxxx</FollowingFormat>
+      <SpecialName>Merseyside</SpecialName>
+      <Value>0151</Value>
+      <COCType>recLaAxMP9jGJzGUc</COCType>
+      <COCTypeName>XXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>rechAv3WLUR256AON</SpecialSectionValueId>
@@ -705,6 +1069,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>416</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>reci6kVDsqivnYSzG</SpecialSectionValueId>
@@ -712,6 +1078,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>450</Value>
       <SpecialName>Quebec</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>reci9VKojvKAC4R6W</SpecialSectionValueId>
@@ -719,6 +1087,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>431</Value>
       <SpecialName>Manitoba</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>reciCNEMJE9UHn71k</SpecialSectionValueId>
@@ -726,6 +1096,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>418</Value>
       <SpecialName>Quebec</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>reciPWoMKbnXCW4rY</SpecialSectionValueId>
@@ -733,6 +1105,22 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>705</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recjdVTUZvP3wss9k</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Chorley</SpecialName>
+      <Value>01257</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recnNo8IiB8cVAZMO</SpecialSectionValueId>
@@ -740,6 +1128,22 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>204</Value>
       <SpecialName>Manitoba</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recoTVmDntkBhqu8Z</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxx xxxx</FollowingFormat>
+      <SpecialName>Sheffield</SpecialName>
+      <Value>0114</Value>
+      <COCType>recLaAxMP9jGJzGUc</COCType>
+      <COCTypeName>XXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recqAy6CqTPow1vvH</SpecialSectionValueId>
@@ -747,6 +1151,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>647</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recqFXgUuftvSJ3Hi</SpecialSectionValueId>
@@ -754,6 +1160,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>780</Value>
       <SpecialName>Alberta</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recqTFNnjw1Qdth12</SpecialSectionValueId>
@@ -761,6 +1169,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>519</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recr3d6AK1J18wAt0</SpecialSectionValueId>
@@ -768,6 +1178,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>438</Value>
       <SpecialName>Quebec</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recrKiIk6GxGgdfO2</SpecialSectionValueId>
@@ -775,6 +1187,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>367</Value>
       <SpecialName>Quebec</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recscJjPZ1YHNX6ZQ</SpecialSectionValueId>
@@ -782,6 +1196,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>579</Value>
       <SpecialName>Quebec</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recuWptxheO8l8BcQ</SpecialSectionValueId>
@@ -789,6 +1205,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>249</Value>
       <SpecialName>Ontario</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recubR1PFHTYOU8Kg</SpecialSectionValueId>
@@ -796,6 +1214,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>604</Value>
       <SpecialName>British Columbia</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recuyzw4Q2mknmQne</SpecialSectionValueId>
@@ -803,6 +1223,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>639</Value>
       <SpecialName>Saskatchewan</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recxpkNdq6w0iTkMT</SpecialSectionValueId>
@@ -810,6 +1232,22 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>709</Value>
       <SpecialName>Newfoundland and Labrador</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>recyt4GAoAewyQv8v</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xx xxxx</FollowingFormat>
+      <SpecialName>Preston</SpecialName>
+      <Value>01772</Value>
+      <COCType>recU8hbabR4puZkwz</COCType>
+      <COCTypeName>XXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>recytMwOW5Sar6eQP</SpecialSectionValueId>
@@ -817,6 +1255,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>819</Value>
       <SpecialName>Quebec</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>reczUUlyHiU06iRRN</SpecialSectionValueId>
@@ -824,6 +1264,22 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>672</Value>
       <SpecialName>British Columbia</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+    </SpecialSectionValue>
+    <SpecialSectionValue>
+      <SpecialSectionValueId>reczdmJZrdUGnGHrd</SpecialSectionValueId>
+      <createdTime>2022-07-09T22:43:56Z</createdTime>
+      <CountrySection>recd4OhL299QgJ9TW</CountrySection>
+      <CountryName>UK</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
+      <FollowingFormat>xxx xxxx</FollowingFormat>
+      <SpecialName>Glasgow</SpecialName>
+      <Value>0141</Value>
+      <COCType>recLaAxMP9jGJzGUc</COCType>
+      <COCTypeName>XXXCOC</COCTypeName>
+      <SubscriberNumberMinLength>4</SubscriberNumberMinLength>
+      <SubscriberNumberMaxLength>4</SubscriberNumberMaxLength>
     </SpecialSectionValue>
     <SpecialSectionValue>
       <SpecialSectionValueId>reczrQEEyM6zlM64p</SpecialSectionValueId>
@@ -831,6 +1287,8 @@
       <CountrySection>recJkndWmmqluwswT</CountrySection>
       <Value>236</Value>
       <SpecialName>British Columbia</SpecialName>
+      <CountryName>Canada</CountryName>
+      <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
     </SpecialSectionValue>
   </SpecialSectionValues>
   <Assertions>
@@ -990,9 +1448,12 @@
       <AssertionId>recFw9cuq1TZXKJrB</AssertionId>
       <createdTime>2022-07-09T00:13:44Z</createdTime>
       <UnitTest>rece8egpHIUeTLJw5</UnitTest>
+      <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
       <CustomSectionNumber>4</CustomSectionNumber>
       <Name>SubscriberNumber:=2134</Name>
       <TestValue>-212-5555-2134-4544-12323</TestValue>
+      <ParameterMin>0000</ParameterMin>
+      <ParameterMax>9999</ParameterMax>
       <SectionMinlength>4</SectionMinlength>
       <SectionMaxLength>4</SectionMaxLength>
       <ExtractedValue>2134</ExtractedValue>
@@ -1008,41 +1469,39 @@
       <Section5>4544-12323</Section5>
       <DefaultSectionOrder>4</DefaultSectionOrder>
       <SectionName>SubscriberNumber</SectionName>
-      <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
-      <ParameterMin>0</ParameterMin>
-      <ParameterMax>9999</ParameterMax>
       <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recHcNysMbtkfHXTs</AssertionId>
       <createdTime>2022-07-09T21:28:49Z</createdTime>
       <UnitTest>rece8egpHIUeTLJw5</UnitTest>
+      <CountrySection>recmY1uBqoloVWQyj</CountrySection>
+      <Name>ExtraNumbers:=4544-12323 - FAIL</Name>
+      <TestValue>-212-5555-2134-4544-12323</TestValue>
+      <SectionMinlength>0</SectionMinlength>
+      <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue>4544-12323</ExtractedValue>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>1</TooHigh>
+      <AssertionFailed>1</AssertionFailed>
+      <SectionOrder>5</SectionOrder>
       <Section1 />
       <Section2>212</Section2>
       <Section3>5555</Section3>
       <Section4>2134</Section4>
       <Section5>4544-12323</Section5>
-      <ExtractedValue>4544-12323</ExtractedValue>
-      <TooLow>0</TooLow>
-      <TooHigh>0</TooHigh>
-      <AssertionFailed>0</AssertionFailed>
-      <Name>ExtraNumbers:=4544-12323</Name>
-      <TestValue>-212-5555-2134-4544-12323</TestValue>
-      <SectionName>ExtraNumbers</SectionName>
-      <CountrySection>recmY1uBqoloVWQyj</CountrySection>
-      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <DefaultSectionOrder>5</DefaultSectionOrder>
-      <SectionOrder>5</SectionOrder>
-      <SectionMinlength>0</SectionMinlength>
-      <SectionMaxLength>0</SectionMaxLength>
+      <SectionName>ExtraNumbers</SectionName>
       <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recM1V8iuML15A7zJ</AssertionId>
       <createdTime>2022-03-14T09:06:38Z</createdTime>
       <UnitTest>rece8egpHIUeTLJw5</UnitTest>
+      <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
       <CustomSectionNumber>3</CustomSectionNumber>
-      <Name>CentralOfficeCode:=5555 - FAIL</Name>
+      <Name>CentralOfficeCode:=5555</Name>
       <TestValue>-212-5555-2134-4544-12323</TestValue>
       <ParameterMin>111</ParameterMin>
       <ParameterMax>999</ParameterMax>
@@ -1051,8 +1510,8 @@
       <ExtractedValue>5555</ExtractedValue>
       <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
       <TooLow>0</TooLow>
-      <TooHigh>1</TooHigh>
-      <AssertionFailed>1</AssertionFailed>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
       <SectionOrder>3</SectionOrder>
       <Section1 />
       <Section2>212</Section2>
@@ -1061,13 +1520,13 @@
       <Section5>4544-12323</Section5>
       <DefaultSectionOrder>3</DefaultSectionOrder>
       <SectionName>CentralOfficeCode</SectionName>
-      <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
       <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
       <AssertionId>recMxJ6Q7SEOwsc8Q</AssertionId>
       <createdTime>2022-03-14T09:06:38Z</createdTime>
       <UnitTest>rece8egpHIUeTLJw5</UnitTest>
+      <CountrySection>recUdB1NVDOQsaZU4</CountrySection>
       <CustomSectionNumber>1</CustomSectionNumber>
       <Name>CountryCode:= - FAIL</Name>
       <TestValue>-212-5555-2134-4544-12323</TestValue>
@@ -1088,7 +1547,6 @@
       <Section5>4544-12323</Section5>
       <DefaultSectionOrder>1</DefaultSectionOrder>
       <SectionName>CountryCode</SectionName>
-      <CountrySection>recUdB1NVDOQsaZU4</CountrySection>
       <CountryName>US</CountryName>
     </Assertion>
     <Assertion>
@@ -1098,7 +1556,7 @@
       <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
       <Name>SubscriberNumber:=1234</Name>
       <TestValue>1-414-356-1234</TestValue>
-      <ParameterMin>0</ParameterMin>
+      <ParameterMin>0000</ParameterMin>
       <ParameterMax>9999</ParameterMax>
       <SectionMinlength>4</SectionMinlength>
       <SectionMaxLength>4</SectionMaxLength>
@@ -1124,7 +1582,7 @@
       <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
       <Name>SubscriberNumber:=1348</Name>
       <TestValue>1-125-000-1348</TestValue>
-      <ParameterMin>0</ParameterMin>
+      <ParameterMin>0000</ParameterMin>
       <ParameterMax>9999</ParameterMax>
       <SectionMinlength>4</SectionMinlength>
       <SectionMaxLength>4</SectionMaxLength>
@@ -1147,6 +1605,7 @@
       <AssertionId>recpuM0BgzYqkexxG</AssertionId>
       <createdTime>2022-03-14T09:06:38Z</createdTime>
       <UnitTest>rece8egpHIUeTLJw5</UnitTest>
+      <CountrySection>recuHEv9m1Y006bTB</CountrySection>
       <CustomSectionNumber>2</CustomSectionNumber>
       <Name>AreaCode:=212</Name>
       <TestValue>-212-5555-2134-4544-12323</TestValue>
@@ -1167,7 +1626,6 @@
       <Section5>4544-12323</Section5>
       <DefaultSectionOrder>2</DefaultSectionOrder>
       <SectionName>AreaCode</SectionName>
-      <CountrySection>recuHEv9m1Y006bTB</CountrySection>
       <CountryName>US</CountryName>
     </Assertion>
     <Assertion>

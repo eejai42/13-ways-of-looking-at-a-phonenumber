@@ -44,6 +44,17 @@
       "Name": "XmlToJson",
       "RelativePath": "/SSoT/CreateSSoT",
       "CommandLine": "codee42/xml-to-json -i ../TWOLAAPhoneNumber.xml -o ../TWOLAAPhoneNumber.json"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "ProjectTranspilerId": "d6da58bd-fc07-4289-b207-a03ed2c767a8",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/SSoT/CreateREADME",
+      "CommandLine": "codee42/xml-xslt-transform -i ../TWOLAAPhoneNumber.xml -i CreateREADME.xslt"
     }
   ]
 }

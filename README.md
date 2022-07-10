@@ -22,37 +22,37 @@ The specific details/format from each country will be listed below:
 UK has 4 possible sections in it's phone number.
 
     
-    - UK-CountryCode-##
-    - UK-AreaCode-###..##
-    - UK-CentralOfficeCode-#..###
-    - UK-SubscriberNumber-####..#
+    - UK-CountryCode-##MIN-MAX
+    - UK-AreaCode-###..##HAS AREA CODES
+    - UK-CentralOfficeCode-#..###MIN-MAX
+    - UK-SubscriberNumber-####..#MIN-MAX
 
 # Germany
 Germany has 3 possible sections in it's phone number.
 
     
-    - Germany-CountryCode-##
-    - Germany-AreaCode-##..##
-    - Germany-SubscriberNumber-#####..###
+    - Germany-CountryCode-##MIN-MAX
+    - Germany-AreaCode-##..##MIN-MAX
+    - Germany-SubscriberNumber-#####..###MIN-MAX
 
 # Canada
 Canada has 5 possible sections in it's phone number.
 
     
-    - Canada-CountryCode-#
-    - Canada-AreaCode-###
-    - Canada-CentralOfficeCode-###
-    - Canada-SubscriberNumber-####
-    - Canada-ExtraNumbers-IGNORED
+    - Canada-CountryCode-#MIN-MAX
+    - Canada-AreaCode-###HAS AREA CODES
+    - Canada-CentralOfficeCode-###MIN-MAX
+    - Canada-SubscriberNumber-####MIN-MAX
+    - Canada-ExtraNumbers-IGNOREDMIN-MAX
 
 # US
 US has 5 possible sections in it's phone number.
 
     
-    - US-CountryCode-#
-    - US-AreaCode-###
-    - US-CentralOfficeCode-###
-    - US-SubscriberNumber-####
-    - US-ExtraNumbers-IGNORED
+    - US-CountryCode-#MIN-MAX
+    - US-AreaCode-###MIN-MAX
+    - US-CentralOfficeCode-###MIN-MAX
+    - US-SubscriberNumber-####MIN-MAX
+    - US-ExtraNumbers-IGNOREDMIN-MAX
 
                         

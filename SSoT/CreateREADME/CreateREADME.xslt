@@ -49,6 +49,13 @@ The specific details/format from each country will be listed below:
 <xsl:value-of select="Name" /> has <xsl:value-of select="count(CountrySections/CountrySection)" /> possible sections in it's phone number.
 
     <xsl:for-each select="CountrySections/CountrySection">
-    - <xsl:value-of select="Name" /></xsl:for-each>
+    - <xsl:value-of select="Name" />
+
+    <xsl:choose>
+        <xsl:when test="count(SectionValues/SectionValue) > 0">HAS AREA CODES</xsl:when>
+        <xsl:otherwise>MIN-MAX</xsl:otherwise>
+</xsl:choose>
+
+</xsl:for-each>
 </xsl:template>
 </xsl:stylesheet>

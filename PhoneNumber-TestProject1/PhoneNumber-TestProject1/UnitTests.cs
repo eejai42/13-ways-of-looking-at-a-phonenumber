@@ -11,6 +11,26 @@ namespace PhoneNumber_TestProject1
         }
 
         [Test]
+        public void CanadaPhoneNumberTest14143561234()
+        {
+            var parsedNumber = new CanadaPhoneNumber("+14143561234");
+            if (!parsedNumber.IsValid)
+            {
+                parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+                Assert.Fail($"Invalid Canada Phone Number: {parsedNumber.E164Format}");
+            }
+            else
+            {
+                
+                Assert.IsTrue($"{parsedNumber.CountryCode}" == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
+                Assert.IsTrue($"{parsedNumber.AreaCode}" == "414", $"AreaCode {parsedNumber.AreaCode} not 414 as expected.");
+                Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "356", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 356 as expected.");
+                Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
+                Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
+            }
+        }
+    
+        [Test]
         public void USPhoneNumberTest14143561234()
         {
             var parsedNumber = new USPhoneNumber("+14143561234");
@@ -22,31 +42,31 @@ namespace PhoneNumber_TestProject1
             else
             {
                 
-                Assert.IsTrue(parsedNumber.CountryCode == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
-                Assert.IsTrue(parsedNumber.AreaCode == "414", $"AreaCode {parsedNumber.AreaCode} not 414 as expected.");
-                Assert.IsTrue(parsedNumber.CentralOfficeCode == "356", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 356 as expected.");
-                Assert.IsTrue(parsedNumber.SubscriberNumber == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
-                Assert.IsTrue(parsedNumber.ExtraNumbers == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
+                Assert.IsTrue($"{parsedNumber.CountryCode}" == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
+                Assert.IsTrue($"{parsedNumber.AreaCode}" == "414", $"AreaCode {parsedNumber.AreaCode} not 414 as expected.");
+                Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "356", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 356 as expected.");
+                Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
+                Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
             }
         }
     
         [Test]
-        public void USPhoneNumberTest11250001348()
+        public void CanadaPhoneNumberTest11250001348()
         {
-            var parsedNumber = new USPhoneNumber("+11250001348");
+            var parsedNumber = new CanadaPhoneNumber("+11250001348");
             if (!parsedNumber.IsValid)
             {
                 parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
-                Assert.Fail($"Invalid US Phone Number: {parsedNumber.E164Format}");
+                Assert.Fail($"Invalid Canada Phone Number: {parsedNumber.E164Format}");
             }
             else
             {
                 
-                Assert.IsTrue(parsedNumber.CountryCode == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
-                Assert.IsTrue(parsedNumber.AreaCode == "125", $"AreaCode {parsedNumber.AreaCode} not 125 as expected.");
-                Assert.IsTrue(parsedNumber.CentralOfficeCode == "000", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 000 as expected.");
-                Assert.IsTrue(parsedNumber.SubscriberNumber == "1348", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1348 as expected.");
-                Assert.IsTrue(parsedNumber.ExtraNumbers == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
+                Assert.IsTrue($"{parsedNumber.CountryCode}" == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
+                Assert.IsTrue($"{parsedNumber.AreaCode}" == "125", $"AreaCode {parsedNumber.AreaCode} not 125 as expected.");
+                Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "000", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 000 as expected.");
+                Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "1348", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1348 as expected.");
+                Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
             }
         }
     
@@ -62,10 +82,10 @@ namespace PhoneNumber_TestProject1
             else
             {
                 
-                Assert.IsTrue(parsedNumber.CountryCode == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
-                Assert.IsTrue(parsedNumber.AreaCode == "212", $"AreaCode {parsedNumber.AreaCode} not 212 as expected.");
-                Assert.IsTrue(parsedNumber.CentralOfficeCode == "555", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 555 as expected.");
-                Assert.IsTrue(parsedNumber.SubscriberNumber == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
+                Assert.IsTrue($"{parsedNumber.CountryCode}" == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
+                Assert.IsTrue($"{parsedNumber.AreaCode}" == "212", $"AreaCode {parsedNumber.AreaCode} not 212 as expected.");
+                Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "555", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 555 as expected.");
+                Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
             }
         }
     
@@ -81,17 +101,17 @@ namespace PhoneNumber_TestProject1
             else
             {
                 
-                Assert.IsTrue(parsedNumber.CountryCode == "44", $"CountryCode {parsedNumber.CountryCode} not 44 as expected.");
-                Assert.IsTrue(parsedNumber.AreaCode == "020", $"AreaCode {parsedNumber.AreaCode} not 020 as expected.");
-                Assert.IsTrue(parsedNumber.CentralOfficeCode == "8135", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 8135 as expected.");
-                Assert.IsTrue(parsedNumber.SubscriberNumber == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
+                Assert.IsTrue($"{parsedNumber.CountryCode}" == "44", $"CountryCode {parsedNumber.CountryCode} not 44 as expected.");
+                Assert.IsTrue($"{parsedNumber.AreaCode}" == "020", $"AreaCode {parsedNumber.AreaCode} not 020 as expected.");
+                Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "8135", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 8135 as expected.");
+                Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
             }
         }
     
         [Test]
-        public void USPhoneNumberTest21255552134454412323()
+        public void USPhoneNumberTest2125552134454412323()
         {
-            var parsedNumber = new USPhoneNumber("+21255552134454412323");
+            var parsedNumber = new USPhoneNumber("+2125552134454412323");
             if (!parsedNumber.IsValid)
             {
                 parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
@@ -100,11 +120,11 @@ namespace PhoneNumber_TestProject1
             else
             {
                 
-                Assert.IsTrue(parsedNumber.CountryCode == "", $"CountryCode {parsedNumber.CountryCode} not  as expected.");
-                Assert.IsTrue(parsedNumber.AreaCode == "212", $"AreaCode {parsedNumber.AreaCode} not 212 as expected.");
-                Assert.IsTrue(parsedNumber.CentralOfficeCode == "5555", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 5555 as expected.");
-                Assert.IsTrue(parsedNumber.SubscriberNumber == "2134", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 2134 as expected.");
-                Assert.IsTrue(parsedNumber.ExtraNumbers == "4544-12323", $"ExtraNumbers {parsedNumber.ExtraNumbers} not 4544-12323 as expected.");
+                Assert.IsTrue($"{parsedNumber.CountryCode}" == "", $"CountryCode {parsedNumber.CountryCode} not  as expected.");
+                Assert.IsTrue($"{parsedNumber.AreaCode}" == "212", $"AreaCode {parsedNumber.AreaCode} not 212 as expected.");
+                Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "555", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 555 as expected.");
+                Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "2134", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 2134 as expected.");
+                Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "4544-12323", $"ExtraNumbers {parsedNumber.ExtraNumbers} not 4544-12323 as expected.");
             }
         }
     

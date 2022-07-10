@@ -43,7 +43,7 @@ namespace PhoneNumber_TestProject1
             else
             {
                 <xsl:for-each select="./Assertions/Assertion">
-                Assert.IsTrue(parsedNumber.<xsl:value-of select="SectionName" /> == "<xsl:value-of select="ExtractedValue" />", $"<xsl:value-of select="SectionName" /> {parsedNumber.<xsl:value-of select="SectionName" />} not <xsl:value-of select="ExtractedValue" /> as expected.");</xsl:for-each>
+                Assert.IsTrue($"{parsedNumber.<xsl:value-of select="SectionName" />}" == "<xsl:value-of select="ExtractedValue" />", $"<xsl:value-of select="SectionName" /> {parsedNumber.<xsl:value-of select="SectionName" />} not <xsl:value-of select="ExtractedValue" /> as expected.");</xsl:for-each>
             }
         }
     </xsl:for-each>

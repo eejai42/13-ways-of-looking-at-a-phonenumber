@@ -718,7 +718,16 @@
                 "MaxValue": "999",
                 "MinLength": "3",
                 "MaxLength": "3",
-                "SectionValues": ""
+                "SectionValues": {
+                  "SectionValue": {
+                    "Name": "Exclude 555",
+                    "Value": "555",
+                    "FollowingFormat": "",
+                    "COCTypeName": "",
+                    "SubscriberNumberMinLength": "",
+                    "SubscriberNumberMaxLength": ""
+                  }
+                }
               },
               {
                 "Name": "US-SubscriberNumber-####",
@@ -800,7 +809,7 @@
     "UnitTests": {
       "UnitTest": [
         {
-          "CountryName": "US",
+          "CountryName": "Canada",
           "PhoneNumber": "1-414-356-1234",
           "E164Format": "+14143561234",
           "Section1": "1",
@@ -810,7 +819,7 @@
           "Assertions": {
             "Assertion": [
               {
-                "Name": "CountryCode:=1",
+                "Name": "CountryCode=1",
                 "TestValue": "1-414-356-1234",
                 "SectionName": "CountryCode",
                 "ExtractedValue": "1",
@@ -828,13 +837,13 @@
                 "Section5": ""
               },
               {
-                "Name": "AreaCode:=414",
+                "Name": "AreaCode=414 - FAIL",
                 "TestValue": "1-414-356-1234",
                 "SectionName": "AreaCode",
                 "ExtractedValue": "414",
-                "AssertionFailed": "0",
-                "ParameterMin": "201",
-                "ParameterMax": "919",
+                "AssertionFailed": "1",
+                "ParameterMin": "204",
+                "ParameterMax": "905",
                 "SectionMinlength": "3",
                 "SectionMaxLength": "3",
                 "TooLow": "0",
@@ -846,12 +855,12 @@
                 "Section5": ""
               },
               {
-                "Name": "CentralOfficeCode:=356",
+                "Name": "CentralOfficeCode=356",
                 "TestValue": "1-414-356-1234",
                 "SectionName": "CentralOfficeCode",
                 "ExtractedValue": "356",
                 "AssertionFailed": "0",
-                "ParameterMin": "111",
+                "ParameterMin": "100",
                 "ParameterMax": "999",
                 "SectionMinlength": "3",
                 "SectionMaxLength": "3",
@@ -864,12 +873,12 @@
                 "Section5": ""
               },
               {
-                "Name": "SubscriberNumber:=1234",
+                "Name": "SubscriberNumber=1234",
                 "TestValue": "1-414-356-1234",
                 "SectionName": "SubscriberNumber",
                 "ExtractedValue": "1234",
                 "AssertionFailed": "0",
-                "ParameterMin": "0000",
+                "ParameterMin": "0",
                 "ParameterMax": "9999",
                 "SectionMinlength": "4",
                 "SectionMaxLength": "4",
@@ -882,7 +891,7 @@
                 "Section5": ""
               },
               {
-                "Name": "ExtraNumbers:=",
+                "Name": "ExtraNumbers=",
                 "TestValue": "1-414-356-1234",
                 "SectionName": "ExtraNumbers",
                 "ExtractedValue": "",
@@ -904,6 +913,109 @@
         },
         {
           "CountryName": "US",
+          "PhoneNumber": "1-414-356-1234",
+          "E164Format": "+14143561234",
+          "Section1": "1",
+          "Section2": "414",
+          "Section3": "356",
+          "Section4": "1234",
+          "Assertions": {
+            "Assertion": [
+              {
+                "Name": "CountryCode=1",
+                "TestValue": "1-414-356-1234",
+                "SectionName": "CountryCode",
+                "ExtractedValue": "1",
+                "AssertionFailed": "0",
+                "ParameterMin": "1",
+                "ParameterMax": "1",
+                "SectionMinlength": "1",
+                "SectionMaxLength": "1",
+                "TooLow": "0",
+                "TooHigh": "0",
+                "Section1": "1",
+                "Section2": "414",
+                "Section3": "356",
+                "Section4": "1234",
+                "Section5": ""
+              },
+              {
+                "Name": "AreaCode=414",
+                "TestValue": "1-414-356-1234",
+                "SectionName": "AreaCode",
+                "ExtractedValue": "414",
+                "AssertionFailed": "0",
+                "ParameterMin": "201",
+                "ParameterMax": "919",
+                "SectionMinlength": "3",
+                "SectionMaxLength": "3",
+                "TooLow": "0",
+                "TooHigh": "0",
+                "Section1": "1",
+                "Section2": "414",
+                "Section3": "356",
+                "Section4": "1234",
+                "Section5": ""
+              },
+              {
+                "Name": "CentralOfficeCode=356",
+                "TestValue": "1-414-356-1234",
+                "SectionName": "CentralOfficeCode",
+                "ExtractedValue": "356",
+                "AssertionFailed": "0",
+                "ParameterMin": "111",
+                "ParameterMax": "999",
+                "SectionMinlength": "3",
+                "SectionMaxLength": "3",
+                "TooLow": "0",
+                "TooHigh": "0",
+                "Section1": "1",
+                "Section2": "414",
+                "Section3": "356",
+                "Section4": "1234",
+                "Section5": ""
+              },
+              {
+                "Name": "SubscriberNumber=1234",
+                "TestValue": "1-414-356-1234",
+                "SectionName": "SubscriberNumber",
+                "ExtractedValue": "1234",
+                "AssertionFailed": "0",
+                "ParameterMin": "0000",
+                "ParameterMax": "9999",
+                "SectionMinlength": "4",
+                "SectionMaxLength": "4",
+                "TooLow": "0",
+                "TooHigh": "0",
+                "Section1": "1",
+                "Section2": "414",
+                "Section3": "356",
+                "Section4": "1234",
+                "Section5": ""
+              },
+              {
+                "Name": "ExtraNumbers=",
+                "TestValue": "1-414-356-1234",
+                "SectionName": "ExtraNumbers",
+                "ExtractedValue": "",
+                "AssertionFailed": "0",
+                "ParameterMin": "",
+                "ParameterMax": "",
+                "SectionMinlength": "0",
+                "SectionMaxLength": "0",
+                "TooLow": "0",
+                "TooHigh": "0",
+                "Section1": "1",
+                "Section2": "414",
+                "Section3": "356",
+                "Section4": "1234",
+                "Section5": ""
+              }
+            ]
+          }
+        },
+        {
+          "CountryName": "Canada",
           "PhoneNumber": "1-125-000-1348",
           "E164Format": "+11250001348",
           "Section1": "1",
@@ -913,7 +1025,7 @@
           "Assertions": {
             "Assertion": [
               {
-                "Name": "CountryCode:=1",
+                "Name": "CountryCode=1",
                 "TestValue": "1-125-000-1348",
                 "SectionName": "CountryCode",
                 "ExtractedValue": "1",
@@ -931,13 +1043,13 @@
                 "Section5": ""
               },
               {
-                "Name": "AreaCode:=125 - FAIL",
+                "Name": "AreaCode=125 - FAIL",
                 "TestValue": "1-125-000-1348",
                 "SectionName": "AreaCode",
                 "ExtractedValue": "125",
                 "AssertionFailed": "1",
-                "ParameterMin": "201",
-                "ParameterMax": "919",
+                "ParameterMin": "204",
+                "ParameterMax": "905",
                 "SectionMinlength": "3",
                 "SectionMaxLength": "3",
                 "TooLow": "1",
@@ -949,12 +1061,12 @@
                 "Section5": ""
               },
               {
-                "Name": "CentralOfficeCode:=000 - FAIL",
+                "Name": "CentralOfficeCode=000 - FAIL",
                 "TestValue": "1-125-000-1348",
                 "SectionName": "CentralOfficeCode",
                 "ExtractedValue": "000",
                 "AssertionFailed": "1",
-                "ParameterMin": "111",
+                "ParameterMin": "100",
                 "ParameterMax": "999",
                 "SectionMinlength": "3",
                 "SectionMaxLength": "3",
@@ -967,12 +1079,12 @@
                 "Section5": ""
               },
               {
-                "Name": "SubscriberNumber:=1348",
+                "Name": "SubscriberNumber=1348",
                 "TestValue": "1-125-000-1348",
                 "SectionName": "SubscriberNumber",
                 "ExtractedValue": "1348",
                 "AssertionFailed": "0",
-                "ParameterMin": "0000",
+                "ParameterMin": "0",
                 "ParameterMax": "9999",
                 "SectionMinlength": "4",
                 "SectionMaxLength": "4",
@@ -985,7 +1097,7 @@
                 "Section5": ""
               },
               {
-                "Name": "ExtraNumbers:=",
+                "Name": "ExtraNumbers=",
                 "TestValue": "1-125-000-1348",
                 "SectionName": "ExtraNumbers",
                 "ExtractedValue": "",
@@ -1016,7 +1128,7 @@
           "Assertions": {
             "Assertion": [
               {
-                "Name": "CountryCode:=1 - FAIL",
+                "Name": "CountryCode=1 - FAIL",
                 "TestValue": "1-212-555-1234",
                 "SectionName": "CountryCode",
                 "ExtractedValue": "1",
@@ -1034,7 +1146,7 @@
                 "Section5": ""
               },
               {
-                "Name": "AreaCode:=212 - FAIL",
+                "Name": "AreaCode=212 - FAIL",
                 "TestValue": "1-212-555-1234",
                 "SectionName": "AreaCode",
                 "ExtractedValue": "212",
@@ -1052,7 +1164,7 @@
                 "Section5": ""
               },
               {
-                "Name": "CentralOfficeCode:=555",
+                "Name": "CentralOfficeCode=555",
                 "TestValue": "1-212-555-1234",
                 "SectionName": "CentralOfficeCode",
                 "ExtractedValue": "555",
@@ -1070,7 +1182,7 @@
                 "Section5": ""
               },
               {
-                "Name": "SubscriberNumber:=1234",
+                "Name": "SubscriberNumber=1234",
                 "TestValue": "1-212-555-1234",
                 "SectionName": "SubscriberNumber",
                 "ExtractedValue": "1234",
@@ -1101,7 +1213,7 @@
           "Assertions": {
             "Assertion": [
               {
-                "Name": "CountryCode:=44",
+                "Name": "CountryCode=44",
                 "TestValue": "44-020-8135-1234",
                 "SectionName": "CountryCode",
                 "ExtractedValue": "44",
@@ -1119,7 +1231,7 @@
                 "Section5": ""
               },
               {
-                "Name": "AreaCode:=020 - FAIL",
+                "Name": "AreaCode=020 - FAIL",
                 "TestValue": "44-020-8135-1234",
                 "SectionName": "AreaCode",
                 "ExtractedValue": "020",
@@ -1137,7 +1249,7 @@
                 "Section5": ""
               },
               {
-                "Name": "CentralOfficeCode:=8135",
+                "Name": "CentralOfficeCode=8135",
                 "TestValue": "44-020-8135-1234",
                 "SectionName": "CentralOfficeCode",
                 "ExtractedValue": "8135",
@@ -1155,7 +1267,7 @@
                 "Section5": ""
               },
               {
-                "Name": "SubscriberNumber:=1234",
+                "Name": "SubscriberNumber=1234",
                 "TestValue": "44-020-8135-1234",
                 "SectionName": "SubscriberNumber",
                 "ExtractedValue": "1234",
@@ -1177,16 +1289,16 @@
         },
         {
           "CountryName": "US",
-          "PhoneNumber": "-212-5555-2134-4544-12323",
-          "E164Format": "+21255552134454412323",
+          "PhoneNumber": "-212-555-2134-4544-12323",
+          "E164Format": "+2125552134454412323",
           "Section2": "212",
-          "Section3": "5555",
+          "Section3": "555",
           "Section4": "2134",
           "Assertions": {
             "Assertion": [
               {
-                "Name": "CountryCode:= - FAIL",
-                "TestValue": "-212-5555-2134-4544-12323",
+                "Name": "CountryCode= - FAIL",
+                "TestValue": "-212-555-2134-4544-12323",
                 "SectionName": "CountryCode",
                 "ExtractedValue": "",
                 "AssertionFailed": "1",
@@ -1198,13 +1310,13 @@
                 "TooHigh": "0",
                 "Section1": "",
                 "Section2": "212",
-                "Section3": "5555",
+                "Section3": "555",
                 "Section4": "2134",
                 "Section5": "4544-12323"
               },
               {
-                "Name": "AreaCode:=212",
-                "TestValue": "-212-5555-2134-4544-12323",
+                "Name": "AreaCode=212",
+                "TestValue": "-212-555-2134-4544-12323",
                 "SectionName": "AreaCode",
                 "ExtractedValue": "212",
                 "AssertionFailed": "0",
@@ -1216,16 +1328,16 @@
                 "TooHigh": "0",
                 "Section1": "",
                 "Section2": "212",
-                "Section3": "5555",
+                "Section3": "555",
                 "Section4": "2134",
                 "Section5": "4544-12323"
               },
               {
-                "Name": "CentralOfficeCode:=5555",
-                "TestValue": "-212-5555-2134-4544-12323",
+                "Name": "CentralOfficeCode=555 - FAIL",
+                "TestValue": "-212-555-2134-4544-12323",
                 "SectionName": "CentralOfficeCode",
-                "ExtractedValue": "5555",
-                "AssertionFailed": "0",
+                "ExtractedValue": "555",
+                "AssertionFailed": "1",
                 "ParameterMin": "111",
                 "ParameterMax": "999",
                 "SectionMinlength": "3",
@@ -1234,13 +1346,13 @@
                 "TooHigh": "0",
                 "Section1": "",
                 "Section2": "212",
-                "Section3": "5555",
+                "Section3": "555",
                 "Section4": "2134",
                 "Section5": "4544-12323"
               },
               {
-                "Name": "SubscriberNumber:=2134",
-                "TestValue": "-212-5555-2134-4544-12323",
+                "Name": "SubscriberNumber=2134",
+                "TestValue": "-212-555-2134-4544-12323",
                 "SectionName": "SubscriberNumber",
                 "ExtractedValue": "2134",
                 "AssertionFailed": "0",
@@ -1252,13 +1364,13 @@
                 "TooHigh": "0",
                 "Section1": "",
                 "Section2": "212",
-                "Section3": "5555",
+                "Section3": "555",
                 "Section4": "2134",
                 "Section5": "4544-12323"
               },
               {
-                "Name": "ExtraNumbers:=4544-12323 - FAIL",
-                "TestValue": "-212-5555-2134-4544-12323",
+                "Name": "ExtraNumbers=4544-12323 - FAIL",
+                "TestValue": "-212-555-2134-4544-12323",
                 "SectionName": "ExtraNumbers",
                 "ExtractedValue": "4544-12323",
                 "AssertionFailed": "1",
@@ -1270,7 +1382,7 @@
                 "TooHigh": "1",
                 "Section1": "",
                 "Section2": "212",
-                "Section3": "5555",
+                "Section3": "555",
                 "Section4": "2134",
                 "Section5": "4544-12323"
               }

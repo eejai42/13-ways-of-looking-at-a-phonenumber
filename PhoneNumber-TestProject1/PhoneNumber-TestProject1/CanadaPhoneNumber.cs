@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PhoneNumber_TestProject1
 {
-    public class USPhoneNumber : PhoneNumberBase
+    public class CanadaPhoneNumber : PhoneNumberBase
     {
 
         public string CountryCode { get; set; }
@@ -16,7 +16,7 @@ namespace PhoneNumber_TestProject1
         public string AfterSubscriberNumber { get; set; }
         public string ExtraNumbers { get; internal set; }
 
-        public USPhoneNumber(string e164Format) : base(e164Format)
+        public CanadaPhoneNumber(string e164Format) : base(e164Format)
         {
             
         }

@@ -51,7 +51,7 @@ US has 5 possible sections in it's phone number.
     
     - US-CountryCode-#MIN-MAX
     - US-AreaCode-###MIN-MAX
-    - US-CentralOfficeCode-###MIN-MAX
+    - US-CentralOfficeCode-###HAS AREA CODES
     - US-SubscriberNumber-####MIN-MAX
     - US-ExtraNumbers-IGNOREDMIN-MAX
 

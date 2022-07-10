@@ -9,7 +9,7 @@
         public string ExtraNumbers { get; internal set; }
         public int ExpectedLength { get; }
 
-        protected USPhoneNumberBase(string e164Format, int expectedLength) : base(e164Format)
+        protected USPhoneNumberBase(string e164Format, int expectedLength) : base("US", e164Format)
         {
             this.ExpectedLength = expectedLength;
         }

@@ -15,26 +15,37 @@
     <xsl:template match="/*">
         <FileSet>
             <FileSetFiles>
+                <xsl:for-each select="/*/Countries/Country"><xsl:variable name="country" select="." /><xsl:variable name="test-name"><xsl:value-of select="Name" />
+                <xsl:text>UnitTests</xsl:text></xsl:variable>
                 <FileSetFile>
                     <RelativePath>
-                        <xsl:text>../../PhoneNumber-TestProject1/PhoneNumber-TestProject1/UnitTests.cs</xsl:text>
+                        <xsl:text>../../PhoneNumber-TestProject1/PhoneNumber-TestProject1/</xsl:text>
+                        <xsl:value-of select="$country/Name" />
+                        <xsl:text>/</xsl:text>
+                        <xsl:value-of select="$test-name" />
+                        <xsl:text>.cs</xsl:text>
                     </RelativePath>
                     <xsl:element name="FileContents" xml:space="preserve">using NUnit.Framework;
 using System;
 
 namespace PhoneNumber_TestProject1
 {
-    public class Tests
+    public class <xsl:value-of select="$test-name" />
     {
         [SetUp]
         public void Setup()
         {
         }
-<xsl:for-each select="/*/UnitTests/UnitTest">
+<xsl:for-each select="UnitTests/UnitTest">
+        /// &lt;summary>
+        /// <xsl:choose><xsl:when test="normalize-space()=''">This test is expected to successfully parse the Phone Number</xsl:when>
+            <xsl:otherwise><xsl:value-of select="ExpectedFailedAssertionDescriptions" /></xsl:otherwise></xsl:choose>
+        /// &lt;/summary>
+
         [Test]
-        public void <xsl:value-of select="CountryName" />PhoneNumberTest<xsl:value-of select="substring(E164Format, 2, string-length(E164Format))" />()
+        public void <xsl:value-of select="CountryName" /><xsl:value-of select="FormatLength" />PhoneNumberTest<xsl:value-of select="substring(E164Format, 2, string-length(E164Format))" />()
         {
-            var parsedNumber = new <xsl:value-of select="CountryName" />PhoneNumber("<xsl:value-of select="E164Format" />");
+            var parsedNumber = new <xsl:value-of select="CountryName" /><xsl:value-of select="FormatLength" />PhoneNumber("<xsl:value-of select="E164Format" />");
             if (!parsedNumber.IsValid)
             {
                 parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
@@ -51,6 +62,7 @@ namespace PhoneNumber_TestProject1
 }
 </xsl:element>
                 </FileSetFile>
+            </xsl:for-each>
             </FileSetFiles>
         </FileSet>
     </xsl:template>

@@ -37,13 +37,6 @@
             </xsl:copy>    
         </xsl:for-each>
     </PhoneNumberSections>
-    <UnitTests>
-        <xsl:for-each select="$root/*/UnitTests/UnitTest"><xsl:sort select="SectionOrder" />
-            <xsl:copy>
-                <xsl:apply-templates select="." />
-            </xsl:copy>    
-        </xsl:for-each>
-    </UnitTests>
 </TWOLAAPhoneNumber>                        
                     </xsl:element>
                 </FileSetFile>
@@ -52,8 +45,14 @@
     </xsl:template>
     <xsl:template match="/*/UnitTests/UnitTest">
         <CountryName><xsl:value-of select="CountryName" /></CountryName>
+        <CountryCode><xsl:value-of select="CountryCode" /></CountryCode>
+        <CountryFormat><xsl:value-of select="CountryFormat" /></CountryFormat>
+        <FormatLength><xsl:value-of select="FormatLength" /></FormatLength>
         <PhoneNumber><xsl:value-of select="PhoneNumber" /></PhoneNumber>
         <E164Format><xsl:value-of select="E164Format" /></E164Format>
+        <ExpectedFailedAssertionCount><xsl:value-of select="ExpectedFailedAssertionCount" /></ExpectedFailedAssertionCount>
+        <ExpectedFailedAssertions><xsl:value-of select="ExpectedFailedAssertions" /></ExpectedFailedAssertions>
+        <ExpectedFailedAssertionDescriptions><xsl:value-of select="ExpectedFailedAssertionDescriptions" /></ExpectedFailedAssertionDescriptions>
         <xsl:for-each select="*[substring(name(), 1, 7) = 'Section' and string-length(name()) = 8]"><xsl:sort select="name()" />
         &lt;<xsl:value-of select="name()" />><xsl:value-of select="." />&lt;/<xsl:value-of select="name()" />></xsl:for-each>
         <Assertions>
@@ -67,8 +66,11 @@
 
     <xsl:template match="/*/Assertions/Assertion">
         <Name><xsl:value-of select="Name" /></Name>
+        <CountryName><xsl:value-of select="CountryName" /></CountryName>
+        <UnitTestName><xsl:value-of select="UnitTestName" /></UnitTestName>
         <TestValue><xsl:value-of select="TestValue" /></TestValue>
         <SectionName><xsl:value-of select="SectionName" /></SectionName>
+        <FailureDescription><xsl:value-of select="FailureDescription" /></FailureDescription>
         <ExtractedValue><xsl:value-of select="ExtractedValue" /></ExtractedValue>
         <AssertionFailed><xsl:value-of select="AssertionFailed" /></AssertionFailed>
         <ParameterMin><xsl:value-of select="ParameterMin" /></ParameterMin>
@@ -77,11 +79,15 @@
         <SectionMaxLength><xsl:value-of select="SectionMaxLength" /></SectionMaxLength>
         <TooLow><xsl:value-of select="TooLow" /></TooLow>
         <TooHigh><xsl:value-of select="TooHigh" /></TooHigh>
+        <MissingFromAllowedSectionValues><xsl:value-of select="MissingFromAllowedSectionValues" /></MissingFromAllowedSectionValues>
+        <FoundInDisallowedSectionValues><xsl:value-of select="FoundInDisallowedSectionValues" /></FoundInDisallowedSectionValues>
         <Section1><xsl:value-of select="Section1" /></Section1>
         <Section2><xsl:value-of select="Section2" /></Section2>
         <Section3><xsl:value-of select="Section3" /></Section3>
         <Section4><xsl:value-of select="Section4" /></Section4>
         <Section5><xsl:value-of select="Section5" /></Section5>
+        <AllowedSectionValues><xsl:value-of select="AllowedSectionValues" /></AllowedSectionValues>
+        <DisallowedSectionValues><xsl:value-of select="DisallowedSectionValues" /></DisallowedSectionValues>
     </xsl:template>
 
     <xsl:template match="/*/Countries/Country">
@@ -93,6 +99,27 @@
                 </xsl:copy>             
             </xsl:for-each>
         </CountrySections>
+        <CountryFormats>
+            <xsl:for-each select="/*/CountryFormats/CountryFormat[Country=current()/CountryId]"><xsl:sort select="FormatLength" order="descending" />
+                <xsl:copy>
+                    <xsl:apply-templates select="." />
+                </xsl:copy>
+            </xsl:for-each>
+        </CountryFormats>
+        <UnitTests>
+            <xsl:for-each select="$root/*/UnitTests/UnitTest[CountryName=current()/Name]"><xsl:sort select="Name" />
+                <xsl:copy>
+                    <xsl:apply-templates select="." />
+                </xsl:copy>    
+            </xsl:for-each>
+        </UnitTests>
+    
+    </xsl:template>
+
+    <xsl:template match="/*/CountryFormats/CountryFormat">
+        <Name><xsl:value-of select="Name" /></Name>
+        <Format><xsl:value-of select="Format" /></Format>
+        <FormatLength><xsl:value-of select="FormatLength" /></FormatLength>
     </xsl:template>
 
     <xsl:template match="/*/PhoneNumberSections/PhoneNumberSection">

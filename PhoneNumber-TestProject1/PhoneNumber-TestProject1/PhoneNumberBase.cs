@@ -20,6 +20,11 @@ namespace PhoneNumber_TestProject1
             this.ParsePhoneNumber();
         }
 
+        internal void AddError(string errorMessage)
+        {
+            this.AddError(string.Empty, errorMessage);
+        }
+
         internal void AddError(string errorPart, string errorMessage)
         {
             this.ErrorParts.Add(errorPart);

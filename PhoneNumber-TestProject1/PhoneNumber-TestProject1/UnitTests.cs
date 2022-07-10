@@ -33,7 +33,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void USPhoneNumberTest14143561234()
         {
-            var parsedNumber = new USPhoneNumber("+14143561234");
+            var parsedNumber = new US10PhoneNumber("+14143561234");
             if (!parsedNumber.IsValid)
             {
                 parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
@@ -111,7 +111,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void USPhoneNumberTest2125552134454412323()
         {
-            var parsedNumber = new USPhoneNumber("+2125552134454412323");
+            var parsedNumber = new US10PhoneNumber("+2125552134454412323");
             if (!parsedNumber.IsValid)
             {
                 parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));

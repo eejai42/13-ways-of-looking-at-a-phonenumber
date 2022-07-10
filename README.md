@@ -23,7 +23,7 @@ UK has 4 possible sections in it's phone number.
 
     
     - UK-CountryCode-##MIN-MAX
-    - UK-AreaCode-###..##HAS AREA CODES
+    - UK-AreaCode-###..###HAS AREA CODES
     - UK-CentralOfficeCode-#..###MIN-MAX
     - UK-SubscriberNumber-####..#MIN-MAX
 

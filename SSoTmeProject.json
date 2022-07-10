@@ -51,10 +51,21 @@
         "Name": "XmlXsltTransform",
         "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
       },
-      "ProjectTranspilerId": "d6da58bd-fc07-4289-b207-a03ed2c767a8",
+      "ProjectTranspilerId": "99add8cc-d38e-45f8-95d2-df44419e1fb6",
       "Name": "XmlXsltTransform",
       "RelativePath": "/SSoT/CreateREADME",
-      "CommandLine": "codee42/xml-xslt-transform -i ../TWOLAAPhoneNumber.xml -i CreateREADME.xslt"
+      "CommandLine": "codee42/xml-xslt-transform -i ..\\TWOLAAPhoneNumber.xml -i CreateREADME.xslt"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "ProjectTranspilerId": "1c459731-9fc8-4b10-9d14-bb12238cde35",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/SSoT/CreateUnitTests",
+      "CommandLine": "codee42/xml-xslt-transform -i ..\\TWOLAAPhoneNumber.xml -i CreateUnitTests.xslt"
     }
   ]
 }

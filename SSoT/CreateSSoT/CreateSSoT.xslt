@@ -51,16 +51,18 @@
         </FileSet>
     </xsl:template>
     <xsl:template match="/*/UnitTests/UnitTest">
-        <UnitTest>
-            <CountryName><xsl:value-of select="CountryName" /></CountryName>
-            <Assertions>
-                <xsl:for-each select="/*/Assertions/Assertion">
-                    <xsl:copy>
-                        <xsl:apply-templates select="." />
-                    </xsl:copy>                    
-                </xsl:for-each>
-            </Assertions>
-        </UnitTest>
+        <CountryName><xsl:value-of select="CountryName" /></CountryName>
+        <PhoneNumber><xsl:value-of select="PhoneNumber" /></PhoneNumber>
+        <E164Format><xsl:value-of select="E164Format" /></E164Format>
+        <xsl:for-each select="*[substring(name(), 1, 7) = 'Section' and string-length(name()) = 8]"><xsl:sort select="name()" />
+        &lt;<xsl:value-of select="name()" />><xsl:value-of select="." />&lt;/<xsl:value-of select="name()" />></xsl:for-each>
+        <Assertions>
+            <xsl:for-each select="/*/Assertions/Assertion[UnitTestName=current()/Name]"><xsl:sort select="SectionOrder" />
+                <xsl:copy>
+                    <xsl:apply-templates select="." />
+                </xsl:copy>                    
+            </xsl:for-each>
+        </Assertions>
     </xsl:template>
 
     <xsl:template match="/*/Assertions/Assertion">

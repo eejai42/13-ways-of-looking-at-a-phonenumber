@@ -14,6 +14,7 @@ namespace PhoneNumber_TestProject1
         public string AfterCentralOfficeCode { get; set; }
         public string SubscriberNumber { get; set; }
         public string AfterSubscriberNumber { get; set; }
+        public string ExtraNumbers { get; internal set; }
 
         public USPhoneNumber(string e164Format) : base(e164Format)
         {

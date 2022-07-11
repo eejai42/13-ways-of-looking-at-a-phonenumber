@@ -10,17 +10,15 @@ namespace PhoneNumber_TestProject1
 
         }
 
-        // TODO: Write the rest of the Canda 10 digit Phone number parsing method
-        protected override void ParsePhoneNumber()
+        public override void ParsePhoneNumber()
         {
             base.StripPlus();
             if (this.CheckLength())
             {
-                this.ParseCentralOfficeCode();
-                this.ParseSubscriberNumber();
-            }
                 // TODO: Write US 7 digit Phone Section parsing methods
-                // this.ParseCountryCode();
+                //this.ParseCentralOfficeCode();
+                //this.ParseSubscriberNumber();
+            }
         }
 
         /// <summary>

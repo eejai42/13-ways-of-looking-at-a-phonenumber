@@ -11,11 +11,11 @@ namespace PhoneNumber_TestProject1
         }
 
         // TODO: Write the rest of the Canda 10 digit Phone number parsing method
-        protected override void ParsePhoneNumber()
+        public override void ParsePhoneNumber()
         {
             base.StripPlus();
-            // TODO: Write Canada digit Phone Section parsing methods
-            // this.ParseCountryCode();
+             this.ParseCountryCode();
+            // TODO: Call the rest of the Canada digit Phone Section parsing methods
         }
 
         private void ParseCountryCode()
@@ -27,6 +27,6 @@ namespace PhoneNumber_TestProject1
             }
         }
 
-        // Implement the rest of the parsing logic
+        // TODO: Write the rest of the Canada digit Phone Section parsing methods
     }
 }

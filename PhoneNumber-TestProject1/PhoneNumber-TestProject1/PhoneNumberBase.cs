@@ -26,7 +26,6 @@ namespace PhoneNumber_TestProject1
         /// </summary>
         public bool IsValid { get { return !this.Errors.Any() && !this.ErrorParts.Any(); } }
 
-
         /// <summary>
         /// A list of errors that have been detected, associated with this phone number
         /// </summary>
@@ -37,12 +36,12 @@ namespace PhoneNumber_TestProject1
         /// </summary>
         public List<string> ErrorParts { get; }
 
-
         /// <summary>
         /// RemainingNumber is an internal, volatile representation of the E164Format original phone number, and
         /// is expected to be used during the parsing process to keep track of the remaining portion of the number.
         /// </summary>
         public string RemainingNumber { get; protected set; }
+
 
         /// <summary>
         /// A constructor which sets all of the initial values, and then attempts to parse the number
@@ -62,7 +61,7 @@ namespace PhoneNumber_TestProject1
         /// <summary>
         /// Each sub-class is expected to implement a ParsePhoneNumber method for that specific country.
         /// </summary>
-        protected abstract void ParsePhoneNumber();
+        public abstract void ParsePhoneNumber();
 
 
         /// <summary>
@@ -94,6 +93,20 @@ namespace PhoneNumber_TestProject1
         {
             this.RemainingNumber = this.E164Format.Replace("+", "");
         }
+
+        /// <summary>
+        /// Take the specified number of characters from the Remining characers from the front of the RemainingNumbers string
+        /// </summary>
+        /// <param name="chars">The number of characers to take and remove</param>
+        /// <returns></returns>
+        internal string Take(int chars)
+        {
+            chars = Math.Min(chars, this.RemainingNumber.Length);
+            var next = this.RemainingNumber.Substring(0, chars);
+            this.RemainingNumber = this.RemainingNumber.Substring(chars);
+            return next;
+        }
+
 
     }
 }

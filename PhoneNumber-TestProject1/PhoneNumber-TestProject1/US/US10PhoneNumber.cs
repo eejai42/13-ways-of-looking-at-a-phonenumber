@@ -12,17 +12,18 @@ namespace PhoneNumber_TestProject1
         /// <summary>
         /// Parses the 10 digit format for a US Phone Number
         /// </summary>
-        protected override void ParsePhoneNumber()
+        public override void ParsePhoneNumber()
         {
             base.StripPlus();
             this.ParseCountryCode();
             if (this.CheckLength())
             {
                 base.ParseAreaCode();
-                base.ParseCentralOfficeCode();
-                base.ParseSubscriberNumber();
-                base.ParseExtraNumbers();
+             
                 // TODO: Call the rest of the parse methods
+                //base.ParseCentralOfficeCode();
+                //base.ParseSubscriberNumber();
+                //base.ParseExtraNumbers();
             }
         }
 

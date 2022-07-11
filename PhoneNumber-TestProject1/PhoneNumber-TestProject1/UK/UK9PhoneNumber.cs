@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace PhoneNumber_TestProject1
 {
-    public class UK10PhoneNumber : UKPhoneNumberBase
+    public partial class UK9PhoneNumber : UKPhoneNumberBase
     {
-        public UK10PhoneNumber(string e164Format) : base(e164Format, 10)
+        public UK9PhoneNumber(string e164Format) : base(e164Format, 10)
         {
 
         }

@@ -42,7 +42,7 @@ namespace PhoneNumber_TestProject1
         /// <returns>Returns true if the length is the expected length</returns>
         internal bool CheckLength()
         {
-            if (this.RemainingNumber.Length == this.ExpectedLength)
+            if (this.RemainingNumber.Length != this.ExpectedLength)
             {
                 this.AddError($"Input string {E164Format} not a valid {this.ExpectedLength} digit phone number.");
                 return false;

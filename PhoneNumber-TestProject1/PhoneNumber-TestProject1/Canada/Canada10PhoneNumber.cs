@@ -14,7 +14,7 @@ namespace PhoneNumber_TestProject1
         protected override void ParsePhoneNumber()
         {
             base.StripPlus();
-            // TODO: Write Canada  digit Phone Section parsing methods
+            // TODO: Write Canada digit Phone Section parsing methods
             // this.ParseCountryCode();
         }
 

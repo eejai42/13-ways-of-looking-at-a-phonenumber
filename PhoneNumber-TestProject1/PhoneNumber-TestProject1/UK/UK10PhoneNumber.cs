@@ -13,8 +13,11 @@ namespace PhoneNumber_TestProject1
         public override void ParsePhoneNumber()
         {
             base.StripPlus();
-            // TODO: Write the rest of the UK phone number parsing method
-            //base.ParseCountryCode();
+            this.ParseCountryCode();
+            // TODO: Parse the rest of the fields in this number
+            //this.ParseAreaCode();
+            //this.ParseCentralOfficeCode();
+            //this.ParseSubscriberNumber();
         }
 
     }

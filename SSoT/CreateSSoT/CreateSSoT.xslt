@@ -149,7 +149,7 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </IsRequired>
-                <MinValue><xsl:value-of select="MinValueString" /></MinValue>
+                <MinValue><xsl:value-of select="MinValue" /></MinValue>
                 <MaxValue><xsl:value-of select="MaxValue" /></MaxValue>
                 <MinLength><xsl:value-of select="MinLength" /></MinLength>
                 <MaxLength><xsl:value-of select="MaxLength" /></MaxLength>
@@ -160,6 +160,8 @@
             <xsl:apply-templates select="." />
         </xsl:for-each>
         </SectionValues>
+        <AllowedSectionValues><xsl:value-of select="AllowedSectionValues" /></AllowedSectionValues>
+        <DisallowedSectionValues><xsl:value-of select="DisallowedSectionValues" /></DisallowedSectionValues>
     </xsl:template>
 
     <xsl:template match="/*/SpecialSectionValues/SpecialSectionValue">

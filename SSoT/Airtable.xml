@@ -800,48 +800,49 @@
       <MaxLength>3</MaxLength>
       <CountryName>Canada</CountryName>
       <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
-      <AllowedSectionValues>403</AllowedSectionValues>
-      <AllowedSectionValues>587</AllowedSectionValues>
-      <AllowedSectionValues>780</AllowedSectionValues>
-      <AllowedSectionValues>825</AllowedSectionValues>
-      <AllowedSectionValues>236</AllowedSectionValues>
-      <AllowedSectionValues>250</AllowedSectionValues>
-      <AllowedSectionValues>604</AllowedSectionValues>
-      <AllowedSectionValues>672</AllowedSectionValues>
-      <AllowedSectionValues>778</AllowedSectionValues>
-      <AllowedSectionValues>204</AllowedSectionValues>
-      <AllowedSectionValues>431</AllowedSectionValues>
-      <AllowedSectionValues>506</AllowedSectionValues>
-      <AllowedSectionValues>709</AllowedSectionValues>
-      <AllowedSectionValues>782</AllowedSectionValues>
-      <AllowedSectionValues>902</AllowedSectionValues>
-      <AllowedSectionValues>226</AllowedSectionValues>
-      <AllowedSectionValues>249</AllowedSectionValues>
-      <AllowedSectionValues>289</AllowedSectionValues>
-      <AllowedSectionValues>343</AllowedSectionValues>
-      <AllowedSectionValues>365</AllowedSectionValues>
-      <AllowedSectionValues>416</AllowedSectionValues>
-      <AllowedSectionValues>437</AllowedSectionValues>
-      <AllowedSectionValues>519</AllowedSectionValues>
-      <AllowedSectionValues>548</AllowedSectionValues>
-      <AllowedSectionValues>613</AllowedSectionValues>
-      <AllowedSectionValues>647</AllowedSectionValues>
-      <AllowedSectionValues>705</AllowedSectionValues>
-      <AllowedSectionValues>807</AllowedSectionValues>
-      <AllowedSectionValues>905</AllowedSectionValues>
-      <AllowedSectionValues>367</AllowedSectionValues>
-      <AllowedSectionValues>418</AllowedSectionValues>
-      <AllowedSectionValues>438</AllowedSectionValues>
-      <AllowedSectionValues>450</AllowedSectionValues>
-      <AllowedSectionValues>514</AllowedSectionValues>
-      <AllowedSectionValues>579</AllowedSectionValues>
-      <AllowedSectionValues>581</AllowedSectionValues>
-      <AllowedSectionValues>819</AllowedSectionValues>
-      <AllowedSectionValues>873</AllowedSectionValues>
-      <AllowedSectionValues>306</AllowedSectionValues>
-      <AllowedSectionValues>639</AllowedSectionValues>
-      <AllowedSectionValues>867</AllowedSectionValues>
+      <AllowedSectionValuesList>403</AllowedSectionValuesList>
+      <AllowedSectionValuesList>587</AllowedSectionValuesList>
+      <AllowedSectionValuesList>780</AllowedSectionValuesList>
+      <AllowedSectionValuesList>825</AllowedSectionValuesList>
+      <AllowedSectionValuesList>236</AllowedSectionValuesList>
+      <AllowedSectionValuesList>250</AllowedSectionValuesList>
+      <AllowedSectionValuesList>604</AllowedSectionValuesList>
+      <AllowedSectionValuesList>672</AllowedSectionValuesList>
+      <AllowedSectionValuesList>778</AllowedSectionValuesList>
+      <AllowedSectionValuesList>204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>431</AllowedSectionValuesList>
+      <AllowedSectionValuesList>506</AllowedSectionValuesList>
+      <AllowedSectionValuesList>709</AllowedSectionValuesList>
+      <AllowedSectionValuesList>782</AllowedSectionValuesList>
+      <AllowedSectionValuesList>902</AllowedSectionValuesList>
+      <AllowedSectionValuesList>226</AllowedSectionValuesList>
+      <AllowedSectionValuesList>249</AllowedSectionValuesList>
+      <AllowedSectionValuesList>289</AllowedSectionValuesList>
+      <AllowedSectionValuesList>343</AllowedSectionValuesList>
+      <AllowedSectionValuesList>365</AllowedSectionValuesList>
+      <AllowedSectionValuesList>416</AllowedSectionValuesList>
+      <AllowedSectionValuesList>437</AllowedSectionValuesList>
+      <AllowedSectionValuesList>519</AllowedSectionValuesList>
+      <AllowedSectionValuesList>548</AllowedSectionValuesList>
+      <AllowedSectionValuesList>613</AllowedSectionValuesList>
+      <AllowedSectionValuesList>647</AllowedSectionValuesList>
+      <AllowedSectionValuesList>705</AllowedSectionValuesList>
+      <AllowedSectionValuesList>807</AllowedSectionValuesList>
+      <AllowedSectionValuesList>905</AllowedSectionValuesList>
+      <AllowedSectionValuesList>367</AllowedSectionValuesList>
+      <AllowedSectionValuesList>418</AllowedSectionValuesList>
+      <AllowedSectionValuesList>438</AllowedSectionValuesList>
+      <AllowedSectionValuesList>450</AllowedSectionValuesList>
+      <AllowedSectionValuesList>514</AllowedSectionValuesList>
+      <AllowedSectionValuesList>579</AllowedSectionValuesList>
+      <AllowedSectionValuesList>581</AllowedSectionValuesList>
+      <AllowedSectionValuesList>819</AllowedSectionValuesList>
+      <AllowedSectionValuesList>873</AllowedSectionValuesList>
+      <AllowedSectionValuesList>306</AllowedSectionValuesList>
+      <AllowedSectionValuesList>639</AllowedSectionValuesList>
+      <AllowedSectionValuesList>867</AllowedSectionValuesList>
       <SectionDescription>Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.</SectionDescription>
+      <AllowedSectionValues>403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867</AllowedSectionValues>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recM1hOxDO5e1Cseo</CountrySectionId>
@@ -959,30 +960,31 @@
       <MaxLength>6</MaxLength>
       <CountryName>UK</CountryName>
       <PhoneNumberSectionName>AreaCode</PhoneNumberSectionName>
-      <AllowedSectionValues>020</AllowedSectionValues>
-      <AllowedSectionValues>024</AllowedSectionValues>
-      <AllowedSectionValues>029</AllowedSectionValues>
-      <AllowedSectionValues>0113</AllowedSectionValues>
-      <AllowedSectionValues>0114</AllowedSectionValues>
-      <AllowedSectionValues>0121</AllowedSectionValues>
-      <AllowedSectionValues>0131</AllowedSectionValues>
-      <AllowedSectionValues>0141</AllowedSectionValues>
-      <AllowedSectionValues>0151</AllowedSectionValues>
-      <AllowedSectionValues>0161</AllowedSectionValues>
-      <AllowedSectionValues>01642</AllowedSectionValues>
-      <AllowedSectionValues>01223</AllowedSectionValues>
-      <AllowedSectionValues>01257</AllowedSectionValues>
-      <AllowedSectionValues>01382</AllowedSectionValues>
-      <AllowedSectionValues>01386</AllowedSectionValues>
-      <AllowedSectionValues>01935</AllowedSectionValues>
-      <AllowedSectionValues>01865</AllowedSectionValues>
-      <AllowedSectionValues>01772</AllowedSectionValues>
-      <AllowedSectionValues>01792</AllowedSectionValues>
-      <AllowedSectionValues>01204</AllowedSectionValues>
-      <AllowedSectionValues>015396</AllowedSectionValues>
-      <AllowedSectionValues>016977</AllowedSectionValues>
-      <AllowedSectionValues>016064</AllowedSectionValues>
+      <AllowedSectionValuesList>020</AllowedSectionValuesList>
+      <AllowedSectionValuesList>024</AllowedSectionValuesList>
+      <AllowedSectionValuesList>029</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0113</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0114</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0121</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0131</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0141</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0151</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0161</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01642</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01223</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01257</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01382</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01386</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01935</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01865</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01772</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01792</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>015396</AllowedSectionValuesList>
+      <AllowedSectionValuesList>016977</AllowedSectionValuesList>
+      <AllowedSectionValuesList>016064</AllowedSectionValuesList>
       <SectionDescription>Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.</SectionDescription>
+      <AllowedSectionValues>020,024,029,0113,0114,0121,0131,0141,0151,0161,01642,01223,01257,01382,01386,01935,01865,01772,01792,01204,015396,016977,016064</AllowedSectionValues>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recdp1d9U4YnX0XnR</CountrySectionId>
@@ -1144,11 +1146,12 @@
       <MaxLength>3</MaxLength>
       <CountryName>US</CountryName>
       <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
-      <DisallowedSectionValues>555</DisallowedSectionValues>
-      <DisallowedSectionValues>911</DisallowedSectionValues>
-      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <DisallowedSectionValuesList>555</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>911</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>411</DisallowedSectionValuesList>
       <SectionDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
 </SectionDescription>
+      <DisallowedSectionValues>555,911,411</DisallowedSectionValues>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recxwFYop1v56Ki8X</CountrySectionId>
@@ -2450,47 +2453,47 @@
       <SectionName>AreaCode</SectionName>
       <CountryName>Canada</CountryName>
       <UnitTestName>Canada-10UnitTest-2</UnitTestName>
-      <AllowedSectionValues>403</AllowedSectionValues>
-      <AllowedSectionValues>587</AllowedSectionValues>
-      <AllowedSectionValues>780</AllowedSectionValues>
-      <AllowedSectionValues>825</AllowedSectionValues>
-      <AllowedSectionValues>236</AllowedSectionValues>
-      <AllowedSectionValues>250</AllowedSectionValues>
-      <AllowedSectionValues>604</AllowedSectionValues>
-      <AllowedSectionValues>672</AllowedSectionValues>
-      <AllowedSectionValues>778</AllowedSectionValues>
-      <AllowedSectionValues>204</AllowedSectionValues>
-      <AllowedSectionValues>431</AllowedSectionValues>
-      <AllowedSectionValues>506</AllowedSectionValues>
-      <AllowedSectionValues>709</AllowedSectionValues>
-      <AllowedSectionValues>782</AllowedSectionValues>
-      <AllowedSectionValues>902</AllowedSectionValues>
-      <AllowedSectionValues>226</AllowedSectionValues>
-      <AllowedSectionValues>249</AllowedSectionValues>
-      <AllowedSectionValues>289</AllowedSectionValues>
-      <AllowedSectionValues>343</AllowedSectionValues>
-      <AllowedSectionValues>365</AllowedSectionValues>
-      <AllowedSectionValues>416</AllowedSectionValues>
-      <AllowedSectionValues>437</AllowedSectionValues>
-      <AllowedSectionValues>519</AllowedSectionValues>
-      <AllowedSectionValues>548</AllowedSectionValues>
-      <AllowedSectionValues>613</AllowedSectionValues>
-      <AllowedSectionValues>647</AllowedSectionValues>
-      <AllowedSectionValues>705</AllowedSectionValues>
-      <AllowedSectionValues>807</AllowedSectionValues>
-      <AllowedSectionValues>905</AllowedSectionValues>
-      <AllowedSectionValues>367</AllowedSectionValues>
-      <AllowedSectionValues>418</AllowedSectionValues>
-      <AllowedSectionValues>438</AllowedSectionValues>
-      <AllowedSectionValues>450</AllowedSectionValues>
-      <AllowedSectionValues>514</AllowedSectionValues>
-      <AllowedSectionValues>579</AllowedSectionValues>
-      <AllowedSectionValues>581</AllowedSectionValues>
-      <AllowedSectionValues>819</AllowedSectionValues>
-      <AllowedSectionValues>873</AllowedSectionValues>
-      <AllowedSectionValues>306</AllowedSectionValues>
-      <AllowedSectionValues>639</AllowedSectionValues>
-      <AllowedSectionValues>867</AllowedSectionValues>
+      <AllowedSectionValuesList>403</AllowedSectionValuesList>
+      <AllowedSectionValuesList>587</AllowedSectionValuesList>
+      <AllowedSectionValuesList>780</AllowedSectionValuesList>
+      <AllowedSectionValuesList>825</AllowedSectionValuesList>
+      <AllowedSectionValuesList>236</AllowedSectionValuesList>
+      <AllowedSectionValuesList>250</AllowedSectionValuesList>
+      <AllowedSectionValuesList>604</AllowedSectionValuesList>
+      <AllowedSectionValuesList>672</AllowedSectionValuesList>
+      <AllowedSectionValuesList>778</AllowedSectionValuesList>
+      <AllowedSectionValuesList>204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>431</AllowedSectionValuesList>
+      <AllowedSectionValuesList>506</AllowedSectionValuesList>
+      <AllowedSectionValuesList>709</AllowedSectionValuesList>
+      <AllowedSectionValuesList>782</AllowedSectionValuesList>
+      <AllowedSectionValuesList>902</AllowedSectionValuesList>
+      <AllowedSectionValuesList>226</AllowedSectionValuesList>
+      <AllowedSectionValuesList>249</AllowedSectionValuesList>
+      <AllowedSectionValuesList>289</AllowedSectionValuesList>
+      <AllowedSectionValuesList>343</AllowedSectionValuesList>
+      <AllowedSectionValuesList>365</AllowedSectionValuesList>
+      <AllowedSectionValuesList>416</AllowedSectionValuesList>
+      <AllowedSectionValuesList>437</AllowedSectionValuesList>
+      <AllowedSectionValuesList>519</AllowedSectionValuesList>
+      <AllowedSectionValuesList>548</AllowedSectionValuesList>
+      <AllowedSectionValuesList>613</AllowedSectionValuesList>
+      <AllowedSectionValuesList>647</AllowedSectionValuesList>
+      <AllowedSectionValuesList>705</AllowedSectionValuesList>
+      <AllowedSectionValuesList>807</AllowedSectionValuesList>
+      <AllowedSectionValuesList>905</AllowedSectionValuesList>
+      <AllowedSectionValuesList>367</AllowedSectionValuesList>
+      <AllowedSectionValuesList>418</AllowedSectionValuesList>
+      <AllowedSectionValuesList>438</AllowedSectionValuesList>
+      <AllowedSectionValuesList>450</AllowedSectionValuesList>
+      <AllowedSectionValuesList>514</AllowedSectionValuesList>
+      <AllowedSectionValuesList>579</AllowedSectionValuesList>
+      <AllowedSectionValuesList>581</AllowedSectionValuesList>
+      <AllowedSectionValuesList>819</AllowedSectionValuesList>
+      <AllowedSectionValuesList>873</AllowedSectionValuesList>
+      <AllowedSectionValuesList>306</AllowedSectionValuesList>
+      <AllowedSectionValuesList>639</AllowedSectionValuesList>
+      <AllowedSectionValuesList>867</AllowedSectionValuesList>
       <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (325) is missing from the list of allowed values.</FailureDescription>
@@ -2501,6 +2504,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>325</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <AllowedSectionValues>403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867</AllowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>rec9oO15vdN7K9FRr</AssertionId>
@@ -2566,47 +2570,47 @@
       <SectionName>AreaCode</SectionName>
       <CountryName>Canada</CountryName>
       <UnitTestName>Canada-10UnitTest-16</UnitTestName>
-      <AllowedSectionValues>403</AllowedSectionValues>
-      <AllowedSectionValues>587</AllowedSectionValues>
-      <AllowedSectionValues>780</AllowedSectionValues>
-      <AllowedSectionValues>825</AllowedSectionValues>
-      <AllowedSectionValues>236</AllowedSectionValues>
-      <AllowedSectionValues>250</AllowedSectionValues>
-      <AllowedSectionValues>604</AllowedSectionValues>
-      <AllowedSectionValues>672</AllowedSectionValues>
-      <AllowedSectionValues>778</AllowedSectionValues>
-      <AllowedSectionValues>204</AllowedSectionValues>
-      <AllowedSectionValues>431</AllowedSectionValues>
-      <AllowedSectionValues>506</AllowedSectionValues>
-      <AllowedSectionValues>709</AllowedSectionValues>
-      <AllowedSectionValues>782</AllowedSectionValues>
-      <AllowedSectionValues>902</AllowedSectionValues>
-      <AllowedSectionValues>226</AllowedSectionValues>
-      <AllowedSectionValues>249</AllowedSectionValues>
-      <AllowedSectionValues>289</AllowedSectionValues>
-      <AllowedSectionValues>343</AllowedSectionValues>
-      <AllowedSectionValues>365</AllowedSectionValues>
-      <AllowedSectionValues>416</AllowedSectionValues>
-      <AllowedSectionValues>437</AllowedSectionValues>
-      <AllowedSectionValues>519</AllowedSectionValues>
-      <AllowedSectionValues>548</AllowedSectionValues>
-      <AllowedSectionValues>613</AllowedSectionValues>
-      <AllowedSectionValues>647</AllowedSectionValues>
-      <AllowedSectionValues>705</AllowedSectionValues>
-      <AllowedSectionValues>807</AllowedSectionValues>
-      <AllowedSectionValues>905</AllowedSectionValues>
-      <AllowedSectionValues>367</AllowedSectionValues>
-      <AllowedSectionValues>418</AllowedSectionValues>
-      <AllowedSectionValues>438</AllowedSectionValues>
-      <AllowedSectionValues>450</AllowedSectionValues>
-      <AllowedSectionValues>514</AllowedSectionValues>
-      <AllowedSectionValues>579</AllowedSectionValues>
-      <AllowedSectionValues>581</AllowedSectionValues>
-      <AllowedSectionValues>819</AllowedSectionValues>
-      <AllowedSectionValues>873</AllowedSectionValues>
-      <AllowedSectionValues>306</AllowedSectionValues>
-      <AllowedSectionValues>639</AllowedSectionValues>
-      <AllowedSectionValues>867</AllowedSectionValues>
+      <AllowedSectionValuesList>403</AllowedSectionValuesList>
+      <AllowedSectionValuesList>587</AllowedSectionValuesList>
+      <AllowedSectionValuesList>780</AllowedSectionValuesList>
+      <AllowedSectionValuesList>825</AllowedSectionValuesList>
+      <AllowedSectionValuesList>236</AllowedSectionValuesList>
+      <AllowedSectionValuesList>250</AllowedSectionValuesList>
+      <AllowedSectionValuesList>604</AllowedSectionValuesList>
+      <AllowedSectionValuesList>672</AllowedSectionValuesList>
+      <AllowedSectionValuesList>778</AllowedSectionValuesList>
+      <AllowedSectionValuesList>204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>431</AllowedSectionValuesList>
+      <AllowedSectionValuesList>506</AllowedSectionValuesList>
+      <AllowedSectionValuesList>709</AllowedSectionValuesList>
+      <AllowedSectionValuesList>782</AllowedSectionValuesList>
+      <AllowedSectionValuesList>902</AllowedSectionValuesList>
+      <AllowedSectionValuesList>226</AllowedSectionValuesList>
+      <AllowedSectionValuesList>249</AllowedSectionValuesList>
+      <AllowedSectionValuesList>289</AllowedSectionValuesList>
+      <AllowedSectionValuesList>343</AllowedSectionValuesList>
+      <AllowedSectionValuesList>365</AllowedSectionValuesList>
+      <AllowedSectionValuesList>416</AllowedSectionValuesList>
+      <AllowedSectionValuesList>437</AllowedSectionValuesList>
+      <AllowedSectionValuesList>519</AllowedSectionValuesList>
+      <AllowedSectionValuesList>548</AllowedSectionValuesList>
+      <AllowedSectionValuesList>613</AllowedSectionValuesList>
+      <AllowedSectionValuesList>647</AllowedSectionValuesList>
+      <AllowedSectionValuesList>705</AllowedSectionValuesList>
+      <AllowedSectionValuesList>807</AllowedSectionValuesList>
+      <AllowedSectionValuesList>905</AllowedSectionValuesList>
+      <AllowedSectionValuesList>367</AllowedSectionValuesList>
+      <AllowedSectionValuesList>418</AllowedSectionValuesList>
+      <AllowedSectionValuesList>438</AllowedSectionValuesList>
+      <AllowedSectionValuesList>450</AllowedSectionValuesList>
+      <AllowedSectionValuesList>514</AllowedSectionValuesList>
+      <AllowedSectionValuesList>579</AllowedSectionValuesList>
+      <AllowedSectionValuesList>581</AllowedSectionValuesList>
+      <AllowedSectionValuesList>819</AllowedSectionValuesList>
+      <AllowedSectionValuesList>873</AllowedSectionValuesList>
+      <AllowedSectionValuesList>306</AllowedSectionValuesList>
+      <AllowedSectionValuesList>639</AllowedSectionValuesList>
+      <AllowedSectionValuesList>867</AllowedSectionValuesList>
       <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (608) is missing from the list of allowed values.</FailureDescription>
@@ -2617,6 +2621,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>608</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <AllowedSectionValues>403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867</AllowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recDgTuDWhsLZaY89</AssertionId>
@@ -2684,9 +2689,9 @@
       <SectionName>CentralOfficeCode</SectionName>
       <CountryName>US</CountryName>
       <UnitTestName>US-10UnitTest-1</UnitTestName>
-      <DisallowedSectionValues>555</DisallowedSectionValues>
-      <DisallowedSectionValues>911</DisallowedSectionValues>
-      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <DisallowedSectionValuesList>555</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>911</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>411</DisallowedSectionValuesList>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>1</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (411) is explicity excluded.</FailureDescription>
@@ -2697,6 +2702,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>411</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <DisallowedSectionValues>555,911,411</DisallowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recFRKXi92yx2CD7H</AssertionId>
@@ -3052,9 +3058,9 @@
       <SectionName>CentralOfficeCode</SectionName>
       <CountryName>US</CountryName>
       <UnitTestName>US-10UnitTest-3</UnitTestName>
-      <DisallowedSectionValues>555</DisallowedSectionValues>
-      <DisallowedSectionValues>911</DisallowedSectionValues>
-      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <DisallowedSectionValuesList>555</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>911</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>411</DisallowedSectionValuesList>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>1</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (555) is explicity excluded.</FailureDescription>
@@ -3065,6 +3071,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>555</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <DisallowedSectionValues>555,911,411</DisallowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recM7SQKP6nnq8eLp</AssertionId>
@@ -3168,29 +3175,29 @@
       <SectionName>AreaCode</SectionName>
       <CountryName>UK</CountryName>
       <UnitTestName>UK-10UnitTest-5</UnitTestName>
-      <AllowedSectionValues>020</AllowedSectionValues>
-      <AllowedSectionValues>024</AllowedSectionValues>
-      <AllowedSectionValues>029</AllowedSectionValues>
-      <AllowedSectionValues>0113</AllowedSectionValues>
-      <AllowedSectionValues>0114</AllowedSectionValues>
-      <AllowedSectionValues>0121</AllowedSectionValues>
-      <AllowedSectionValues>0131</AllowedSectionValues>
-      <AllowedSectionValues>0141</AllowedSectionValues>
-      <AllowedSectionValues>0151</AllowedSectionValues>
-      <AllowedSectionValues>0161</AllowedSectionValues>
-      <AllowedSectionValues>01642</AllowedSectionValues>
-      <AllowedSectionValues>01223</AllowedSectionValues>
-      <AllowedSectionValues>01257</AllowedSectionValues>
-      <AllowedSectionValues>01382</AllowedSectionValues>
-      <AllowedSectionValues>01386</AllowedSectionValues>
-      <AllowedSectionValues>01935</AllowedSectionValues>
-      <AllowedSectionValues>01865</AllowedSectionValues>
-      <AllowedSectionValues>01772</AllowedSectionValues>
-      <AllowedSectionValues>01792</AllowedSectionValues>
-      <AllowedSectionValues>01204</AllowedSectionValues>
-      <AllowedSectionValues>015396</AllowedSectionValues>
-      <AllowedSectionValues>016977</AllowedSectionValues>
-      <AllowedSectionValues>016064</AllowedSectionValues>
+      <AllowedSectionValuesList>020</AllowedSectionValuesList>
+      <AllowedSectionValuesList>024</AllowedSectionValuesList>
+      <AllowedSectionValuesList>029</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0113</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0114</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0121</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0131</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0141</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0151</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0161</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01642</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01223</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01257</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01382</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01386</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01935</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01865</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01772</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01792</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>015396</AllowedSectionValuesList>
+      <AllowedSectionValuesList>016977</AllowedSectionValuesList>
+      <AllowedSectionValuesList>016064</AllowedSectionValuesList>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <CountrySectionCountry>UK</CountrySectionCountry>
@@ -3200,6 +3207,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>020</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <AllowedSectionValues>020,024,029,0113,0114,0121,0131,0141,0151,0161,01642,01223,01257,01382,01386,01935,01865,01772,01792,01204,015396,016977,016064</AllowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recOG3QWUgsjeJPtP</AssertionId>
@@ -3266,29 +3274,29 @@
       <SectionName>AreaCode</SectionName>
       <CountryName>UK</CountryName>
       <UnitTestName>UK-10UnitTest-6</UnitTestName>
-      <AllowedSectionValues>020</AllowedSectionValues>
-      <AllowedSectionValues>024</AllowedSectionValues>
-      <AllowedSectionValues>029</AllowedSectionValues>
-      <AllowedSectionValues>0113</AllowedSectionValues>
-      <AllowedSectionValues>0114</AllowedSectionValues>
-      <AllowedSectionValues>0121</AllowedSectionValues>
-      <AllowedSectionValues>0131</AllowedSectionValues>
-      <AllowedSectionValues>0141</AllowedSectionValues>
-      <AllowedSectionValues>0151</AllowedSectionValues>
-      <AllowedSectionValues>0161</AllowedSectionValues>
-      <AllowedSectionValues>01642</AllowedSectionValues>
-      <AllowedSectionValues>01223</AllowedSectionValues>
-      <AllowedSectionValues>01257</AllowedSectionValues>
-      <AllowedSectionValues>01382</AllowedSectionValues>
-      <AllowedSectionValues>01386</AllowedSectionValues>
-      <AllowedSectionValues>01935</AllowedSectionValues>
-      <AllowedSectionValues>01865</AllowedSectionValues>
-      <AllowedSectionValues>01772</AllowedSectionValues>
-      <AllowedSectionValues>01792</AllowedSectionValues>
-      <AllowedSectionValues>01204</AllowedSectionValues>
-      <AllowedSectionValues>015396</AllowedSectionValues>
-      <AllowedSectionValues>016977</AllowedSectionValues>
-      <AllowedSectionValues>016064</AllowedSectionValues>
+      <AllowedSectionValuesList>020</AllowedSectionValuesList>
+      <AllowedSectionValuesList>024</AllowedSectionValuesList>
+      <AllowedSectionValuesList>029</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0113</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0114</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0121</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0131</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0141</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0151</AllowedSectionValuesList>
+      <AllowedSectionValuesList>0161</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01642</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01223</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01257</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01382</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01386</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01935</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01865</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01772</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01792</AllowedSectionValuesList>
+      <AllowedSectionValuesList>01204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>015396</AllowedSectionValuesList>
+      <AllowedSectionValuesList>016977</AllowedSectionValuesList>
+      <AllowedSectionValuesList>016064</AllowedSectionValuesList>
       <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (212) is missing from the list of allowed values.</FailureDescription>
@@ -3299,6 +3307,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>212</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <AllowedSectionValues>020,024,029,0113,0114,0121,0131,0141,0151,0161,01642,01223,01257,01382,01386,01935,01865,01772,01792,01204,015396,016977,016064</AllowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recOtGK8arwlmJ1pJ</AssertionId>
@@ -3548,47 +3557,47 @@
       <SectionName>AreaCode</SectionName>
       <CountryName>Canada</CountryName>
       <UnitTestName>Canada-10UnitTest-15</UnitTestName>
-      <AllowedSectionValues>403</AllowedSectionValues>
-      <AllowedSectionValues>587</AllowedSectionValues>
-      <AllowedSectionValues>780</AllowedSectionValues>
-      <AllowedSectionValues>825</AllowedSectionValues>
-      <AllowedSectionValues>236</AllowedSectionValues>
-      <AllowedSectionValues>250</AllowedSectionValues>
-      <AllowedSectionValues>604</AllowedSectionValues>
-      <AllowedSectionValues>672</AllowedSectionValues>
-      <AllowedSectionValues>778</AllowedSectionValues>
-      <AllowedSectionValues>204</AllowedSectionValues>
-      <AllowedSectionValues>431</AllowedSectionValues>
-      <AllowedSectionValues>506</AllowedSectionValues>
-      <AllowedSectionValues>709</AllowedSectionValues>
-      <AllowedSectionValues>782</AllowedSectionValues>
-      <AllowedSectionValues>902</AllowedSectionValues>
-      <AllowedSectionValues>226</AllowedSectionValues>
-      <AllowedSectionValues>249</AllowedSectionValues>
-      <AllowedSectionValues>289</AllowedSectionValues>
-      <AllowedSectionValues>343</AllowedSectionValues>
-      <AllowedSectionValues>365</AllowedSectionValues>
-      <AllowedSectionValues>416</AllowedSectionValues>
-      <AllowedSectionValues>437</AllowedSectionValues>
-      <AllowedSectionValues>519</AllowedSectionValues>
-      <AllowedSectionValues>548</AllowedSectionValues>
-      <AllowedSectionValues>613</AllowedSectionValues>
-      <AllowedSectionValues>647</AllowedSectionValues>
-      <AllowedSectionValues>705</AllowedSectionValues>
-      <AllowedSectionValues>807</AllowedSectionValues>
-      <AllowedSectionValues>905</AllowedSectionValues>
-      <AllowedSectionValues>367</AllowedSectionValues>
-      <AllowedSectionValues>418</AllowedSectionValues>
-      <AllowedSectionValues>438</AllowedSectionValues>
-      <AllowedSectionValues>450</AllowedSectionValues>
-      <AllowedSectionValues>514</AllowedSectionValues>
-      <AllowedSectionValues>579</AllowedSectionValues>
-      <AllowedSectionValues>581</AllowedSectionValues>
-      <AllowedSectionValues>819</AllowedSectionValues>
-      <AllowedSectionValues>873</AllowedSectionValues>
-      <AllowedSectionValues>306</AllowedSectionValues>
-      <AllowedSectionValues>639</AllowedSectionValues>
-      <AllowedSectionValues>867</AllowedSectionValues>
+      <AllowedSectionValuesList>403</AllowedSectionValuesList>
+      <AllowedSectionValuesList>587</AllowedSectionValuesList>
+      <AllowedSectionValuesList>780</AllowedSectionValuesList>
+      <AllowedSectionValuesList>825</AllowedSectionValuesList>
+      <AllowedSectionValuesList>236</AllowedSectionValuesList>
+      <AllowedSectionValuesList>250</AllowedSectionValuesList>
+      <AllowedSectionValuesList>604</AllowedSectionValuesList>
+      <AllowedSectionValuesList>672</AllowedSectionValuesList>
+      <AllowedSectionValuesList>778</AllowedSectionValuesList>
+      <AllowedSectionValuesList>204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>431</AllowedSectionValuesList>
+      <AllowedSectionValuesList>506</AllowedSectionValuesList>
+      <AllowedSectionValuesList>709</AllowedSectionValuesList>
+      <AllowedSectionValuesList>782</AllowedSectionValuesList>
+      <AllowedSectionValuesList>902</AllowedSectionValuesList>
+      <AllowedSectionValuesList>226</AllowedSectionValuesList>
+      <AllowedSectionValuesList>249</AllowedSectionValuesList>
+      <AllowedSectionValuesList>289</AllowedSectionValuesList>
+      <AllowedSectionValuesList>343</AllowedSectionValuesList>
+      <AllowedSectionValuesList>365</AllowedSectionValuesList>
+      <AllowedSectionValuesList>416</AllowedSectionValuesList>
+      <AllowedSectionValuesList>437</AllowedSectionValuesList>
+      <AllowedSectionValuesList>519</AllowedSectionValuesList>
+      <AllowedSectionValuesList>548</AllowedSectionValuesList>
+      <AllowedSectionValuesList>613</AllowedSectionValuesList>
+      <AllowedSectionValuesList>647</AllowedSectionValuesList>
+      <AllowedSectionValuesList>705</AllowedSectionValuesList>
+      <AllowedSectionValuesList>807</AllowedSectionValuesList>
+      <AllowedSectionValuesList>905</AllowedSectionValuesList>
+      <AllowedSectionValuesList>367</AllowedSectionValuesList>
+      <AllowedSectionValuesList>418</AllowedSectionValuesList>
+      <AllowedSectionValuesList>438</AllowedSectionValuesList>
+      <AllowedSectionValuesList>450</AllowedSectionValuesList>
+      <AllowedSectionValuesList>514</AllowedSectionValuesList>
+      <AllowedSectionValuesList>579</AllowedSectionValuesList>
+      <AllowedSectionValuesList>581</AllowedSectionValuesList>
+      <AllowedSectionValuesList>819</AllowedSectionValuesList>
+      <AllowedSectionValuesList>873</AllowedSectionValuesList>
+      <AllowedSectionValuesList>306</AllowedSectionValuesList>
+      <AllowedSectionValuesList>639</AllowedSectionValuesList>
+      <AllowedSectionValuesList>867</AllowedSectionValuesList>
       <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (212) is missing from the list of allowed values.</FailureDescription>
@@ -3599,6 +3608,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>212</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <AllowedSectionValues>403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867</AllowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recVZMBADVjKxkXS8</AssertionId>
@@ -3627,47 +3637,47 @@
       <SectionName>AreaCode</SectionName>
       <CountryName>Canada</CountryName>
       <UnitTestName>Canada-10UnitTest-14</UnitTestName>
-      <AllowedSectionValues>403</AllowedSectionValues>
-      <AllowedSectionValues>587</AllowedSectionValues>
-      <AllowedSectionValues>780</AllowedSectionValues>
-      <AllowedSectionValues>825</AllowedSectionValues>
-      <AllowedSectionValues>236</AllowedSectionValues>
-      <AllowedSectionValues>250</AllowedSectionValues>
-      <AllowedSectionValues>604</AllowedSectionValues>
-      <AllowedSectionValues>672</AllowedSectionValues>
-      <AllowedSectionValues>778</AllowedSectionValues>
-      <AllowedSectionValues>204</AllowedSectionValues>
-      <AllowedSectionValues>431</AllowedSectionValues>
-      <AllowedSectionValues>506</AllowedSectionValues>
-      <AllowedSectionValues>709</AllowedSectionValues>
-      <AllowedSectionValues>782</AllowedSectionValues>
-      <AllowedSectionValues>902</AllowedSectionValues>
-      <AllowedSectionValues>226</AllowedSectionValues>
-      <AllowedSectionValues>249</AllowedSectionValues>
-      <AllowedSectionValues>289</AllowedSectionValues>
-      <AllowedSectionValues>343</AllowedSectionValues>
-      <AllowedSectionValues>365</AllowedSectionValues>
-      <AllowedSectionValues>416</AllowedSectionValues>
-      <AllowedSectionValues>437</AllowedSectionValues>
-      <AllowedSectionValues>519</AllowedSectionValues>
-      <AllowedSectionValues>548</AllowedSectionValues>
-      <AllowedSectionValues>613</AllowedSectionValues>
-      <AllowedSectionValues>647</AllowedSectionValues>
-      <AllowedSectionValues>705</AllowedSectionValues>
-      <AllowedSectionValues>807</AllowedSectionValues>
-      <AllowedSectionValues>905</AllowedSectionValues>
-      <AllowedSectionValues>367</AllowedSectionValues>
-      <AllowedSectionValues>418</AllowedSectionValues>
-      <AllowedSectionValues>438</AllowedSectionValues>
-      <AllowedSectionValues>450</AllowedSectionValues>
-      <AllowedSectionValues>514</AllowedSectionValues>
-      <AllowedSectionValues>579</AllowedSectionValues>
-      <AllowedSectionValues>581</AllowedSectionValues>
-      <AllowedSectionValues>819</AllowedSectionValues>
-      <AllowedSectionValues>873</AllowedSectionValues>
-      <AllowedSectionValues>306</AllowedSectionValues>
-      <AllowedSectionValues>639</AllowedSectionValues>
-      <AllowedSectionValues>867</AllowedSectionValues>
+      <AllowedSectionValuesList>403</AllowedSectionValuesList>
+      <AllowedSectionValuesList>587</AllowedSectionValuesList>
+      <AllowedSectionValuesList>780</AllowedSectionValuesList>
+      <AllowedSectionValuesList>825</AllowedSectionValuesList>
+      <AllowedSectionValuesList>236</AllowedSectionValuesList>
+      <AllowedSectionValuesList>250</AllowedSectionValuesList>
+      <AllowedSectionValuesList>604</AllowedSectionValuesList>
+      <AllowedSectionValuesList>672</AllowedSectionValuesList>
+      <AllowedSectionValuesList>778</AllowedSectionValuesList>
+      <AllowedSectionValuesList>204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>431</AllowedSectionValuesList>
+      <AllowedSectionValuesList>506</AllowedSectionValuesList>
+      <AllowedSectionValuesList>709</AllowedSectionValuesList>
+      <AllowedSectionValuesList>782</AllowedSectionValuesList>
+      <AllowedSectionValuesList>902</AllowedSectionValuesList>
+      <AllowedSectionValuesList>226</AllowedSectionValuesList>
+      <AllowedSectionValuesList>249</AllowedSectionValuesList>
+      <AllowedSectionValuesList>289</AllowedSectionValuesList>
+      <AllowedSectionValuesList>343</AllowedSectionValuesList>
+      <AllowedSectionValuesList>365</AllowedSectionValuesList>
+      <AllowedSectionValuesList>416</AllowedSectionValuesList>
+      <AllowedSectionValuesList>437</AllowedSectionValuesList>
+      <AllowedSectionValuesList>519</AllowedSectionValuesList>
+      <AllowedSectionValuesList>548</AllowedSectionValuesList>
+      <AllowedSectionValuesList>613</AllowedSectionValuesList>
+      <AllowedSectionValuesList>647</AllowedSectionValuesList>
+      <AllowedSectionValuesList>705</AllowedSectionValuesList>
+      <AllowedSectionValuesList>807</AllowedSectionValuesList>
+      <AllowedSectionValuesList>905</AllowedSectionValuesList>
+      <AllowedSectionValuesList>367</AllowedSectionValuesList>
+      <AllowedSectionValuesList>418</AllowedSectionValuesList>
+      <AllowedSectionValuesList>438</AllowedSectionValuesList>
+      <AllowedSectionValuesList>450</AllowedSectionValuesList>
+      <AllowedSectionValuesList>514</AllowedSectionValuesList>
+      <AllowedSectionValuesList>579</AllowedSectionValuesList>
+      <AllowedSectionValuesList>581</AllowedSectionValuesList>
+      <AllowedSectionValuesList>819</AllowedSectionValuesList>
+      <AllowedSectionValuesList>873</AllowedSectionValuesList>
+      <AllowedSectionValuesList>306</AllowedSectionValuesList>
+      <AllowedSectionValuesList>639</AllowedSectionValuesList>
+      <AllowedSectionValuesList>867</AllowedSectionValuesList>
       <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (608) is missing from the list of allowed values.</FailureDescription>
@@ -3678,6 +3688,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>608</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <AllowedSectionValues>403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867</AllowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recW4LyutC0q9G3IK</AssertionId>
@@ -3707,9 +3718,9 @@
       <SectionName>CentralOfficeCode</SectionName>
       <CountryName>US</CountryName>
       <UnitTestName>US-10UnitTest-10</UnitTestName>
-      <DisallowedSectionValues>555</DisallowedSectionValues>
-      <DisallowedSectionValues>911</DisallowedSectionValues>
-      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <DisallowedSectionValuesList>555</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>911</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>411</DisallowedSectionValuesList>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <CountrySectionCountry>US</CountrySectionCountry>
@@ -3719,6 +3730,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue />
       <CountrySectionDefaultValue />
+      <DisallowedSectionValues>555,911,411</DisallowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recWRKWhqbcbjjesj</AssertionId>
@@ -3816,9 +3828,9 @@
       <SectionName>CentralOfficeCode</SectionName>
       <CountryName>US</CountryName>
       <UnitTestName>US-10UnitTest-9</UnitTestName>
-      <DisallowedSectionValues>555</DisallowedSectionValues>
-      <DisallowedSectionValues>911</DisallowedSectionValues>
-      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <DisallowedSectionValuesList>555</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>911</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>411</DisallowedSectionValuesList>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>1</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (911) is explicity excluded.</FailureDescription>
@@ -3829,6 +3841,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>911</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <DisallowedSectionValues>555,911,411</DisallowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recXdHyxl467S1Lk9</AssertionId>
@@ -3894,47 +3907,47 @@
       <SectionName>AreaCode</SectionName>
       <CountryName>Canada</CountryName>
       <UnitTestName>Canada-10UnitTest-17</UnitTestName>
-      <AllowedSectionValues>403</AllowedSectionValues>
-      <AllowedSectionValues>587</AllowedSectionValues>
-      <AllowedSectionValues>780</AllowedSectionValues>
-      <AllowedSectionValues>825</AllowedSectionValues>
-      <AllowedSectionValues>236</AllowedSectionValues>
-      <AllowedSectionValues>250</AllowedSectionValues>
-      <AllowedSectionValues>604</AllowedSectionValues>
-      <AllowedSectionValues>672</AllowedSectionValues>
-      <AllowedSectionValues>778</AllowedSectionValues>
-      <AllowedSectionValues>204</AllowedSectionValues>
-      <AllowedSectionValues>431</AllowedSectionValues>
-      <AllowedSectionValues>506</AllowedSectionValues>
-      <AllowedSectionValues>709</AllowedSectionValues>
-      <AllowedSectionValues>782</AllowedSectionValues>
-      <AllowedSectionValues>902</AllowedSectionValues>
-      <AllowedSectionValues>226</AllowedSectionValues>
-      <AllowedSectionValues>249</AllowedSectionValues>
-      <AllowedSectionValues>289</AllowedSectionValues>
-      <AllowedSectionValues>343</AllowedSectionValues>
-      <AllowedSectionValues>365</AllowedSectionValues>
-      <AllowedSectionValues>416</AllowedSectionValues>
-      <AllowedSectionValues>437</AllowedSectionValues>
-      <AllowedSectionValues>519</AllowedSectionValues>
-      <AllowedSectionValues>548</AllowedSectionValues>
-      <AllowedSectionValues>613</AllowedSectionValues>
-      <AllowedSectionValues>647</AllowedSectionValues>
-      <AllowedSectionValues>705</AllowedSectionValues>
-      <AllowedSectionValues>807</AllowedSectionValues>
-      <AllowedSectionValues>905</AllowedSectionValues>
-      <AllowedSectionValues>367</AllowedSectionValues>
-      <AllowedSectionValues>418</AllowedSectionValues>
-      <AllowedSectionValues>438</AllowedSectionValues>
-      <AllowedSectionValues>450</AllowedSectionValues>
-      <AllowedSectionValues>514</AllowedSectionValues>
-      <AllowedSectionValues>579</AllowedSectionValues>
-      <AllowedSectionValues>581</AllowedSectionValues>
-      <AllowedSectionValues>819</AllowedSectionValues>
-      <AllowedSectionValues>873</AllowedSectionValues>
-      <AllowedSectionValues>306</AllowedSectionValues>
-      <AllowedSectionValues>639</AllowedSectionValues>
-      <AllowedSectionValues>867</AllowedSectionValues>
+      <AllowedSectionValuesList>403</AllowedSectionValuesList>
+      <AllowedSectionValuesList>587</AllowedSectionValuesList>
+      <AllowedSectionValuesList>780</AllowedSectionValuesList>
+      <AllowedSectionValuesList>825</AllowedSectionValuesList>
+      <AllowedSectionValuesList>236</AllowedSectionValuesList>
+      <AllowedSectionValuesList>250</AllowedSectionValuesList>
+      <AllowedSectionValuesList>604</AllowedSectionValuesList>
+      <AllowedSectionValuesList>672</AllowedSectionValuesList>
+      <AllowedSectionValuesList>778</AllowedSectionValuesList>
+      <AllowedSectionValuesList>204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>431</AllowedSectionValuesList>
+      <AllowedSectionValuesList>506</AllowedSectionValuesList>
+      <AllowedSectionValuesList>709</AllowedSectionValuesList>
+      <AllowedSectionValuesList>782</AllowedSectionValuesList>
+      <AllowedSectionValuesList>902</AllowedSectionValuesList>
+      <AllowedSectionValuesList>226</AllowedSectionValuesList>
+      <AllowedSectionValuesList>249</AllowedSectionValuesList>
+      <AllowedSectionValuesList>289</AllowedSectionValuesList>
+      <AllowedSectionValuesList>343</AllowedSectionValuesList>
+      <AllowedSectionValuesList>365</AllowedSectionValuesList>
+      <AllowedSectionValuesList>416</AllowedSectionValuesList>
+      <AllowedSectionValuesList>437</AllowedSectionValuesList>
+      <AllowedSectionValuesList>519</AllowedSectionValuesList>
+      <AllowedSectionValuesList>548</AllowedSectionValuesList>
+      <AllowedSectionValuesList>613</AllowedSectionValuesList>
+      <AllowedSectionValuesList>647</AllowedSectionValuesList>
+      <AllowedSectionValuesList>705</AllowedSectionValuesList>
+      <AllowedSectionValuesList>807</AllowedSectionValuesList>
+      <AllowedSectionValuesList>905</AllowedSectionValuesList>
+      <AllowedSectionValuesList>367</AllowedSectionValuesList>
+      <AllowedSectionValuesList>418</AllowedSectionValuesList>
+      <AllowedSectionValuesList>438</AllowedSectionValuesList>
+      <AllowedSectionValuesList>450</AllowedSectionValuesList>
+      <AllowedSectionValuesList>514</AllowedSectionValuesList>
+      <AllowedSectionValuesList>579</AllowedSectionValuesList>
+      <AllowedSectionValuesList>581</AllowedSectionValuesList>
+      <AllowedSectionValuesList>819</AllowedSectionValuesList>
+      <AllowedSectionValuesList>873</AllowedSectionValuesList>
+      <AllowedSectionValuesList>306</AllowedSectionValuesList>
+      <AllowedSectionValuesList>639</AllowedSectionValuesList>
+      <AllowedSectionValuesList>867</AllowedSectionValuesList>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <CountrySectionCountry>Canada</CountrySectionCountry>
@@ -3944,6 +3957,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue />
       <CountrySectionDefaultValue />
+      <AllowedSectionValues>403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867</AllowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recZ5D5ceV3D7qden</AssertionId>
@@ -4082,47 +4096,47 @@
       <SectionName>AreaCode</SectionName>
       <CountryName>Canada</CountryName>
       <UnitTestName>Canada-10UnitTest-13</UnitTestName>
-      <AllowedSectionValues>403</AllowedSectionValues>
-      <AllowedSectionValues>587</AllowedSectionValues>
-      <AllowedSectionValues>780</AllowedSectionValues>
-      <AllowedSectionValues>825</AllowedSectionValues>
-      <AllowedSectionValues>236</AllowedSectionValues>
-      <AllowedSectionValues>250</AllowedSectionValues>
-      <AllowedSectionValues>604</AllowedSectionValues>
-      <AllowedSectionValues>672</AllowedSectionValues>
-      <AllowedSectionValues>778</AllowedSectionValues>
-      <AllowedSectionValues>204</AllowedSectionValues>
-      <AllowedSectionValues>431</AllowedSectionValues>
-      <AllowedSectionValues>506</AllowedSectionValues>
-      <AllowedSectionValues>709</AllowedSectionValues>
-      <AllowedSectionValues>782</AllowedSectionValues>
-      <AllowedSectionValues>902</AllowedSectionValues>
-      <AllowedSectionValues>226</AllowedSectionValues>
-      <AllowedSectionValues>249</AllowedSectionValues>
-      <AllowedSectionValues>289</AllowedSectionValues>
-      <AllowedSectionValues>343</AllowedSectionValues>
-      <AllowedSectionValues>365</AllowedSectionValues>
-      <AllowedSectionValues>416</AllowedSectionValues>
-      <AllowedSectionValues>437</AllowedSectionValues>
-      <AllowedSectionValues>519</AllowedSectionValues>
-      <AllowedSectionValues>548</AllowedSectionValues>
-      <AllowedSectionValues>613</AllowedSectionValues>
-      <AllowedSectionValues>647</AllowedSectionValues>
-      <AllowedSectionValues>705</AllowedSectionValues>
-      <AllowedSectionValues>807</AllowedSectionValues>
-      <AllowedSectionValues>905</AllowedSectionValues>
-      <AllowedSectionValues>367</AllowedSectionValues>
-      <AllowedSectionValues>418</AllowedSectionValues>
-      <AllowedSectionValues>438</AllowedSectionValues>
-      <AllowedSectionValues>450</AllowedSectionValues>
-      <AllowedSectionValues>514</AllowedSectionValues>
-      <AllowedSectionValues>579</AllowedSectionValues>
-      <AllowedSectionValues>581</AllowedSectionValues>
-      <AllowedSectionValues>819</AllowedSectionValues>
-      <AllowedSectionValues>873</AllowedSectionValues>
-      <AllowedSectionValues>306</AllowedSectionValues>
-      <AllowedSectionValues>639</AllowedSectionValues>
-      <AllowedSectionValues>867</AllowedSectionValues>
+      <AllowedSectionValuesList>403</AllowedSectionValuesList>
+      <AllowedSectionValuesList>587</AllowedSectionValuesList>
+      <AllowedSectionValuesList>780</AllowedSectionValuesList>
+      <AllowedSectionValuesList>825</AllowedSectionValuesList>
+      <AllowedSectionValuesList>236</AllowedSectionValuesList>
+      <AllowedSectionValuesList>250</AllowedSectionValuesList>
+      <AllowedSectionValuesList>604</AllowedSectionValuesList>
+      <AllowedSectionValuesList>672</AllowedSectionValuesList>
+      <AllowedSectionValuesList>778</AllowedSectionValuesList>
+      <AllowedSectionValuesList>204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>431</AllowedSectionValuesList>
+      <AllowedSectionValuesList>506</AllowedSectionValuesList>
+      <AllowedSectionValuesList>709</AllowedSectionValuesList>
+      <AllowedSectionValuesList>782</AllowedSectionValuesList>
+      <AllowedSectionValuesList>902</AllowedSectionValuesList>
+      <AllowedSectionValuesList>226</AllowedSectionValuesList>
+      <AllowedSectionValuesList>249</AllowedSectionValuesList>
+      <AllowedSectionValuesList>289</AllowedSectionValuesList>
+      <AllowedSectionValuesList>343</AllowedSectionValuesList>
+      <AllowedSectionValuesList>365</AllowedSectionValuesList>
+      <AllowedSectionValuesList>416</AllowedSectionValuesList>
+      <AllowedSectionValuesList>437</AllowedSectionValuesList>
+      <AllowedSectionValuesList>519</AllowedSectionValuesList>
+      <AllowedSectionValuesList>548</AllowedSectionValuesList>
+      <AllowedSectionValuesList>613</AllowedSectionValuesList>
+      <AllowedSectionValuesList>647</AllowedSectionValuesList>
+      <AllowedSectionValuesList>705</AllowedSectionValuesList>
+      <AllowedSectionValuesList>807</AllowedSectionValuesList>
+      <AllowedSectionValuesList>905</AllowedSectionValuesList>
+      <AllowedSectionValuesList>367</AllowedSectionValuesList>
+      <AllowedSectionValuesList>418</AllowedSectionValuesList>
+      <AllowedSectionValuesList>438</AllowedSectionValuesList>
+      <AllowedSectionValuesList>450</AllowedSectionValuesList>
+      <AllowedSectionValuesList>514</AllowedSectionValuesList>
+      <AllowedSectionValuesList>579</AllowedSectionValuesList>
+      <AllowedSectionValuesList>581</AllowedSectionValuesList>
+      <AllowedSectionValuesList>819</AllowedSectionValuesList>
+      <AllowedSectionValuesList>873</AllowedSectionValuesList>
+      <AllowedSectionValuesList>306</AllowedSectionValuesList>
+      <AllowedSectionValuesList>639</AllowedSectionValuesList>
+      <AllowedSectionValuesList>867</AllowedSectionValuesList>
       <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (414) is missing from the list of allowed values.</FailureDescription>
@@ -4133,6 +4147,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>414</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <AllowedSectionValues>403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867</AllowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>reciEFrWinIBiP7BQ</AssertionId>
@@ -4238,9 +4253,9 @@
       <SectionName>CentralOfficeCode</SectionName>
       <CountryName>US</CountryName>
       <UnitTestName>US-7UnitTest-12</UnitTestName>
-      <DisallowedSectionValues>555</DisallowedSectionValues>
-      <DisallowedSectionValues>911</DisallowedSectionValues>
-      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <DisallowedSectionValuesList>555</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>911</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>411</DisallowedSectionValuesList>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>1</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (911) is explicity excluded.</FailureDescription>
@@ -4251,6 +4266,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>911</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <DisallowedSectionValues>555,911,411</DisallowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recli6pIdSO7KI41N</AssertionId>
@@ -4830,47 +4846,47 @@
       <SectionName>AreaCode</SectionName>
       <CountryName>Canada</CountryName>
       <UnitTestName>Canada-10UnitTest-7</UnitTestName>
-      <AllowedSectionValues>403</AllowedSectionValues>
-      <AllowedSectionValues>587</AllowedSectionValues>
-      <AllowedSectionValues>780</AllowedSectionValues>
-      <AllowedSectionValues>825</AllowedSectionValues>
-      <AllowedSectionValues>236</AllowedSectionValues>
-      <AllowedSectionValues>250</AllowedSectionValues>
-      <AllowedSectionValues>604</AllowedSectionValues>
-      <AllowedSectionValues>672</AllowedSectionValues>
-      <AllowedSectionValues>778</AllowedSectionValues>
-      <AllowedSectionValues>204</AllowedSectionValues>
-      <AllowedSectionValues>431</AllowedSectionValues>
-      <AllowedSectionValues>506</AllowedSectionValues>
-      <AllowedSectionValues>709</AllowedSectionValues>
-      <AllowedSectionValues>782</AllowedSectionValues>
-      <AllowedSectionValues>902</AllowedSectionValues>
-      <AllowedSectionValues>226</AllowedSectionValues>
-      <AllowedSectionValues>249</AllowedSectionValues>
-      <AllowedSectionValues>289</AllowedSectionValues>
-      <AllowedSectionValues>343</AllowedSectionValues>
-      <AllowedSectionValues>365</AllowedSectionValues>
-      <AllowedSectionValues>416</AllowedSectionValues>
-      <AllowedSectionValues>437</AllowedSectionValues>
-      <AllowedSectionValues>519</AllowedSectionValues>
-      <AllowedSectionValues>548</AllowedSectionValues>
-      <AllowedSectionValues>613</AllowedSectionValues>
-      <AllowedSectionValues>647</AllowedSectionValues>
-      <AllowedSectionValues>705</AllowedSectionValues>
-      <AllowedSectionValues>807</AllowedSectionValues>
-      <AllowedSectionValues>905</AllowedSectionValues>
-      <AllowedSectionValues>367</AllowedSectionValues>
-      <AllowedSectionValues>418</AllowedSectionValues>
-      <AllowedSectionValues>438</AllowedSectionValues>
-      <AllowedSectionValues>450</AllowedSectionValues>
-      <AllowedSectionValues>514</AllowedSectionValues>
-      <AllowedSectionValues>579</AllowedSectionValues>
-      <AllowedSectionValues>581</AllowedSectionValues>
-      <AllowedSectionValues>819</AllowedSectionValues>
-      <AllowedSectionValues>873</AllowedSectionValues>
-      <AllowedSectionValues>306</AllowedSectionValues>
-      <AllowedSectionValues>639</AllowedSectionValues>
-      <AllowedSectionValues>867</AllowedSectionValues>
+      <AllowedSectionValuesList>403</AllowedSectionValuesList>
+      <AllowedSectionValuesList>587</AllowedSectionValuesList>
+      <AllowedSectionValuesList>780</AllowedSectionValuesList>
+      <AllowedSectionValuesList>825</AllowedSectionValuesList>
+      <AllowedSectionValuesList>236</AllowedSectionValuesList>
+      <AllowedSectionValuesList>250</AllowedSectionValuesList>
+      <AllowedSectionValuesList>604</AllowedSectionValuesList>
+      <AllowedSectionValuesList>672</AllowedSectionValuesList>
+      <AllowedSectionValuesList>778</AllowedSectionValuesList>
+      <AllowedSectionValuesList>204</AllowedSectionValuesList>
+      <AllowedSectionValuesList>431</AllowedSectionValuesList>
+      <AllowedSectionValuesList>506</AllowedSectionValuesList>
+      <AllowedSectionValuesList>709</AllowedSectionValuesList>
+      <AllowedSectionValuesList>782</AllowedSectionValuesList>
+      <AllowedSectionValuesList>902</AllowedSectionValuesList>
+      <AllowedSectionValuesList>226</AllowedSectionValuesList>
+      <AllowedSectionValuesList>249</AllowedSectionValuesList>
+      <AllowedSectionValuesList>289</AllowedSectionValuesList>
+      <AllowedSectionValuesList>343</AllowedSectionValuesList>
+      <AllowedSectionValuesList>365</AllowedSectionValuesList>
+      <AllowedSectionValuesList>416</AllowedSectionValuesList>
+      <AllowedSectionValuesList>437</AllowedSectionValuesList>
+      <AllowedSectionValuesList>519</AllowedSectionValuesList>
+      <AllowedSectionValuesList>548</AllowedSectionValuesList>
+      <AllowedSectionValuesList>613</AllowedSectionValuesList>
+      <AllowedSectionValuesList>647</AllowedSectionValuesList>
+      <AllowedSectionValuesList>705</AllowedSectionValuesList>
+      <AllowedSectionValuesList>807</AllowedSectionValuesList>
+      <AllowedSectionValuesList>905</AllowedSectionValuesList>
+      <AllowedSectionValuesList>367</AllowedSectionValuesList>
+      <AllowedSectionValuesList>418</AllowedSectionValuesList>
+      <AllowedSectionValuesList>438</AllowedSectionValuesList>
+      <AllowedSectionValuesList>450</AllowedSectionValuesList>
+      <AllowedSectionValuesList>514</AllowedSectionValuesList>
+      <AllowedSectionValuesList>579</AllowedSectionValuesList>
+      <AllowedSectionValuesList>581</AllowedSectionValuesList>
+      <AllowedSectionValuesList>819</AllowedSectionValuesList>
+      <AllowedSectionValuesList>873</AllowedSectionValuesList>
+      <AllowedSectionValuesList>306</AllowedSectionValuesList>
+      <AllowedSectionValuesList>639</AllowedSectionValuesList>
+      <AllowedSectionValuesList>867</AllowedSectionValuesList>
       <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (414) is missing from the list of allowed values.</FailureDescription>
@@ -4881,6 +4897,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>414</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <AllowedSectionValues>403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867</AllowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recu2j4chZZjiwSiT</AssertionId>
@@ -4910,9 +4927,9 @@
       <SectionName>CentralOfficeCode</SectionName>
       <CountryName>US</CountryName>
       <UnitTestName>US-7UnitTest-11</UnitTestName>
-      <DisallowedSectionValues>555</DisallowedSectionValues>
-      <DisallowedSectionValues>911</DisallowedSectionValues>
-      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <DisallowedSectionValuesList>555</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>911</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>411</DisallowedSectionValuesList>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <CountrySectionCountry>US</CountrySectionCountry>
@@ -4922,6 +4939,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>278</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <DisallowedSectionValues>555,911,411</DisallowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recuoAYOTBGfkfgAG</AssertionId>
@@ -4985,9 +5003,9 @@
       <SectionName>CentralOfficeCode</SectionName>
       <CountryName>US</CountryName>
       <UnitTestName>US-10UnitTest-8</UnitTestName>
-      <DisallowedSectionValues>555</DisallowedSectionValues>
-      <DisallowedSectionValues>911</DisallowedSectionValues>
-      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <DisallowedSectionValuesList>555</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>911</DisallowedSectionValuesList>
+      <DisallowedSectionValuesList>411</DisallowedSectionValuesList>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <FailureDescription>Assertion is expected to fail because the value (030) is too low.</FailureDescription>
@@ -4998,6 +5016,7 @@
       <TooLong>0</TooLong>
       <RawExtractedValue>030</RawExtractedValue>
       <CountrySectionDefaultValue />
+      <DisallowedSectionValues>555,911,411</DisallowedSectionValues>
     </Assertion>
     <Assertion>
       <AssertionId>recvRoAx5JimIIi1j</AssertionId>

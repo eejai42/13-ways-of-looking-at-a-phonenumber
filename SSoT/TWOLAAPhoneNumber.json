@@ -13,11 +13,13 @@
                 "CountryName": "UK",
                 "CountryCode": "44",
                 "IsRequired": "false",
-                "MinValue": "",
+                "MinValue": "44",
                 "MaxValue": "44",
                 "MinLength": "2",
                 "MaxLength": "2",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "UK-AreaCode-###..###",
@@ -25,7 +27,7 @@
                 "CountryName": "UK",
                 "CountryCode": "44",
                 "IsRequired": "false",
-                "MinValue": "",
+                "MinValue": "020",
                 "MaxValue": "016977",
                 "MinLength": "3",
                 "MaxLength": "6",
@@ -216,7 +218,9 @@
                       "SubscriberNumberMaxLength": "4"
                     }
                   ]
-                }
+                },
+                "AllowedSectionValues": "020,024,029,0113,0114,0121,0131,0141,0151,0161,01642,01223,01257,01382,01386,01935,01865,01772,01792,01204,015396,016977,016064",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "UK-CentralOfficeCode-#..###",
@@ -224,11 +228,13 @@
                 "CountryName": "UK",
                 "CountryCode": "44",
                 "IsRequired": "false",
-                "MinValue": "",
+                "MinValue": "0",
                 "MaxValue": "9999",
                 "MinLength": "1",
                 "MaxLength": "4",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "UK-SubscriberNumber-####..#",
@@ -236,11 +242,13 @@
                 "CountryName": "UK",
                 "CountryCode": "44",
                 "IsRequired": "true",
-                "MinValue": "",
+                "MinValue": "1000",
                 "MaxValue": "99999",
                 "MinLength": "4",
                 "MaxLength": "5",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               }
             ]
           },
@@ -314,7 +322,7 @@
                       "Section3": "8135",
                       "Section4": "1234",
                       "Section5": "",
-                      "AllowedSectionValues": "020",
+                      "AllowedSectionValues": "020,024,029,0113,0114,0121,0131,0141,0151,0161,01642,01223,01257,01382,01386,01935,01865,01772,01792,01204,015396,016977,016064",
                       "DisallowedSectionValues": ""
                     },
                     {
@@ -441,7 +449,7 @@
                       "Section3": "555",
                       "Section4": "1234",
                       "Section5": "",
-                      "AllowedSectionValues": "020",
+                      "AllowedSectionValues": "020,024,029,0113,0114,0121,0131,0141,0151,0161,01642,01223,01257,01382,01386,01935,01865,01772,01792,01204,015396,016977,016064",
                       "DisallowedSectionValues": ""
                     },
                     {
@@ -514,11 +522,13 @@
                 "CountryName": "Germany",
                 "CountryCode": "49",
                 "IsRequired": "false",
-                "MinValue": "",
+                "MinValue": "49",
                 "MaxValue": "49",
                 "MinLength": "2",
                 "MaxLength": "2",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "Germany-AreaCode-##..##",
@@ -526,11 +536,13 @@
                 "CountryName": "Germany",
                 "CountryCode": "49",
                 "IsRequired": "false",
-                "MinValue": "",
+                "MinValue": "10",
                 "MaxValue": "9999",
                 "MinLength": "2",
                 "MaxLength": "4",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "Germany-SubscriberNumber-#####..###",
@@ -538,11 +550,13 @@
                 "CountryName": "Germany",
                 "CountryCode": "49",
                 "IsRequired": "true",
-                "MinValue": "",
+                "MinValue": "10000",
                 "MaxValue": "99999999",
                 "MinLength": "5",
                 "MaxLength": "8",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               }
             ]
           },
@@ -559,11 +573,13 @@
                 "CountryName": "Canada",
                 "CountryCode": "1",
                 "IsRequired": "false",
-                "MinValue": "",
+                "MinValue": "1",
                 "MaxValue": "1",
                 "MinLength": "1",
                 "MaxLength": "1",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "Canada-AreaCode-###",
@@ -571,7 +587,7 @@
                 "CountryName": "Canada",
                 "CountryCode": "1",
                 "IsRequired": "false",
-                "MinValue": "",
+                "MinValue": "204",
                 "MaxValue": "905",
                 "MinLength": "3",
                 "MaxLength": "3",
@@ -906,7 +922,9 @@
                       "SubscriberNumberMaxLength": ""
                     }
                   ]
-                }
+                },
+                "AllowedSectionValues": "403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "Canada-CentralOfficeCode-###",
@@ -914,11 +932,13 @@
                 "CountryName": "Canada",
                 "CountryCode": "1",
                 "IsRequired": "true",
-                "MinValue": "",
+                "MinValue": "100",
                 "MaxValue": "999",
                 "MinLength": "3",
                 "MaxLength": "3",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "Canada-SubscriberNumber-####",
@@ -926,18 +946,22 @@
                 "CountryName": "Canada",
                 "CountryCode": "1",
                 "IsRequired": "true",
-                "MinValue": "",
+                "MinValue": "0",
                 "MaxValue": "9999",
                 "MinLength": "4",
                 "MaxLength": "4",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "Canada-ExtraNumbers-IGNORED",
                 "PhoneNumberSectionName": "ExtraNumbers",
                 "IsIgnored": "true",
                 "IsRequired": "false",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               }
             ]
           },
@@ -1011,7 +1035,7 @@
                       "Section3": "411",
                       "Section4": "1234",
                       "Section5": "",
-                      "AllowedSectionValues": "403",
+                      "AllowedSectionValues": "403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867",
                       "DisallowedSectionValues": ""
                     },
                     {
@@ -1165,7 +1189,7 @@
                       "Section3": "030",
                       "Section4": "0000",
                       "Section5": "",
-                      "AllowedSectionValues": "403",
+                      "AllowedSectionValues": "403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867",
                       "DisallowedSectionValues": ""
                     },
                     {
@@ -1318,7 +1342,7 @@
                       "Section3": "555",
                       "Section4": "2134",
                       "Section5": "4544-12323",
-                      "AllowedSectionValues": "403",
+                      "AllowedSectionValues": "403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867",
                       "DisallowedSectionValues": ""
                     },
                     {
@@ -1472,7 +1496,7 @@
                       "Section3": "911",
                       "Section4": "1234",
                       "Section5": "",
-                      "AllowedSectionValues": "403",
+                      "AllowedSectionValues": "403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867",
                       "DisallowedSectionValues": ""
                     },
                     {
@@ -1623,7 +1647,7 @@
                       "Section3": "",
                       "Section4": "123",
                       "Section5": "",
-                      "AllowedSectionValues": "403",
+                      "AllowedSectionValues": "403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867",
                       "DisallowedSectionValues": ""
                     },
                     {
@@ -1777,7 +1801,7 @@
                       "Section3": "000",
                       "Section4": "1348",
                       "Section5": "",
-                      "AllowedSectionValues": "403",
+                      "AllowedSectionValues": "403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867",
                       "DisallowedSectionValues": ""
                     },
                     {
@@ -1931,7 +1955,7 @@
                       "Section3": "356",
                       "Section4": "1234",
                       "Section5": "",
-                      "AllowedSectionValues": "403",
+                      "AllowedSectionValues": "403,587,780,825,236,250,604,672,778,204,431,506,709,782,902,226,249,289,343,365,416,437,519,548,613,647,705,807,905,367,418,438,450,514,579,581,819,873,306,639,867",
                       "DisallowedSectionValues": ""
                     },
                     {
@@ -2031,11 +2055,13 @@
                 "CountryName": "US",
                 "CountryCode": "1",
                 "IsRequired": "false",
-                "MinValue": "",
+                "MinValue": "1",
                 "MaxValue": "1",
                 "MinLength": "1",
                 "MaxLength": "1",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "US-AreaCode-###",
@@ -2043,11 +2069,13 @@
                 "CountryName": "US",
                 "CountryCode": "1",
                 "IsRequired": "false",
-                "MinValue": "",
+                "MinValue": "200",
                 "MaxValue": "919",
                 "MinLength": "3",
                 "MaxLength": "3",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "US-CentralOfficeCode-###",
@@ -2055,7 +2083,7 @@
                 "CountryName": "US",
                 "CountryCode": "1",
                 "IsRequired": "true",
-                "MinValue": "",
+                "MinValue": "100",
                 "MaxValue": "999",
                 "MinLength": "3",
                 "MaxLength": "3",
@@ -2086,7 +2114,9 @@
                       "SubscriberNumberMaxLength": ""
                     }
                   ]
-                }
+                },
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": "555,911,411"
               },
               {
                 "Name": "US-SubscriberNumber-####",
@@ -2094,18 +2124,22 @@
                 "CountryName": "US",
                 "CountryCode": "1",
                 "IsRequired": "true",
-                "MinValue": "",
+                "MinValue": "0000",
                 "MaxValue": "9999",
                 "MinLength": "4",
                 "MaxLength": "4",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               },
               {
                 "Name": "US-ExtraNumbers-IGNORED",
                 "PhoneNumberSectionName": "ExtraNumbers",
                 "IsIgnored": "true",
                 "IsRequired": "false",
-                "SectionValues": ""
+                "SectionValues": "",
+                "AllowedSectionValues": "",
+                "DisallowedSectionValues": ""
               }
             ]
           },
@@ -2207,7 +2241,7 @@
                       "Section4": "1234",
                       "Section5": "",
                       "AllowedSectionValues": "",
-                      "DisallowedSectionValues": "555"
+                      "DisallowedSectionValues": "555,911,411"
                     },
                     {
                       "Name": "SubscriberNumber=1234",
@@ -2358,7 +2392,7 @@
                       "Section4": "123",
                       "Section5": "",
                       "AllowedSectionValues": "",
-                      "DisallowedSectionValues": "555"
+                      "DisallowedSectionValues": "555,911,411"
                     },
                     {
                       "Name": "SubscriberNumber=123 - FAIL",
@@ -2511,7 +2545,7 @@
                       "Section4": "2134",
                       "Section5": "4544-12323",
                       "AllowedSectionValues": "",
-                      "DisallowedSectionValues": "555"
+                      "DisallowedSectionValues": "555,911,411"
                     },
                     {
                       "Name": "SubscriberNumber=2134",
@@ -2665,7 +2699,7 @@
                       "Section4": "0000",
                       "Section5": "",
                       "AllowedSectionValues": "",
-                      "DisallowedSectionValues": "555"
+                      "DisallowedSectionValues": "555,911,411"
                     },
                     {
                       "Name": "SubscriberNumber=0000",
@@ -2819,7 +2853,7 @@
                       "Section4": "1234",
                       "Section5": "",
                       "AllowedSectionValues": "",
-                      "DisallowedSectionValues": "555"
+                      "DisallowedSectionValues": "555,911,411"
                     },
                     {
                       "Name": "SubscriberNumber=1234",
@@ -2917,7 +2951,7 @@
                       "Section4": "1234",
                       "Section5": "",
                       "AllowedSectionValues": "",
-                      "DisallowedSectionValues": "555"
+                      "DisallowedSectionValues": "555,911,411"
                     },
                     {
                       "Name": "SubscriberNumber=1234",
@@ -3015,7 +3049,7 @@
                       "Section4": "1234",
                       "Section5": "88",
                       "AllowedSectionValues": "",
-                      "DisallowedSectionValues": "555"
+                      "DisallowedSectionValues": "555,911,411"
                     },
                     {
                       "Name": "SubscriberNumber=1234",

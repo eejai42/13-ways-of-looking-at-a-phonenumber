@@ -12,9 +12,5 @@ namespace PhoneNumber_TestProject1
         {
         }
 
-        internal void ParseCountryCode()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

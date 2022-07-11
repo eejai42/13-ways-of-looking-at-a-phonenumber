@@ -14,17 +14,8 @@ namespace PhoneNumber_TestProject1
         public override void ParsePhoneNumber()
         {
             base.StripPlus();
-            this.ParseCountryCode();
             // TODO: Call the rest of the UK 9 digit Phone Section parsing methods
-        }
-
-        private void ParseCountryCode()
-        {
-            if (this.RemainingNumber.StartsWith("44"))
-            {
-                this.CountryCode = "44";
-                this.RemainingNumber = this.RemainingNumber.Substring(1);
-            }
+            // base.ParseCountryCode();
         }
 
         // TODO: Write UK 9 digit Phone Section parsing methods

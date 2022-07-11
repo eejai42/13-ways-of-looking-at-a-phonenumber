@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PhoneNumber_TestProject1
 {
-    public abstract class CanadaPhoneNumberBase : PhoneNumberBase
+    public abstract partial class CanadaPhoneNumberBase : PhoneNumberBase
     {
 
         // TODO: Create the rest of the Canada Phone number sections properties

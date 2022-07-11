@@ -27,11 +27,6 @@ namespace PhoneNumber_TestProject1
                 base.ParseSubscriberNumber();
                 base.ParseExtraNumbers();
             }
-
-            // TODO: Call the rest of the parse methods
-        }
-
-        
-        // TODO: Implement the rest of the US10 PhoneNumber parsing logic
+        }   
     }
 }

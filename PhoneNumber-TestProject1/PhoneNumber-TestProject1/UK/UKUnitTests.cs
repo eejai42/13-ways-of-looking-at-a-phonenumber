@@ -3,7 +3,7 @@ using System;
 
 namespace PhoneNumber_TestProject1
 {
-    public class UKUnitTests
+    public abstract class UKUnitTests 
     {
         [SetUp]
         public void Setup()

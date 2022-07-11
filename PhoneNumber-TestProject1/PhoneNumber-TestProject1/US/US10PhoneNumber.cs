@@ -18,17 +18,12 @@ namespace PhoneNumber_TestProject1
             this.ParseCountryCode();
             if (this.CheckLength())
             {
-                this.ParseAreaCode();
-                this.ParseCentralOfficeCode();
-                this.ParseSubscriberNumber();
-                this.ParseExtraNumbers();
+                base.ParseAreaCode();
+                base.ParseCentralOfficeCode();
+                base.ParseSubscriberNumber();
+                base.ParseExtraNumbers();
                 // TODO: Call the rest of the parse methods
             }
-        }
-
-        private void ParseExtraNumbers()
-        {
-            this.RemainingNumber = this.ExtraNumbers = "";            
         }
 
         /// <summary>
@@ -57,16 +52,6 @@ namespace PhoneNumber_TestProject1
             else return true;
         }
 
-
-        /// <summary>
-        /// Strip the area ocde off of the number
-        /// </summary>
-        private void ParseAreaCode()
-        {
-            this.AreaCode = this.RemainingNumber.Substring(0, 3);
-            this.RemainingNumber = this.RemainingNumber.Substring(3);
-            if (Int32.Parse($"0{this.AreaCode}") < 100) this.AddError("AreaCode", "Too low");
-        }
 
         // TODO: Implement the rest of the US10 PhoneNumber parsing logic
     }

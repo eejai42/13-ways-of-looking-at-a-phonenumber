@@ -7,7 +7,6 @@ namespace PhoneNumber_TestProject1
     {
         public US10PhoneNumber(string e164Format) : base(e164Format, 10)
         {
-            
         }
 
         /// <summary>
@@ -20,8 +19,16 @@ namespace PhoneNumber_TestProject1
             if (this.CheckLength())
             {
                 this.ParseAreaCode();
+                this.ParseCentralOfficeCode();
+                this.ParseSubscriberNumber();
+                this.ParseExtraNumbers();
                 // TODO: Call the rest of the parse methods
             }
+        }
+
+        private void ParseExtraNumbers()
+        {
+            this.RemainingNumber = this.ExtraNumbers = "";            
         }
 
         /// <summary>
@@ -29,9 +36,9 @@ namespace PhoneNumber_TestProject1
         /// </summary>
         private void ParseCountryCode()
         {
+            this.CountryCode = "1";
             if (this.RemainingNumber.StartsWith("1"))
             {
-                this.CountryCode = "1";
                 this.RemainingNumber = this.RemainingNumber.Substring(1);
             }
         }
@@ -42,7 +49,7 @@ namespace PhoneNumber_TestProject1
         /// <returns>Returns true if the length is the expected length</returns>
         internal bool CheckLength()
         {
-            if (this.RemainingNumber.Length != this.ExpectedLength)
+            if (this.RemainingNumber.Length < this.ExpectedLength)
             {
                 this.AddError($"Input string {E164Format} not a valid {this.ExpectedLength} digit phone number.");
                 return false;
@@ -58,6 +65,7 @@ namespace PhoneNumber_TestProject1
         {
             this.AreaCode = this.RemainingNumber.Substring(0, 3);
             this.RemainingNumber = this.RemainingNumber.Substring(3);
+            if (Int32.Parse($"0{this.AreaCode}") < 100) this.AddError("AreaCode", "Too low");
         }
 
         // TODO: Implement the rest of the US10 PhoneNumber parsing logic

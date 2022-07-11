@@ -17,6 +17,11 @@ namespace PhoneNumber_TestProject1
         public string E164Format { get; set; }
 
         /// <summary>
+        /// The length of the expected phone number
+        /// </summary>
+        public int ExpectedLength { get; }
+
+        /// <summary>
         /// A boolean value indicating the current state of this object.  It will return false if there are no errors listed.
         /// </summary>
         public bool IsValid { get { return !this.Errors.Any() && !this.ErrorParts.Any(); } }
@@ -44,8 +49,9 @@ namespace PhoneNumber_TestProject1
         /// </summary>
         /// <param name="countryName"></param>
         /// <param name="e164Format"></param>
-        public PhoneNumberBase(string countryName, string e164Format)
+        public PhoneNumberBase(string countryName, string e164Format, int expectedLength)
         {
+            this.ExpectedLength = expectedLength;
             this.CountryName = countryName;
             this.E164Format = e164Format;
             this.Errors = new List<string>();
@@ -76,6 +82,7 @@ namespace PhoneNumber_TestProject1
         /// <param name="errorMessage">The specific error that was encountered while attempting to parse the phone number.</param>
         internal void AddError(string errorPart, string errorMessage)
         {
+            Console.WriteLine($"ERROR: {errorPart}::{errorMessage}");
             if (!String.IsNullOrEmpty(errorPart)) this.ErrorParts.Add(errorPart);
             this.Errors.Add(errorMessage);
         }

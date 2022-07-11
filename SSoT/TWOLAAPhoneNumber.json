@@ -1268,13 +1268,13 @@
                 "Assertions": {
                   "Assertion": [
                     {
-                      "Name": "CountryCode=",
+                      "Name": "CountryCode=1",
                       "CountryName": "Canada",
                       "UnitTestName": "Canada-10UnitTest-15",
                       "TestValue": "-212-555-2134-4544-12323",
                       "SectionName": "CountryCode",
                       "FailureDescription": "",
-                      "ExtractedValue": "",
+                      "ExtractedValue": "1",
                       "AssertionFailed": "0",
                       "ParameterMin": "1",
                       "ParameterMax": "1",
@@ -1573,13 +1573,13 @@
                 "Assertions": {
                   "Assertion": [
                     {
-                      "Name": "CountryCode=",
+                      "Name": "CountryCode=1",
                       "CountryName": "Canada",
                       "UnitTestName": "Canada-10UnitTest-17",
                       "TestValue": "---123",
                       "SectionName": "CountryCode",
                       "FailureDescription": "",
-                      "ExtractedValue": "",
+                      "ExtractedValue": "1",
                       "AssertionFailed": "0",
                       "ParameterMin": "1",
                       "ParameterMax": "1",
@@ -2280,13 +2280,13 @@
                 "Assertions": {
                   "Assertion": [
                     {
-                      "Name": "CountryCode=",
+                      "Name": "CountryCode=1",
                       "CountryName": "US",
                       "UnitTestName": "US-10UnitTest-10",
                       "TestValue": "---123",
                       "SectionName": "CountryCode",
                       "FailureDescription": "",
-                      "ExtractedValue": "",
+                      "ExtractedValue": "1",
                       "AssertionFailed": "0",
                       "ParameterMin": "1",
                       "ParameterMax": "1",
@@ -2433,13 +2433,13 @@
                 "Assertions": {
                   "Assertion": [
                     {
-                      "Name": "CountryCode=",
+                      "Name": "CountryCode=1",
                       "CountryName": "US",
                       "UnitTestName": "US-10UnitTest-3",
                       "TestValue": "-212-555-2134-4544-12323",
                       "SectionName": "CountryCode",
                       "FailureDescription": "",
-                      "ExtractedValue": "",
+                      "ExtractedValue": "1",
                       "AssertionFailed": "0",
                       "ParameterMin": "1",
                       "ParameterMax": "1",

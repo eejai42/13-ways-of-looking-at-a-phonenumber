@@ -734,6 +734,7 @@
       <CountryName>Canada</CountryName>
       <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
       <SectionDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</SectionDescription>
+      <DefaultValue>1</DefaultValue>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recJkndWmmqluwswT</CountrySectionId>
@@ -888,6 +889,7 @@
       <CountryName>US</CountryName>
       <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
       <SectionDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</SectionDescription>
+      <DefaultValue>1</DefaultValue>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>recas7of8hug9Zetk</CountrySectionId>
@@ -1016,6 +1018,7 @@
       <CountryName>Germany</CountryName>
       <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
       <SectionDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</SectionDescription>
+      <DefaultValue>49</DefaultValue>
     </CountrySection>
     <CountrySection>
       <CountrySectionId>reck53YMR0eUuZavr</CountrySectionId>
@@ -1165,6 +1168,7 @@
       <CountryName>UK</CountryName>
       <PhoneNumberSectionName>CountryCode</PhoneNumberSectionName>
       <SectionDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</SectionDescription>
+      <DefaultValue>44</DefaultValue>
     </CountrySection>
   </CountrySections>
   <PhoneNumberSections>
@@ -2092,6 +2096,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>411</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec1sfSDhYujZD9Tb</AssertionId>
@@ -2127,6 +2133,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1234</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec2G8CXnQY93ecHF</AssertionId>
@@ -2162,6 +2170,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>414</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec2bIKNNlGussNCU</AssertionId>
@@ -2197,6 +2207,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1348</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec2yKao2dZqgTnog</AssertionId>
@@ -2207,6 +2219,7 @@
       <TestValue>1-608-911-1234</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -2229,6 +2242,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec3Q68XUfALDIohi</AssertionId>
@@ -2264,6 +2278,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1234</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec5W9CnhSt2HvMsl</AssertionId>
@@ -2274,6 +2290,7 @@
       <TestValue>1-325-000-1348</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -2296,6 +2313,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec6LKtyvajs0u6vQ</AssertionId>
@@ -2331,6 +2349,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1234</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec7rSXXX0haCsqEa</AssertionId>
@@ -2341,6 +2361,7 @@
       <TestValue>1-414-411-1234</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -2363,6 +2384,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec85bLtt4EH2Bk31</AssertionId>
@@ -2398,6 +2420,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1234</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec95onzSofZexZ8w</AssertionId>
@@ -2475,6 +2499,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>325</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rec9oO15vdN7K9FRr</AssertionId>
@@ -2510,6 +2536,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1</RawExtractedValue>
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recCWxKYlxwROl9UP</AssertionId>
@@ -2587,6 +2615,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>608</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recDgTuDWhsLZaY89</AssertionId>
@@ -2623,6 +2653,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>911</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recEiRxowSnKAn5aP</AssertionId>
@@ -2663,6 +2695,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>411</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recFRKXi92yx2CD7H</AssertionId>
@@ -2698,6 +2732,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1234</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recFlqqYFC52BWyqJ</AssertionId>
@@ -2708,6 +2744,7 @@
       <TestValue>---123</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -2730,6 +2767,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recFw9cuq1TZXKJrB</AssertionId>
@@ -2766,6 +2804,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>2134</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recGMVqbL2bZbPn2j</AssertionId>
@@ -2776,6 +2816,7 @@
       <TestValue>---123</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -2798,6 +2839,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recH4L1BIqHAujhHg</AssertionId>
@@ -2833,6 +2875,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>608</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recHcNysMbtkfHXTs</AssertionId>
@@ -2843,6 +2887,7 @@
       <TestValue>-212-555-2134-4544-12323</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -2865,6 +2910,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recIQPOWyD3FGHngo</AssertionId>
@@ -2900,6 +2946,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1</RawExtractedValue>
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recKbjQU6iB4emBQ8</AssertionId>
@@ -2935,6 +2983,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1</RawExtractedValue>
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recKz1mSNZGICOHhC</AssertionId>
@@ -2970,6 +3020,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1234</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recM1V8iuML15A7zJ</AssertionId>
@@ -3011,6 +3063,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>555</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recM7SQKP6nnq8eLp</AssertionId>
@@ -3046,6 +3100,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1</RawExtractedValue>
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recMxJ6Q7SEOwsc8Q</AssertionId>
@@ -3053,13 +3109,13 @@
       <UnitTest>rece8egpHIUeTLJw5</UnitTest>
       <CountrySection>recUdB1NVDOQsaZU4</CountrySection>
       <CustomSectionNumber>1</CustomSectionNumber>
-      <Name>CountryCode=</Name>
+      <Name>CountryCode=1</Name>
       <TestValue>-212-555-2134-4544-12323</TestValue>
       <ParameterMin>1</ParameterMin>
       <ParameterMax>1</ParameterMax>
       <SectionMinlength>1</SectionMinlength>
       <SectionMaxLength>1</SectionMaxLength>
-      <ExtractedValue />
+      <ExtractedValue>1</ExtractedValue>
       <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -3082,6 +3138,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue />
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recNQzL2dCrb4Cr2I</AssertionId>
@@ -3140,6 +3198,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>020</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recOG3QWUgsjeJPtP</AssertionId>
@@ -3176,6 +3236,8 @@
       <IsSectionIgnored />
       <TooShort>1</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>123</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recOa3dhWhgDBKROS</AssertionId>
@@ -3235,6 +3297,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>212</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recOtGK8arwlmJ1pJ</AssertionId>
@@ -3270,6 +3334,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1234</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recP12MRv9e4d8KL1</AssertionId>
@@ -3306,6 +3372,8 @@
       <IsSectionIgnored />
       <TooShort>1</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>123</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recPNh7BP6yzgyQjH</AssertionId>
@@ -3341,6 +3409,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>2134</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recRFh2VTPEHJ1ugG</AssertionId>
@@ -3376,6 +3446,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue />
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recRzJxxCz2hNJchH</AssertionId>
@@ -3412,6 +3484,8 @@
       <IsSectionIgnored />
       <TooShort>1</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1</RawExtractedValue>
+      <CountrySectionDefaultValue>44</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recU4ikyCM5QeFqUh</AssertionId>
@@ -3422,6 +3496,7 @@
       <TestValue>1-414-411-1234</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -3444,6 +3519,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recURdOPz1ngcyDcv</AssertionId>
@@ -3521,6 +3597,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>212</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recVZMBADVjKxkXS8</AssertionId>
@@ -3598,6 +3676,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>608</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recW4LyutC0q9G3IK</AssertionId>
@@ -3637,6 +3717,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue />
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recWRKWhqbcbjjesj</AssertionId>
@@ -3647,6 +3729,7 @@
       <TestValue>1-608-911-1234</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -3669,6 +3752,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recWYidMnEhpDJlWF</AssertionId>
@@ -3679,6 +3763,7 @@
       <TestValue>1-414-356-1234</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -3701,6 +3786,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recXFxeBqhUtj4VIu</AssertionId>
@@ -3741,6 +3827,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>911</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recXdHyxl467S1Lk9</AssertionId>
@@ -3776,6 +3864,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>0000</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recYzKbdQtfGbHu2Y</AssertionId>
@@ -3852,6 +3942,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue />
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recZ5D5ceV3D7qden</AssertionId>
@@ -3862,6 +3954,7 @@
       <TestValue>--911-1234-88</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -3884,19 +3977,20 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rece5dmQtPyG0MlXU</AssertionId>
       <createdTime>2022-07-11T01:52:40Z</createdTime>
       <UnitTest>recyLrMfWAsJJGKi4</UnitTest>
       <CountrySection>recJ7wLWRrRovx3sS</CountrySection>
-      <Name>CountryCode=</Name>
+      <Name>CountryCode=1</Name>
       <TestValue>-212-555-2134-4544-12323</TestValue>
       <ParameterMin>1</ParameterMin>
       <ParameterMax>1</ParameterMax>
       <SectionMinlength>1</SectionMinlength>
       <SectionMaxLength>1</SectionMaxLength>
-      <ExtractedValue />
+      <ExtractedValue>1</ExtractedValue>
       <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -3919,6 +4013,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue />
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>rechUbsUoiK6o98or</AssertionId>
@@ -3956,6 +4052,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>030</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>rechy8jZ3yyhiGyhs</AssertionId>
@@ -4033,6 +4131,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>414</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>reciEFrWinIBiP7BQ</AssertionId>
@@ -4069,6 +4169,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>8135</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>reckBiWfTFqkaYB22</AssertionId>
@@ -4105,6 +4207,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>555</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>reclONRqoH6fQEkDO</AssertionId>
@@ -4145,6 +4249,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>911</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recli6pIdSO7KI41N</AssertionId>
@@ -4180,6 +4286,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>0000</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recmmO7GHsbuU68If</AssertionId>
@@ -4216,19 +4324,21 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>356</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>reco7W3RiA0JL1g7d</AssertionId>
       <createdTime>2022-07-11T01:00:03Z</createdTime>
       <UnitTest>recvMHLuLS6IPDRk6</UnitTest>
       <CountrySection>recUdB1NVDOQsaZU4</CountrySection>
-      <Name>CountryCode=</Name>
+      <Name>CountryCode=1</Name>
       <TestValue>---123</TestValue>
       <ParameterMin>1</ParameterMin>
       <ParameterMax>1</ParameterMax>
       <SectionMinlength>1</SectionMinlength>
       <SectionMaxLength>1</SectionMaxLength>
-      <ExtractedValue />
+      <ExtractedValue>1</ExtractedValue>
       <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -4251,6 +4361,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue />
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recoEqSBX1rNC3i9U</AssertionId>
@@ -4261,6 +4373,7 @@
       <TestValue>1-608-030-0000</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -4283,6 +4396,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recobaRjNW3jaBlaQ</AssertionId>
@@ -4320,6 +4434,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>000</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recolVrQ8c29VeRBd</AssertionId>
@@ -4355,6 +4471,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>44</RawExtractedValue>
+      <CountrySectionDefaultValue>44</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recpuM0BgzYqkexxG</AssertionId>
@@ -4391,6 +4509,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>212</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recqBSK22Dp6u1B1a</AssertionId>
@@ -4401,6 +4521,7 @@
       <TestValue>1-608-030-0000</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -4423,6 +4544,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recqBcyOFUNdn0Q8H</AssertionId>
@@ -4458,6 +4580,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1234</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recqw4Kct8g5sPfKM</AssertionId>
@@ -4493,6 +4617,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1</RawExtractedValue>
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recr1nTVWYxCE7ENP</AssertionId>
@@ -4529,6 +4655,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>555</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recrXALfrbepKumMC</AssertionId>
@@ -4564,6 +4692,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>608</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recrpkxVxWjcLmB3M</AssertionId>
@@ -4574,6 +4704,7 @@
       <TestValue>--278-1234</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -4596,6 +4727,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recs3BGbrqNFHMXCw</AssertionId>
@@ -4631,19 +4763,21 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1234</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recsQqo562xU5PjX8</AssertionId>
       <createdTime>2022-07-11T01:52:50Z</createdTime>
       <UnitTest>receQvqYMSMhmMaq5</UnitTest>
       <CountrySection>recJ7wLWRrRovx3sS</CountrySection>
-      <Name>CountryCode=</Name>
+      <Name>CountryCode=1</Name>
       <TestValue>---123</TestValue>
       <ParameterMin>1</ParameterMin>
       <ParameterMax>1</ParameterMax>
       <SectionMinlength>1</SectionMinlength>
       <SectionMaxLength>1</SectionMaxLength>
-      <ExtractedValue />
+      <ExtractedValue>1</ExtractedValue>
       <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -4666,6 +4800,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue />
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recsjKb0HUtfzTmKZ</AssertionId>
@@ -4743,6 +4879,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>414</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recu2j4chZZjiwSiT</AssertionId>
@@ -4782,6 +4920,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>278</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recuoAYOTBGfkfgAG</AssertionId>
@@ -4792,6 +4932,7 @@
       <TestValue>-212-555-2134-4544-12323</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <ExtractedValue />
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
@@ -4814,6 +4955,7 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recvK96NcEr7iwNUY</AssertionId>
@@ -4854,6 +4996,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>030</RawExtractedValue>
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recvRoAx5JimIIi1j</AssertionId>
@@ -4889,6 +5033,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1</RawExtractedValue>
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recvfF1wuBqOGFbox</AssertionId>
@@ -4925,6 +5071,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue />
+      <CountrySectionDefaultValue />
     </Assertion>
     <Assertion>
       <AssertionId>recytYxQdt8Oyo45d</AssertionId>
@@ -4960,6 +5108,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1</RawExtractedValue>
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
     <Assertion>
       <AssertionId>recz8qpnpkyrND2MY</AssertionId>
@@ -4995,6 +5145,8 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+      <RawExtractedValue>1</RawExtractedValue>
+      <CountrySectionDefaultValue>1</CountrySectionDefaultValue>
     </Assertion>
   </Assertions>
 </Airtable>

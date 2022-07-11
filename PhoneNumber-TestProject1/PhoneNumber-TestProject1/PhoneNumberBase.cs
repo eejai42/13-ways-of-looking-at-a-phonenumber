@@ -81,7 +81,7 @@ namespace PhoneNumber_TestProject1
         /// <param name="errorMessage">The specific error that was encountered while attempting to parse the phone number.</param>
         internal void AddError(string errorPart, string errorMessage)
         {
-            Console.WriteLine($"ERROR: {errorPart}::{errorMessage}");
+            Console.WriteLine($"    - ERROR {((errorPart is null) ? "" : errorPart)}::{errorMessage}");
             if (!String.IsNullOrEmpty(errorPart)) this.ErrorParts.Add(errorPart);
             this.Errors.Add(errorMessage);
         }

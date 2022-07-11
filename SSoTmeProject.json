@@ -66,6 +66,17 @@
       "Name": "XmlXsltTransform",
       "RelativePath": "/SSoT/CreateUnitTests",
       "CommandLine": "codee42/xml-xslt-transform -i ..\\TWOLAAPhoneNumber.xml -i CreateUnitTests.xslt"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "ProjectTranspilerId": "09ccbb3f-7534-471f-bcd2-44ac4f0a6be0",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/PhoneNumber-TestProject1/PhoneNumber-TestProject1",
+      "CommandLine": "xml-xslt-transform -i ..\\..\\SSoT\\TWOLAAPhoneNumber.xml -i CreateCode.xslt"
     }
   ]
 }

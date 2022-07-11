@@ -141,6 +141,38 @@
       <FormatLength>10</FormatLength>
     </UnitTest>
     <UnitTest>
+      <UnitTestId>recAl26GQ3DFwaOqA</UnitTestId>
+      <createdTime>2022-07-11T01:52:17Z</createdTime>
+      <CountryFormat>recsNrPSMLOtxJkiK</CountryFormat>
+      <AutoNumber>16</AutoNumber>
+      <CountryCode>1</CountryCode>
+      <E164Format>+16089111234</E164Format>
+      <Name>Canada-10UnitTest-16</Name>
+      <CountryName>Canada</CountryName>
+      <ExpectedFailedAssertionCount>1</ExpectedFailedAssertionCount>
+      <ExpectedFailedAssertionDescriptions>Assertion is expected to fail because the value (608) is missing from the list of allowed values.</ExpectedFailedAssertionDescriptions>
+      <FormatLength>10</FormatLength>
+      <PhoneNumber>1-608-911-1234</PhoneNumber>
+      <Section1>1</Section1>
+      <Section2Plus>608-911-1234</Section2Plus>
+      <Section2>608</Section2>
+      <Section3Plus>911-1234</Section3Plus>
+      <Section3>911</Section3>
+      <Section4Plus>1234</Section4Plus>
+      <Section4>1234</Section4>
+      <Assertions>recKbjQU6iB4emBQ8</Assertions>
+      <Assertions>recCWxKYlxwROl9UP</Assertions>
+      <Assertions>recDgTuDWhsLZaY89</Assertions>
+      <Assertions>rec3Q68XUfALDIohi</Assertions>
+      <Assertions>rec2yKao2dZqgTnog</Assertions>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList>Assertion is expected to fail because the value (608) is missing from the list of allowed values.</ExpectedFailedAssertionDescriptionsList>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertions>AreaCode=608 - FAIL</ExpectedFailedAssertions>
+    </UnitTest>
+    <UnitTest>
       <UnitTestId>recDhvRaMm4ocz8dt</UnitTestId>
       <createdTime>2022-03-12T19:51:43Z</createdTime>
       <PhoneNumber>1-325-000-1348</PhoneNumber>
@@ -265,6 +297,30 @@
       <FormatLength>10</FormatLength>
     </UnitTest>
     <UnitTest>
+      <UnitTestId>recaB1pM1qvyLXNU5</UnitTestId>
+      <createdTime>2022-07-11T01:27:08Z</createdTime>
+      <PhoneNumber>--278-1234</PhoneNumber>
+      <CountryFormat>recHSof51gsBDCObn</CountryFormat>
+      <Assertions>recu2j4chZZjiwSiT</Assertions>
+      <Assertions>recKz1mSNZGICOHhC</Assertions>
+      <Assertions>recrpkxVxWjcLmB3M</Assertions>
+      <AutoNumber>11</AutoNumber>
+      <Name>US-7UnitTest-11</Name>
+      <CountryCode>1</CountryCode>
+      <Section3>278</Section3>
+      <Section2Plus>-278-1234</Section2Plus>
+      <Section3Plus>278-1234</Section3Plus>
+      <Section4Plus>1234</Section4Plus>
+      <Section4>1234</Section4>
+      <CountryName>US</CountryName>
+      <E164Format>+2781234</E164Format>
+      <ExpectedFailedAssertionCount>0</ExpectedFailedAssertionCount>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <FormatLength>7</FormatLength>
+    </UnitTest>
+    <UnitTest>
       <UnitTestId>rece8egpHIUeTLJw5</UnitTestId>
       <createdTime>2022-03-12T19:51:43Z</createdTime>
       <PhoneNumber>-212-555-2134-4544-12323</PhoneNumber>
@@ -297,33 +353,186 @@
       <FormatLength>10</FormatLength>
     </UnitTest>
     <UnitTest>
-      <UnitTestId>recvMHLuLS6IPDRk6</UnitTestId>
-      <createdTime>2022-07-11T00:59:40Z</createdTime>
-      <CountryFormat>rec2LHC6hU3X65Lc4</CountryFormat>
-      <AutoNumber>10</AutoNumber>
+      <UnitTestId>receQvqYMSMhmMaq5</UnitTestId>
+      <createdTime>2022-07-11T01:52:17Z</createdTime>
+      <CountryFormat>recsNrPSMLOtxJkiK</CountryFormat>
+      <AutoNumber>17</AutoNumber>
       <CountryCode>1</CountryCode>
       <E164Format>+123</E164Format>
-      <Name>US-10UnitTest-10</Name>
-      <CountryName>US</CountryName>
+      <Name>Canada-10UnitTest-17</Name>
+      <CountryName>Canada</CountryName>
       <ExpectedFailedAssertionCount>1</ExpectedFailedAssertionCount>
       <ExpectedFailedAssertionDescriptions>Assertion is expected to fail because the value (123) is to short</ExpectedFailedAssertionDescriptions>
       <FormatLength>10</FormatLength>
       <PhoneNumber>---123</PhoneNumber>
       <Section2Plus>--123</Section2Plus>
-      <Assertions>reco7W3RiA0JL1g7d</Assertions>
-      <Assertions>recRFh2VTPEHJ1ugG</Assertions>
-      <Assertions>recW4LyutC0q9G3IK</Assertions>
-      <Assertions>recOG3QWUgsjeJPtP</Assertions>
-      <Assertions>recGMVqbL2bZbPn2j</Assertions>
+      <Section3Plus>-123</Section3Plus>
+      <Section4Plus>123</Section4Plus>
+      <Section4>123</Section4>
+      <Assertions>recsQqo562xU5PjX8</Assertions>
+      <Assertions>recYzKbdQtfGbHu2Y</Assertions>
+      <Assertions>recvfF1wuBqOGFbox</Assertions>
+      <Assertions>recP12MRv9e4d8KL1</Assertions>
+      <Assertions>recFlqqYFC52BWyqJ</Assertions>
       <ExpectedFailedAssertionDescriptionsList />
       <ExpectedFailedAssertionDescriptionsList />
       <ExpectedFailedAssertionDescriptionsList />
       <ExpectedFailedAssertionDescriptionsList>Assertion is expected to fail because the value (123) is to short</ExpectedFailedAssertionDescriptionsList>
       <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertions>SubscriberNumber=123 - FAIL</ExpectedFailedAssertions>
+    </UnitTest>
+    <UnitTest>
+      <UnitTestId>recjFdx1koHgCVT2b</UnitTestId>
+      <createdTime>2022-07-11T01:52:17Z</createdTime>
+      <CountryFormat>recsNrPSMLOtxJkiK</CountryFormat>
+      <AutoNumber>14</AutoNumber>
+      <CountryCode>1</CountryCode>
+      <E164Format>+16080300000</E164Format>
+      <Name>Canada-10UnitTest-14</Name>
+      <CountryName>Canada</CountryName>
+      <ExpectedFailedAssertionCount>2</ExpectedFailedAssertionCount>
+      <ExpectedFailedAssertionDescriptions>Assertion is expected to fail because the value (608) is missing from the list of allowed values.Assertion is expected to fail because the value (030) is too low.</ExpectedFailedAssertionDescriptions>
+      <FormatLength>10</FormatLength>
+      <PhoneNumber>1-608-030-0000</PhoneNumber>
+      <Section1>1</Section1>
+      <Section2Plus>608-030-0000</Section2Plus>
+      <Section2>608</Section2>
+      <Section3Plus>030-0000</Section3Plus>
+      <Section3>030</Section3>
+      <Section4Plus>0000</Section4Plus>
+      <Section4>0000</Section4>
+      <Assertions>recvRoAx5JimIIi1j</Assertions>
+      <Assertions>recVZMBADVjKxkXS8</Assertions>
+      <Assertions>rechUbsUoiK6o98or</Assertions>
+      <Assertions>recli6pIdSO7KI41N</Assertions>
+      <Assertions>recqBSK22Dp6u1B1a</Assertions>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList>Assertion is expected to fail because the value (608) is missing from the list of allowed values.</ExpectedFailedAssertionDescriptionsList>
+      <ExpectedFailedAssertionDescriptionsList>Assertion is expected to fail because the value (030) is too low.</ExpectedFailedAssertionDescriptionsList>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertions>AreaCode=608 - FAIL</ExpectedFailedAssertions>
+      <ExpectedFailedAssertions>CentralOfficeCode=030 - FAIL</ExpectedFailedAssertions>
+    </UnitTest>
+    <UnitTest>
+      <UnitTestId>reco2Wt6sX6j1ZtdI</UnitTestId>
+      <createdTime>2022-07-11T01:28:34Z</createdTime>
+      <PhoneNumber>--911-1234-88</PhoneNumber>
+      <CountryFormat>recHSof51gsBDCObn</CountryFormat>
+      <Assertions>reclONRqoH6fQEkDO</Assertions>
+      <Assertions>recFRKXi92yx2CD7H</Assertions>
+      <Assertions>recZ5D5ceV3D7qden</Assertions>
+      <AutoNumber>12</AutoNumber>
+      <Name>US-7UnitTest-12</Name>
+      <CountryCode>1</CountryCode>
+      <Section3>911</Section3>
+      <Section2Plus>-911-1234-88</Section2Plus>
+      <Section3Plus>911-1234-88</Section3Plus>
+      <Section4Plus>1234-88</Section4Plus>
+      <Section4>1234</Section4>
+      <Section5Plus>88</Section5Plus>
+      <CountryName>US</CountryName>
+      <E164Format>+911123488</E164Format>
+      <ExpectedFailedAssertions>CentralOfficeCode=911 - FAIL</ExpectedFailedAssertions>
+      <ExpectedFailedAssertionCount>1</ExpectedFailedAssertionCount>
+      <ExpectedFailedAssertionDescriptions>Assertion is expected to fail because the value (911) is explicity excluded.</ExpectedFailedAssertionDescriptions>
+      <ExpectedFailedAssertionDescriptionsList>Assertion is expected to fail because the value (911) is explicity excluded.</ExpectedFailedAssertionDescriptionsList>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <FormatLength>7</FormatLength>
+    </UnitTest>
+    <UnitTest>
+      <UnitTestId>recscmu4BE26sPp5p</UnitTestId>
+      <createdTime>2022-07-11T01:52:16Z</createdTime>
+      <CountryFormat>recsNrPSMLOtxJkiK</CountryFormat>
+      <AutoNumber>13</AutoNumber>
+      <CountryCode>1</CountryCode>
+      <E164Format>+14144111234</E164Format>
+      <Name>Canada-10UnitTest-13</Name>
+      <CountryName>Canada</CountryName>
+      <ExpectedFailedAssertionCount>1</ExpectedFailedAssertionCount>
+      <ExpectedFailedAssertionDescriptions>Assertion is expected to fail because the value (414) is missing from the list of allowed values.</ExpectedFailedAssertionDescriptions>
+      <FormatLength>10</FormatLength>
+      <PhoneNumber>1-414-411-1234</PhoneNumber>
+      <Section1>1</Section1>
+      <Section2Plus>414-411-1234</Section2Plus>
+      <Section2>414</Section2>
+      <Section3Plus>411-1234</Section3Plus>
+      <Section3>411</Section3>
+      <Section4Plus>1234</Section4Plus>
+      <Section4>1234</Section4>
+      <Assertions>rec9oO15vdN7K9FRr</Assertions>
+      <Assertions>rechy8jZ3yyhiGyhs</Assertions>
+      <Assertions>rec1J0JqaJ9r4SZBp</Assertions>
+      <Assertions>rec6LKtyvajs0u6vQ</Assertions>
+      <Assertions>recU4ikyCM5QeFqUh</Assertions>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList>Assertion is expected to fail because the value (414) is missing from the list of allowed values.</ExpectedFailedAssertionDescriptionsList>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertions>AreaCode=414 - FAIL</ExpectedFailedAssertions>
+    </UnitTest>
+    <UnitTest>
+      <UnitTestId>recvMHLuLS6IPDRk6</UnitTestId>
+      <createdTime>2022-07-11T00:59:40Z</createdTime>
+      <PhoneNumber>---123</PhoneNumber>
+      <CountryFormat>rec2LHC6hU3X65Lc4</CountryFormat>
+      <Assertions>reco7W3RiA0JL1g7d</Assertions>
+      <Assertions>recRFh2VTPEHJ1ugG</Assertions>
+      <Assertions>recW4LyutC0q9G3IK</Assertions>
+      <Assertions>recOG3QWUgsjeJPtP</Assertions>
+      <Assertions>recGMVqbL2bZbPn2j</Assertions>
+      <AutoNumber>10</AutoNumber>
+      <Name>US-10UnitTest-10</Name>
+      <CountryCode>1</CountryCode>
+      <Section2Plus>--123</Section2Plus>
       <Section3Plus>-123</Section3Plus>
       <Section4Plus>123</Section4Plus>
       <Section4>123</Section4>
+      <CountryName>US</CountryName>
+      <E164Format>+123</E164Format>
       <ExpectedFailedAssertions>SubscriberNumber=123 - FAIL</ExpectedFailedAssertions>
+      <ExpectedFailedAssertionCount>1</ExpectedFailedAssertionCount>
+      <ExpectedFailedAssertionDescriptions>Assertion is expected to fail because the value (123) is to short</ExpectedFailedAssertionDescriptions>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList>Assertion is expected to fail because the value (123) is to short</ExpectedFailedAssertionDescriptionsList>
+      <ExpectedFailedAssertionDescriptionsList />
+      <FormatLength>10</FormatLength>
+    </UnitTest>
+    <UnitTest>
+      <UnitTestId>recyLrMfWAsJJGKi4</UnitTestId>
+      <createdTime>2022-07-11T01:52:17Z</createdTime>
+      <CountryFormat>recsNrPSMLOtxJkiK</CountryFormat>
+      <AutoNumber>15</AutoNumber>
+      <CountryCode>1</CountryCode>
+      <E164Format>+2125552134454412323</E164Format>
+      <Name>Canada-10UnitTest-15</Name>
+      <CountryName>Canada</CountryName>
+      <ExpectedFailedAssertionCount>1</ExpectedFailedAssertionCount>
+      <ExpectedFailedAssertionDescriptions>Assertion is expected to fail because the value (212) is missing from the list of allowed values.</ExpectedFailedAssertionDescriptions>
+      <FormatLength>10</FormatLength>
+      <PhoneNumber>-212-555-2134-4544-12323</PhoneNumber>
+      <Section2Plus>212-555-2134-4544-12323</Section2Plus>
+      <Section2>212</Section2>
+      <Section3Plus>555-2134-4544-12323</Section3Plus>
+      <Section3>555</Section3>
+      <Section4Plus>2134-4544-12323</Section4Plus>
+      <Section4>2134</Section4>
+      <Section5Plus>4544-12323</Section5Plus>
+      <Assertions>rece5dmQtPyG0MlXU</Assertions>
+      <Assertions>recURdOPz1ngcyDcv</Assertions>
+      <Assertions>recr1nTVWYxCE7ENP</Assertions>
+      <Assertions>recPNh7BP6yzgyQjH</Assertions>
+      <Assertions>recuoAYOTBGfkfgAG</Assertions>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList>Assertion is expected to fail because the value (212) is missing from the list of allowed values.</ExpectedFailedAssertionDescriptionsList>
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertions>AreaCode=212 - FAIL</ExpectedFailedAssertions>
     </UnitTest>
   </UnitTests>
   <Countries>
@@ -456,6 +665,11 @@
       <MinAndMaxLengthsMatch>true</MinAndMaxLengthsMatch>
       <Assertions>rec2bIKNNlGussNCU</Assertions>
       <Assertions>rec85bLtt4EH2Bk31</Assertions>
+      <Assertions>rec6LKtyvajs0u6vQ</Assertions>
+      <Assertions>recP12MRv9e4d8KL1</Assertions>
+      <Assertions>rec3Q68XUfALDIohi</Assertions>
+      <Assertions>recPNh7BP6yzgyQjH</Assertions>
+      <Assertions>recli6pIdSO7KI41N</Assertions>
       <SectionOrder>4</SectionOrder>
       <IsRequired>true</IsRequired>
       <CountryFormatSections>recb1JnlQ2FrUZkXi</CountryFormatSections>
@@ -479,6 +693,11 @@
       <MaxValue>999</MaxValue>
       <Assertions>recobaRjNW3jaBlaQ</Assertions>
       <Assertions>recmmO7GHsbuU68If</Assertions>
+      <Assertions>rec1J0JqaJ9r4SZBp</Assertions>
+      <Assertions>recvfF1wuBqOGFbox</Assertions>
+      <Assertions>recDgTuDWhsLZaY89</Assertions>
+      <Assertions>recr1nTVWYxCE7ENP</Assertions>
+      <Assertions>rechUbsUoiK6o98or</Assertions>
       <SectionOrder>3</SectionOrder>
       <IsRequired>true</IsRequired>
       <CountryFormatSections>recTf7wGybau3uflo</CountryFormatSections>
@@ -502,6 +721,11 @@
       <MaxValue>1</MaxValue>
       <Assertions>recytYxQdt8Oyo45d</Assertions>
       <Assertions>recIQPOWyD3FGHngo</Assertions>
+      <Assertions>rec9oO15vdN7K9FRr</Assertions>
+      <Assertions>recsQqo562xU5PjX8</Assertions>
+      <Assertions>recKbjQU6iB4emBQ8</Assertions>
+      <Assertions>rece5dmQtPyG0MlXU</Assertions>
+      <Assertions>recvRoAx5JimIIi1j</Assertions>
       <SectionOrder>1</SectionOrder>
       <Name>Canada-CountryCode-#</Name>
       <CountryCode>1</CountryCode>
@@ -521,6 +745,11 @@
       <MaxValue>905</MaxValue>
       <Assertions>rec95onzSofZexZ8w</Assertions>
       <Assertions>recsjKb0HUtfzTmKZ</Assertions>
+      <Assertions>rechy8jZ3yyhiGyhs</Assertions>
+      <Assertions>recYzKbdQtfGbHu2Y</Assertions>
+      <Assertions>recCWxKYlxwROl9UP</Assertions>
+      <Assertions>recURdOPz1ngcyDcv</Assertions>
+      <Assertions>recVZMBADVjKxkXS8</Assertions>
       <SectionOrder>2</SectionOrder>
       <SpecificSectionValues>recTumAvKgvAoi7CW</SpecificSectionValues>
       <SpecificSectionValues>recbdB4TaSs8bSOaq</SpecificSectionValues>
@@ -668,6 +897,11 @@
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
       <Assertions>rec5W9CnhSt2HvMsl</Assertions>
       <Assertions>recWYidMnEhpDJlWF</Assertions>
+      <Assertions>recU4ikyCM5QeFqUh</Assertions>
+      <Assertions>recFlqqYFC52BWyqJ</Assertions>
+      <Assertions>rec2yKao2dZqgTnog</Assertions>
+      <Assertions>recuoAYOTBGfkfgAG</Assertions>
+      <Assertions>recqBSK22Dp6u1B1a</Assertions>
       <SectionOrder>5</SectionOrder>
       <IsIgnored>true</IsIgnored>
       <CountryFormatSections>rec7QXVrDPrL3EVKW</CountryFormatSections>
@@ -814,6 +1048,8 @@
       <Assertions>recXdHyxl467S1Lk9</Assertions>
       <Assertions>recqBcyOFUNdn0Q8H</Assertions>
       <Assertions>recOG3QWUgsjeJPtP</Assertions>
+      <Assertions>recKz1mSNZGICOHhC</Assertions>
+      <Assertions>recFRKXi92yx2CD7H</Assertions>
       <SectionOrder>4</SectionOrder>
       <IsRequired>true</IsRequired>
       <CountryFormatSections>recW9NIMSSnBZXbUA</CountryFormatSections>
@@ -837,6 +1073,8 @@
       <Assertions>recoEqSBX1rNC3i9U</Assertions>
       <Assertions>recWRKWhqbcbjjesj</Assertions>
       <Assertions>recGMVqbL2bZbPn2j</Assertions>
+      <Assertions>recrpkxVxWjcLmB3M</Assertions>
+      <Assertions>recZ5D5ceV3D7qden</Assertions>
       <SectionOrder>5</SectionOrder>
       <IsIgnored>true</IsIgnored>
       <CountryFormatSections>recvE8Ywt6fQAx9oU</CountryFormatSections>
@@ -888,6 +1126,8 @@
       <Assertions>recvK96NcEr7iwNUY</Assertions>
       <Assertions>recXFxeBqhUtj4VIu</Assertions>
       <Assertions>recW4LyutC0q9G3IK</Assertions>
+      <Assertions>recu2j4chZZjiwSiT</Assertions>
+      <Assertions>reclONRqoH6fQEkDO</Assertions>
       <SectionOrder>3</SectionOrder>
       <IsRequired>true</IsRequired>
       <SpecificSectionValues>recQJVVVmTaFnpPvc</SpecificSectionValues>
@@ -1818,6 +2058,42 @@
   </SpecialSectionValues>
   <Assertions>
     <Assertion>
+      <AssertionId>rec1J0JqaJ9r4SZBp</AssertionId>
+      <createdTime>2022-07-11T01:53:07Z</createdTime>
+      <UnitTest>recscmu4BE26sPp5p</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>414</Section2>
+      <Section3>411</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <ExtractedValue>411</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>CentralOfficeCode=411</Name>
+      <TestValue>1-414-411-1234</TestValue>
+      <SectionName>CentralOfficeCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-13</UnitTestName>
+      <CountrySection>recIQXPGZxc1T6xcF</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>3</DefaultSectionOrder>
+      <SectionOrder>3</SectionOrder>
+      <ParameterMin>100</ParameterMin>
+      <ParameterMax>999</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ParameterDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
+</ParameterDescription>
+    </Assertion>
+    <Assertion>
       <AssertionId>rec1sfSDhYujZD9Tb</AssertionId>
       <createdTime>2022-07-09T23:58:54Z</createdTime>
       <UnitTest>recVv0mk7Yx8PyeKV</UnitTest>
@@ -1923,6 +2199,73 @@
       <TooLong>0</TooLong>
     </Assertion>
     <Assertion>
+      <AssertionId>rec2yKao2dZqgTnog</AssertionId>
+      <createdTime>2022-07-11T01:53:16Z</createdTime>
+      <UnitTest>recAl26GQ3DFwaOqA</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>911</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>ExtraNumbers=</Name>
+      <TestValue>1-608-911-1234</TestValue>
+      <SectionName>ExtraNumbers</SectionName>
+      <UnitTestName>Canada-10UnitTest-16</UnitTestName>
+      <CountrySection>recas7of8hug9Zetk</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <IsSectionIgnored>true</IsSectionIgnored>
+      <DefaultSectionOrder>5</DefaultSectionOrder>
+      <SectionOrder>5</SectionOrder>
+      <SectionMinlength>0</SectionMinlength>
+      <SectionMaxLength>0</SectionMaxLength>
+      <ParameterDescription>This refers to any extra numbers after the subscriber number.  In some situations these numbers are just ignored, in other cases, they will make the number unroutable.</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>rec3Q68XUfALDIohi</AssertionId>
+      <createdTime>2022-07-11T01:53:16Z</createdTime>
+      <UnitTest>recAl26GQ3DFwaOqA</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>911</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <ExtractedValue>1234</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>SubscriberNumber=1234</Name>
+      <TestValue>1-608-911-1234</TestValue>
+      <SectionName>SubscriberNumber</SectionName>
+      <UnitTestName>Canada-10UnitTest-16</UnitTestName>
+      <CountrySection>recDMzkkk1emQkOBr</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>4</DefaultSectionOrder>
+      <SectionOrder>4</SectionOrder>
+      <ParameterMin>0</ParameterMin>
+      <ParameterMax>9999</ParameterMax>
+      <SectionMinlength>4</SectionMinlength>
+      <SectionMaxLength>4</SectionMaxLength>
+      <ParameterDescription>This refers to whatever remaining parts of the number are left that identify the specific subscriber being called.</ParameterDescription>
+    </Assertion>
+    <Assertion>
       <AssertionId>rec5W9CnhSt2HvMsl</AssertionId>
       <createdTime>2022-07-09T00:09:33Z</createdTime>
       <UnitTest>recDhvRaMm4ocz8dt</UnitTest>
@@ -1953,6 +2296,41 @@
       <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>rec6LKtyvajs0u6vQ</AssertionId>
+      <createdTime>2022-07-11T01:53:07Z</createdTime>
+      <UnitTest>recscmu4BE26sPp5p</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>414</Section2>
+      <Section3>411</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <ExtractedValue>1234</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>SubscriberNumber=1234</Name>
+      <TestValue>1-414-411-1234</TestValue>
+      <SectionName>SubscriberNumber</SectionName>
+      <UnitTestName>Canada-10UnitTest-13</UnitTestName>
+      <CountrySection>recDMzkkk1emQkOBr</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>4</DefaultSectionOrder>
+      <SectionOrder>4</SectionOrder>
+      <ParameterMin>0</ParameterMin>
+      <ParameterMax>9999</ParameterMax>
+      <SectionMinlength>4</SectionMinlength>
+      <SectionMaxLength>4</SectionMaxLength>
+      <ParameterDescription>This refers to whatever remaining parts of the number are left that identify the specific subscriber being called.</ParameterDescription>
     </Assertion>
     <Assertion>
       <AssertionId>rec7rSXXX0haCsqEa</AssertionId>
@@ -2099,6 +2477,154 @@
       <TooLong>0</TooLong>
     </Assertion>
     <Assertion>
+      <AssertionId>rec9oO15vdN7K9FRr</AssertionId>
+      <createdTime>2022-07-11T01:52:30Z</createdTime>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <ExtractedValue>1</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>CountryCode=1</Name>
+      <SectionName>CountryCode</SectionName>
+      <UnitTest>recscmu4BE26sPp5p</UnitTest>
+      <CountryName>Canada</CountryName>
+      <Section1>1</Section1>
+      <Section2>414</Section2>
+      <Section3>411</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <TestValue>1-414-411-1234</TestValue>
+      <UnitTestName>Canada-10UnitTest-13</UnitTestName>
+      <CountrySection>recJ7wLWRrRovx3sS</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>1</DefaultSectionOrder>
+      <SectionOrder>1</SectionOrder>
+      <ParameterMin>1</ParameterMin>
+      <ParameterMax>1</ParameterMax>
+      <SectionMinlength>1</SectionMinlength>
+      <SectionMaxLength>1</SectionMaxLength>
+      <ParameterDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recCWxKYlxwROl9UP</AssertionId>
+      <createdTime>2022-07-11T01:53:16Z</createdTime>
+      <UnitTest>recAl26GQ3DFwaOqA</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>911</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <ExtractedValue>608</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>1</AssertionFailed>
+      <Name>AreaCode=608 - FAIL</Name>
+      <FailureDescription>Assertion is expected to fail because the value (608) is missing from the list of allowed values.</FailureDescription>
+      <TestValue>1-608-911-1234</TestValue>
+      <SectionName>AreaCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-16</UnitTestName>
+      <CountrySection>recJkndWmmqluwswT</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>2</DefaultSectionOrder>
+      <SectionOrder>2</SectionOrder>
+      <ParameterMin>204</ParameterMin>
+      <ParameterMax>905</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <AllowedSectionValues>403</AllowedSectionValues>
+      <AllowedSectionValues>587</AllowedSectionValues>
+      <AllowedSectionValues>780</AllowedSectionValues>
+      <AllowedSectionValues>825</AllowedSectionValues>
+      <AllowedSectionValues>236</AllowedSectionValues>
+      <AllowedSectionValues>250</AllowedSectionValues>
+      <AllowedSectionValues>604</AllowedSectionValues>
+      <AllowedSectionValues>672</AllowedSectionValues>
+      <AllowedSectionValues>778</AllowedSectionValues>
+      <AllowedSectionValues>204</AllowedSectionValues>
+      <AllowedSectionValues>431</AllowedSectionValues>
+      <AllowedSectionValues>506</AllowedSectionValues>
+      <AllowedSectionValues>709</AllowedSectionValues>
+      <AllowedSectionValues>782</AllowedSectionValues>
+      <AllowedSectionValues>902</AllowedSectionValues>
+      <AllowedSectionValues>226</AllowedSectionValues>
+      <AllowedSectionValues>249</AllowedSectionValues>
+      <AllowedSectionValues>289</AllowedSectionValues>
+      <AllowedSectionValues>343</AllowedSectionValues>
+      <AllowedSectionValues>365</AllowedSectionValues>
+      <AllowedSectionValues>416</AllowedSectionValues>
+      <AllowedSectionValues>437</AllowedSectionValues>
+      <AllowedSectionValues>519</AllowedSectionValues>
+      <AllowedSectionValues>548</AllowedSectionValues>
+      <AllowedSectionValues>613</AllowedSectionValues>
+      <AllowedSectionValues>647</AllowedSectionValues>
+      <AllowedSectionValues>705</AllowedSectionValues>
+      <AllowedSectionValues>807</AllowedSectionValues>
+      <AllowedSectionValues>905</AllowedSectionValues>
+      <AllowedSectionValues>367</AllowedSectionValues>
+      <AllowedSectionValues>418</AllowedSectionValues>
+      <AllowedSectionValues>438</AllowedSectionValues>
+      <AllowedSectionValues>450</AllowedSectionValues>
+      <AllowedSectionValues>514</AllowedSectionValues>
+      <AllowedSectionValues>579</AllowedSectionValues>
+      <AllowedSectionValues>581</AllowedSectionValues>
+      <AllowedSectionValues>819</AllowedSectionValues>
+      <AllowedSectionValues>873</AllowedSectionValues>
+      <AllowedSectionValues>306</AllowedSectionValues>
+      <AllowedSectionValues>639</AllowedSectionValues>
+      <AllowedSectionValues>867</AllowedSectionValues>
+      <ParameterDescription>Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recDgTuDWhsLZaY89</AssertionId>
+      <createdTime>2022-07-11T01:53:16Z</createdTime>
+      <UnitTest>recAl26GQ3DFwaOqA</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>911</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <ExtractedValue>911</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>CentralOfficeCode=911</Name>
+      <TestValue>1-608-911-1234</TestValue>
+      <SectionName>CentralOfficeCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-16</UnitTestName>
+      <CountrySection>recIQXPGZxc1T6xcF</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>3</DefaultSectionOrder>
+      <SectionOrder>3</SectionOrder>
+      <ParameterMin>100</ParameterMin>
+      <ParameterMax>999</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ParameterDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
+</ParameterDescription>
+    </Assertion>
+    <Assertion>
       <AssertionId>recEiRxowSnKAn5aP</AssertionId>
       <createdTime>2022-03-14T09:06:30Z</createdTime>
       <UnitTest>recAG8JkHDKq39agU</UnitTest>
@@ -2137,6 +2663,73 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recFRKXi92yx2CD7H</AssertionId>
+      <createdTime>2022-07-11T01:29:09Z</createdTime>
+      <UnitTest>reco2Wt6sX6j1ZtdI</UnitTest>
+      <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
+      <Name>SubscriberNumber=1234</Name>
+      <TestValue>--911-1234-88</TestValue>
+      <ParameterMin>0000</ParameterMin>
+      <ParameterMax>9999</ParameterMax>
+      <SectionMinlength>4</SectionMinlength>
+      <SectionMaxLength>4</SectionMaxLength>
+      <ExtractedValue>1234</ExtractedValue>
+      <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
+      <ParameterDescription>This refers to whatever remaining parts of the number are left that identify the specific subscriber being called.</ParameterDescription>
+      <SectionOrder>4</SectionOrder>
+      <Section1 />
+      <Section2 />
+      <Section3>911</Section3>
+      <Section4>1234</Section4>
+      <Section5>88</Section5>
+      <DefaultSectionOrder>4</DefaultSectionOrder>
+      <SectionName>SubscriberNumber</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-7UnitTest-12</UnitTestName>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored />
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recFlqqYFC52BWyqJ</AssertionId>
+      <createdTime>2022-07-11T01:53:12Z</createdTime>
+      <UnitTest>receQvqYMSMhmMaq5</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4>123</Section4>
+      <Section5 />
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>ExtraNumbers=</Name>
+      <TestValue>---123</TestValue>
+      <SectionName>ExtraNumbers</SectionName>
+      <UnitTestName>Canada-10UnitTest-17</UnitTestName>
+      <CountrySection>recas7of8hug9Zetk</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <IsSectionIgnored>true</IsSectionIgnored>
+      <DefaultSectionOrder>5</DefaultSectionOrder>
+      <SectionOrder>5</SectionOrder>
+      <SectionMinlength>0</SectionMinlength>
+      <SectionMaxLength>0</SectionMaxLength>
+      <ParameterDescription>This refers to any extra numbers after the subscriber number.  In some situations these numbers are just ignored, in other cases, they will make the number unroutable.</ParameterDescription>
     </Assertion>
     <Assertion>
       <AssertionId>recFw9cuq1TZXKJrB</AssertionId>
@@ -2178,31 +2771,31 @@
       <AssertionId>recGMVqbL2bZbPn2j</AssertionId>
       <createdTime>2022-07-11T01:00:22Z</createdTime>
       <UnitTest>recvMHLuLS6IPDRk6</UnitTest>
-      <CountryName>US</CountryName>
-      <HasCountryMismatch>0</HasCountryMismatch>
-      <Section1 />
-      <TooLow>0</TooLow>
-      <TooHigh>0</TooHigh>
-      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
-      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
-      <AssertionFailed>0</AssertionFailed>
+      <CountrySection>recmY1uBqoloVWQyj</CountrySection>
       <Name>ExtraNumbers=</Name>
       <TestValue>---123</TestValue>
-      <SectionName>ExtraNumbers</SectionName>
-      <UnitTestName>US-10UnitTest-10</UnitTestName>
-      <CountrySection>recmY1uBqoloVWQyj</CountrySection>
-      <CountrySectionCountry>US</CountrySectionCountry>
-      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
-      <IsSectionIgnored>true</IsSectionIgnored>
-      <DefaultSectionOrder>5</DefaultSectionOrder>
-      <SectionOrder>5</SectionOrder>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
       <ParameterDescription>This refers to any extra numbers after the subscriber number.  In some situations these numbers are just ignored, in other cases, they will make the number unroutable.</ParameterDescription>
+      <SectionOrder>5</SectionOrder>
+      <Section1 />
       <Section2 />
       <Section3 />
       <Section4>123</Section4>
       <Section5 />
+      <DefaultSectionOrder>5</DefaultSectionOrder>
+      <SectionName>ExtraNumbers</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-10UnitTest-10</UnitTestName>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
     </Assertion>
@@ -2303,6 +2896,76 @@
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <CountrySectionCountry>Canada</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored />
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recKbjQU6iB4emBQ8</AssertionId>
+      <createdTime>2022-07-11T01:52:46Z</createdTime>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <ExtractedValue>1</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>CountryCode=1</Name>
+      <SectionName>CountryCode</SectionName>
+      <UnitTest>recAl26GQ3DFwaOqA</UnitTest>
+      <CountryName>Canada</CountryName>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>911</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <TestValue>1-608-911-1234</TestValue>
+      <UnitTestName>Canada-10UnitTest-16</UnitTestName>
+      <CountrySection>recJ7wLWRrRovx3sS</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>1</DefaultSectionOrder>
+      <SectionOrder>1</SectionOrder>
+      <ParameterMin>1</ParameterMin>
+      <ParameterMax>1</ParameterMax>
+      <SectionMinlength>1</SectionMinlength>
+      <SectionMaxLength>1</SectionMaxLength>
+      <ParameterDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recKz1mSNZGICOHhC</AssertionId>
+      <createdTime>2022-07-11T01:28:07Z</createdTime>
+      <UnitTest>recaB1pM1qvyLXNU5</UnitTest>
+      <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
+      <Name>SubscriberNumber=1234</Name>
+      <TestValue>--278-1234</TestValue>
+      <ParameterMin>0000</ParameterMin>
+      <ParameterMax>9999</ParameterMax>
+      <SectionMinlength>4</SectionMinlength>
+      <SectionMaxLength>4</SectionMaxLength>
+      <ExtractedValue>1234</ExtractedValue>
+      <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
+      <ParameterDescription>This refers to whatever remaining parts of the number are left that identify the specific subscriber being called.</ParameterDescription>
+      <SectionOrder>4</SectionOrder>
+      <Section1 />
+      <Section2 />
+      <Section3>278</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <DefaultSectionOrder>4</DefaultSectionOrder>
+      <SectionName>SubscriberNumber</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-7UnitTest-11</UnitTestName>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <CountrySectionCountry>US</CountrySectionCountry>
       <HasCountryMismatch>0</HasCountryMismatch>
       <IsSectionIgnored />
       <TooShort>0</TooShort>
@@ -2482,35 +3145,35 @@
       <AssertionId>recOG3QWUgsjeJPtP</AssertionId>
       <createdTime>2022-07-11T01:00:22Z</createdTime>
       <UnitTest>recvMHLuLS6IPDRk6</UnitTest>
-      <CountryName>US</CountryName>
-      <HasCountryMismatch>0</HasCountryMismatch>
-      <Section1 />
-      <ExtractedValue>123</ExtractedValue>
-      <TooLow>0</TooLow>
-      <TooHigh>0</TooHigh>
-      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
-      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
-      <AssertionFailed>1</AssertionFailed>
-      <Name>SubscriberNumber=123 - FAIL</Name>
-      <FailureDescription>Assertion is expected to fail because the value (123) is to short</FailureDescription>
-      <TestValue>---123</TestValue>
-      <SectionName>SubscriberNumber</SectionName>
-      <UnitTestName>US-10UnitTest-10</UnitTestName>
       <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
-      <CountrySectionCountry>US</CountrySectionCountry>
-      <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
-      <IsSectionIgnored />
-      <DefaultSectionOrder>4</DefaultSectionOrder>
-      <SectionOrder>4</SectionOrder>
+      <Name>SubscriberNumber=123 - FAIL</Name>
+      <TestValue>---123</TestValue>
       <ParameterMin>0000</ParameterMin>
       <ParameterMax>9999</ParameterMax>
       <SectionMinlength>4</SectionMinlength>
       <SectionMaxLength>4</SectionMaxLength>
+      <ExtractedValue>123</ExtractedValue>
+      <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>1</AssertionFailed>
       <ParameterDescription>This refers to whatever remaining parts of the number are left that identify the specific subscriber being called.</ParameterDescription>
+      <SectionOrder>4</SectionOrder>
+      <Section1 />
       <Section2 />
       <Section3 />
       <Section4>123</Section4>
       <Section5 />
+      <DefaultSectionOrder>4</DefaultSectionOrder>
+      <SectionName>SubscriberNumber</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-10UnitTest-10</UnitTestName>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <FailureDescription>Assertion is expected to fail because the value (123) is to short</FailureDescription>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored />
       <TooShort>1</TooShort>
       <TooLong>0</TooLong>
     </Assertion>
@@ -2609,37 +3272,108 @@
       <TooLong>0</TooLong>
     </Assertion>
     <Assertion>
-      <AssertionId>recRFh2VTPEHJ1ugG</AssertionId>
-      <createdTime>2022-07-11T01:00:22Z</createdTime>
-      <UnitTest>recvMHLuLS6IPDRk6</UnitTest>
-      <CountryName>US</CountryName>
+      <AssertionId>recP12MRv9e4d8KL1</AssertionId>
+      <createdTime>2022-07-11T01:53:12Z</createdTime>
+      <UnitTest>receQvqYMSMhmMaq5</UnitTest>
+      <CountryName>Canada</CountryName>
       <HasCountryMismatch>0</HasCountryMismatch>
       <Section1 />
-      <ExtractedValue />
-      <TooLow>0</TooLow>
-      <TooHigh>0</TooHigh>
-      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
-      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
-      <AssertionFailed>0</AssertionFailed>
-      <Name>AreaCode=</Name>
-      <TestValue>---123</TestValue>
-      <SectionName>AreaCode</SectionName>
-      <UnitTestName>US-10UnitTest-10</UnitTestName>
-      <CountrySection>recuHEv9m1Y006bTB</CountrySection>
-      <CountrySectionCountry>US</CountrySectionCountry>
-      <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
-      <IsSectionIgnored />
-      <DefaultSectionOrder>2</DefaultSectionOrder>
-      <SectionOrder>2</SectionOrder>
-      <ParameterMin>200</ParameterMin>
-      <ParameterMax>919</ParameterMax>
-      <SectionMinlength>3</SectionMinlength>
-      <SectionMaxLength>3</SectionMaxLength>
-      <ParameterDescription>Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.</ParameterDescription>
       <Section2 />
       <Section3 />
       <Section4>123</Section4>
       <Section5 />
+      <ExtractedValue>123</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>1</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>1</AssertionFailed>
+      <Name>SubscriberNumber=123 - FAIL</Name>
+      <FailureDescription>Assertion is expected to fail because the value (123) is to short</FailureDescription>
+      <TestValue>---123</TestValue>
+      <SectionName>SubscriberNumber</SectionName>
+      <UnitTestName>Canada-10UnitTest-17</UnitTestName>
+      <CountrySection>recDMzkkk1emQkOBr</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>4</DefaultSectionOrder>
+      <SectionOrder>4</SectionOrder>
+      <ParameterMin>0</ParameterMin>
+      <ParameterMax>9999</ParameterMax>
+      <SectionMinlength>4</SectionMinlength>
+      <SectionMaxLength>4</SectionMaxLength>
+      <ParameterDescription>This refers to whatever remaining parts of the number are left that identify the specific subscriber being called.</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recPNh7BP6yzgyQjH</AssertionId>
+      <createdTime>2022-07-11T01:53:19Z</createdTime>
+      <UnitTest>recyLrMfWAsJJGKi4</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
+      <ExtractedValue>2134</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>SubscriberNumber=2134</Name>
+      <TestValue>-212-555-2134-4544-12323</TestValue>
+      <SectionName>SubscriberNumber</SectionName>
+      <UnitTestName>Canada-10UnitTest-15</UnitTestName>
+      <CountrySection>recDMzkkk1emQkOBr</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>4</DefaultSectionOrder>
+      <SectionOrder>4</SectionOrder>
+      <ParameterMin>0</ParameterMin>
+      <ParameterMax>9999</ParameterMax>
+      <SectionMinlength>4</SectionMinlength>
+      <SectionMaxLength>4</SectionMaxLength>
+      <ParameterDescription>This refers to whatever remaining parts of the number are left that identify the specific subscriber being called.</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recRFh2VTPEHJ1ugG</AssertionId>
+      <createdTime>2022-07-11T01:00:22Z</createdTime>
+      <UnitTest>recvMHLuLS6IPDRk6</UnitTest>
+      <CountrySection>recuHEv9m1Y006bTB</CountrySection>
+      <Name>AreaCode=</Name>
+      <TestValue>---123</TestValue>
+      <ParameterMin>200</ParameterMin>
+      <ParameterMax>919</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ExtractedValue />
+      <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
+      <ParameterDescription>Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.</ParameterDescription>
+      <SectionOrder>2</SectionOrder>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4>123</Section4>
+      <Section5 />
+      <DefaultSectionOrder>2</DefaultSectionOrder>
+      <SectionName>AreaCode</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-10UnitTest-10</UnitTestName>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
     </Assertion>
@@ -2680,41 +3414,227 @@
       <TooLong>0</TooLong>
     </Assertion>
     <Assertion>
-      <AssertionId>recW4LyutC0q9G3IK</AssertionId>
-      <createdTime>2022-07-11T01:00:22Z</createdTime>
-      <UnitTest>recvMHLuLS6IPDRk6</UnitTest>
-      <CountryName>US</CountryName>
+      <AssertionId>recU4ikyCM5QeFqUh</AssertionId>
+      <createdTime>2022-07-11T01:53:07Z</createdTime>
+      <UnitTest>recscmu4BE26sPp5p</UnitTest>
+      <CountryName>Canada</CountryName>
       <HasCountryMismatch>0</HasCountryMismatch>
-      <Section1 />
-      <ExtractedValue />
+      <Section1>1</Section1>
+      <Section2>414</Section2>
+      <Section3>411</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
       <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
       <AssertionFailed>0</AssertionFailed>
-      <Name>CentralOfficeCode=</Name>
-      <TestValue>---123</TestValue>
-      <SectionName>CentralOfficeCode</SectionName>
-      <UnitTestName>US-10UnitTest-10</UnitTestName>
-      <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
-      <CountrySectionCountry>US</CountrySectionCountry>
-      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <Name>ExtraNumbers=</Name>
+      <TestValue>1-414-411-1234</TestValue>
+      <SectionName>ExtraNumbers</SectionName>
+      <UnitTestName>Canada-10UnitTest-13</UnitTestName>
+      <CountrySection>recas7of8hug9Zetk</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <IsSectionIgnored>true</IsSectionIgnored>
+      <DefaultSectionOrder>5</DefaultSectionOrder>
+      <SectionOrder>5</SectionOrder>
+      <SectionMinlength>0</SectionMinlength>
+      <SectionMaxLength>0</SectionMaxLength>
+      <ParameterDescription>This refers to any extra numbers after the subscriber number.  In some situations these numbers are just ignored, in other cases, they will make the number unroutable.</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recURdOPz1ngcyDcv</AssertionId>
+      <createdTime>2022-07-11T01:53:19Z</createdTime>
+      <UnitTest>recyLrMfWAsJJGKi4</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
+      <ExtractedValue>212</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>1</AssertionFailed>
+      <Name>AreaCode=212 - FAIL</Name>
+      <FailureDescription>Assertion is expected to fail because the value (212) is missing from the list of allowed values.</FailureDescription>
+      <TestValue>-212-555-2134-4544-12323</TestValue>
+      <SectionName>AreaCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-15</UnitTestName>
+      <CountrySection>recJkndWmmqluwswT</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
       <IsSectionIgnored />
-      <DefaultSectionOrder>3</DefaultSectionOrder>
-      <SectionOrder>3</SectionOrder>
-      <ParameterMin>100</ParameterMin>
-      <ParameterMax>999</ParameterMax>
-      <DisallowedSectionValues>555</DisallowedSectionValues>
-      <DisallowedSectionValues>911</DisallowedSectionValues>
-      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <DefaultSectionOrder>2</DefaultSectionOrder>
+      <SectionOrder>2</SectionOrder>
+      <ParameterMin>204</ParameterMin>
+      <ParameterMax>905</ParameterMax>
       <SectionMinlength>3</SectionMinlength>
       <SectionMaxLength>3</SectionMaxLength>
+      <AllowedSectionValues>403</AllowedSectionValues>
+      <AllowedSectionValues>587</AllowedSectionValues>
+      <AllowedSectionValues>780</AllowedSectionValues>
+      <AllowedSectionValues>825</AllowedSectionValues>
+      <AllowedSectionValues>236</AllowedSectionValues>
+      <AllowedSectionValues>250</AllowedSectionValues>
+      <AllowedSectionValues>604</AllowedSectionValues>
+      <AllowedSectionValues>672</AllowedSectionValues>
+      <AllowedSectionValues>778</AllowedSectionValues>
+      <AllowedSectionValues>204</AllowedSectionValues>
+      <AllowedSectionValues>431</AllowedSectionValues>
+      <AllowedSectionValues>506</AllowedSectionValues>
+      <AllowedSectionValues>709</AllowedSectionValues>
+      <AllowedSectionValues>782</AllowedSectionValues>
+      <AllowedSectionValues>902</AllowedSectionValues>
+      <AllowedSectionValues>226</AllowedSectionValues>
+      <AllowedSectionValues>249</AllowedSectionValues>
+      <AllowedSectionValues>289</AllowedSectionValues>
+      <AllowedSectionValues>343</AllowedSectionValues>
+      <AllowedSectionValues>365</AllowedSectionValues>
+      <AllowedSectionValues>416</AllowedSectionValues>
+      <AllowedSectionValues>437</AllowedSectionValues>
+      <AllowedSectionValues>519</AllowedSectionValues>
+      <AllowedSectionValues>548</AllowedSectionValues>
+      <AllowedSectionValues>613</AllowedSectionValues>
+      <AllowedSectionValues>647</AllowedSectionValues>
+      <AllowedSectionValues>705</AllowedSectionValues>
+      <AllowedSectionValues>807</AllowedSectionValues>
+      <AllowedSectionValues>905</AllowedSectionValues>
+      <AllowedSectionValues>367</AllowedSectionValues>
+      <AllowedSectionValues>418</AllowedSectionValues>
+      <AllowedSectionValues>438</AllowedSectionValues>
+      <AllowedSectionValues>450</AllowedSectionValues>
+      <AllowedSectionValues>514</AllowedSectionValues>
+      <AllowedSectionValues>579</AllowedSectionValues>
+      <AllowedSectionValues>581</AllowedSectionValues>
+      <AllowedSectionValues>819</AllowedSectionValues>
+      <AllowedSectionValues>873</AllowedSectionValues>
+      <AllowedSectionValues>306</AllowedSectionValues>
+      <AllowedSectionValues>639</AllowedSectionValues>
+      <AllowedSectionValues>867</AllowedSectionValues>
+      <ParameterDescription>Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recVZMBADVjKxkXS8</AssertionId>
+      <createdTime>2022-07-11T01:53:24Z</createdTime>
+      <UnitTest>recjFdx1koHgCVT2b</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>030</Section3>
+      <Section4>0000</Section4>
+      <Section5 />
+      <ExtractedValue>608</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>1</AssertionFailed>
+      <Name>AreaCode=608 - FAIL</Name>
+      <FailureDescription>Assertion is expected to fail because the value (608) is missing from the list of allowed values.</FailureDescription>
+      <TestValue>1-608-030-0000</TestValue>
+      <SectionName>AreaCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-14</UnitTestName>
+      <CountrySection>recJkndWmmqluwswT</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>2</DefaultSectionOrder>
+      <SectionOrder>2</SectionOrder>
+      <ParameterMin>204</ParameterMin>
+      <ParameterMax>905</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <AllowedSectionValues>403</AllowedSectionValues>
+      <AllowedSectionValues>587</AllowedSectionValues>
+      <AllowedSectionValues>780</AllowedSectionValues>
+      <AllowedSectionValues>825</AllowedSectionValues>
+      <AllowedSectionValues>236</AllowedSectionValues>
+      <AllowedSectionValues>250</AllowedSectionValues>
+      <AllowedSectionValues>604</AllowedSectionValues>
+      <AllowedSectionValues>672</AllowedSectionValues>
+      <AllowedSectionValues>778</AllowedSectionValues>
+      <AllowedSectionValues>204</AllowedSectionValues>
+      <AllowedSectionValues>431</AllowedSectionValues>
+      <AllowedSectionValues>506</AllowedSectionValues>
+      <AllowedSectionValues>709</AllowedSectionValues>
+      <AllowedSectionValues>782</AllowedSectionValues>
+      <AllowedSectionValues>902</AllowedSectionValues>
+      <AllowedSectionValues>226</AllowedSectionValues>
+      <AllowedSectionValues>249</AllowedSectionValues>
+      <AllowedSectionValues>289</AllowedSectionValues>
+      <AllowedSectionValues>343</AllowedSectionValues>
+      <AllowedSectionValues>365</AllowedSectionValues>
+      <AllowedSectionValues>416</AllowedSectionValues>
+      <AllowedSectionValues>437</AllowedSectionValues>
+      <AllowedSectionValues>519</AllowedSectionValues>
+      <AllowedSectionValues>548</AllowedSectionValues>
+      <AllowedSectionValues>613</AllowedSectionValues>
+      <AllowedSectionValues>647</AllowedSectionValues>
+      <AllowedSectionValues>705</AllowedSectionValues>
+      <AllowedSectionValues>807</AllowedSectionValues>
+      <AllowedSectionValues>905</AllowedSectionValues>
+      <AllowedSectionValues>367</AllowedSectionValues>
+      <AllowedSectionValues>418</AllowedSectionValues>
+      <AllowedSectionValues>438</AllowedSectionValues>
+      <AllowedSectionValues>450</AllowedSectionValues>
+      <AllowedSectionValues>514</AllowedSectionValues>
+      <AllowedSectionValues>579</AllowedSectionValues>
+      <AllowedSectionValues>581</AllowedSectionValues>
+      <AllowedSectionValues>819</AllowedSectionValues>
+      <AllowedSectionValues>873</AllowedSectionValues>
+      <AllowedSectionValues>306</AllowedSectionValues>
+      <AllowedSectionValues>639</AllowedSectionValues>
+      <AllowedSectionValues>867</AllowedSectionValues>
+      <ParameterDescription>Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recW4LyutC0q9G3IK</AssertionId>
+      <createdTime>2022-07-11T01:00:22Z</createdTime>
+      <UnitTest>recvMHLuLS6IPDRk6</UnitTest>
+      <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
+      <Name>CentralOfficeCode=</Name>
+      <TestValue>---123</TestValue>
+      <ParameterMin>100</ParameterMin>
+      <ParameterMax>999</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ExtractedValue />
+      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
       <ParameterDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
 </ParameterDescription>
+      <SectionOrder>3</SectionOrder>
+      <Section1 />
       <Section2 />
       <Section3 />
       <Section4>123</Section4>
       <Section5 />
+      <DefaultSectionOrder>3</DefaultSectionOrder>
+      <SectionName>CentralOfficeCode</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-10UnitTest-10</UnitTestName>
+      <DisallowedSectionValues>555</DisallowedSectionValues>
+      <DisallowedSectionValues>911</DisallowedSectionValues>
+      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
     </Assertion>
@@ -2858,6 +3778,263 @@
       <TooLong>0</TooLong>
     </Assertion>
     <Assertion>
+      <AssertionId>recYzKbdQtfGbHu2Y</AssertionId>
+      <createdTime>2022-07-11T01:53:12Z</createdTime>
+      <UnitTest>receQvqYMSMhmMaq5</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4>123</Section4>
+      <Section5 />
+      <ExtractedValue />
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>AreaCode=</Name>
+      <TestValue>---123</TestValue>
+      <SectionName>AreaCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-17</UnitTestName>
+      <CountrySection>recJkndWmmqluwswT</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>2</DefaultSectionOrder>
+      <SectionOrder>2</SectionOrder>
+      <ParameterMin>204</ParameterMin>
+      <ParameterMax>905</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <AllowedSectionValues>403</AllowedSectionValues>
+      <AllowedSectionValues>587</AllowedSectionValues>
+      <AllowedSectionValues>780</AllowedSectionValues>
+      <AllowedSectionValues>825</AllowedSectionValues>
+      <AllowedSectionValues>236</AllowedSectionValues>
+      <AllowedSectionValues>250</AllowedSectionValues>
+      <AllowedSectionValues>604</AllowedSectionValues>
+      <AllowedSectionValues>672</AllowedSectionValues>
+      <AllowedSectionValues>778</AllowedSectionValues>
+      <AllowedSectionValues>204</AllowedSectionValues>
+      <AllowedSectionValues>431</AllowedSectionValues>
+      <AllowedSectionValues>506</AllowedSectionValues>
+      <AllowedSectionValues>709</AllowedSectionValues>
+      <AllowedSectionValues>782</AllowedSectionValues>
+      <AllowedSectionValues>902</AllowedSectionValues>
+      <AllowedSectionValues>226</AllowedSectionValues>
+      <AllowedSectionValues>249</AllowedSectionValues>
+      <AllowedSectionValues>289</AllowedSectionValues>
+      <AllowedSectionValues>343</AllowedSectionValues>
+      <AllowedSectionValues>365</AllowedSectionValues>
+      <AllowedSectionValues>416</AllowedSectionValues>
+      <AllowedSectionValues>437</AllowedSectionValues>
+      <AllowedSectionValues>519</AllowedSectionValues>
+      <AllowedSectionValues>548</AllowedSectionValues>
+      <AllowedSectionValues>613</AllowedSectionValues>
+      <AllowedSectionValues>647</AllowedSectionValues>
+      <AllowedSectionValues>705</AllowedSectionValues>
+      <AllowedSectionValues>807</AllowedSectionValues>
+      <AllowedSectionValues>905</AllowedSectionValues>
+      <AllowedSectionValues>367</AllowedSectionValues>
+      <AllowedSectionValues>418</AllowedSectionValues>
+      <AllowedSectionValues>438</AllowedSectionValues>
+      <AllowedSectionValues>450</AllowedSectionValues>
+      <AllowedSectionValues>514</AllowedSectionValues>
+      <AllowedSectionValues>579</AllowedSectionValues>
+      <AllowedSectionValues>581</AllowedSectionValues>
+      <AllowedSectionValues>819</AllowedSectionValues>
+      <AllowedSectionValues>873</AllowedSectionValues>
+      <AllowedSectionValues>306</AllowedSectionValues>
+      <AllowedSectionValues>639</AllowedSectionValues>
+      <AllowedSectionValues>867</AllowedSectionValues>
+      <ParameterDescription>Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recZ5D5ceV3D7qden</AssertionId>
+      <createdTime>2022-07-11T01:29:09Z</createdTime>
+      <UnitTest>reco2Wt6sX6j1ZtdI</UnitTest>
+      <CountrySection>recmY1uBqoloVWQyj</CountrySection>
+      <Name>ExtraNumbers=</Name>
+      <TestValue>--911-1234-88</TestValue>
+      <SectionMinlength>0</SectionMinlength>
+      <SectionMaxLength>0</SectionMaxLength>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
+      <ParameterDescription>This refers to any extra numbers after the subscriber number.  In some situations these numbers are just ignored, in other cases, they will make the number unroutable.</ParameterDescription>
+      <SectionOrder>5</SectionOrder>
+      <Section1 />
+      <Section2 />
+      <Section3>911</Section3>
+      <Section4>1234</Section4>
+      <Section5>88</Section5>
+      <DefaultSectionOrder>5</DefaultSectionOrder>
+      <SectionName>ExtraNumbers</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-7UnitTest-12</UnitTestName>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored>true</IsSectionIgnored>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>rece5dmQtPyG0MlXU</AssertionId>
+      <createdTime>2022-07-11T01:52:40Z</createdTime>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <ExtractedValue />
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>CountryCode=</Name>
+      <SectionName>CountryCode</SectionName>
+      <UnitTest>recyLrMfWAsJJGKi4</UnitTest>
+      <CountryName>Canada</CountryName>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
+      <TestValue>-212-555-2134-4544-12323</TestValue>
+      <UnitTestName>Canada-10UnitTest-15</UnitTestName>
+      <CountrySection>recJ7wLWRrRovx3sS</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>1</DefaultSectionOrder>
+      <SectionOrder>1</SectionOrder>
+      <ParameterMin>1</ParameterMin>
+      <ParameterMax>1</ParameterMax>
+      <SectionMinlength>1</SectionMinlength>
+      <SectionMaxLength>1</SectionMaxLength>
+      <ParameterDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>rechUbsUoiK6o98or</AssertionId>
+      <createdTime>2022-07-11T01:53:24Z</createdTime>
+      <UnitTest>recjFdx1koHgCVT2b</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>030</Section3>
+      <Section4>0000</Section4>
+      <Section5 />
+      <ExtractedValue>030</ExtractedValue>
+      <TooLow>1</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>1</AssertionFailed>
+      <Name>CentralOfficeCode=030 - FAIL</Name>
+      <FailureDescription>Assertion is expected to fail because the value (030) is too low.</FailureDescription>
+      <TestValue>1-608-030-0000</TestValue>
+      <SectionName>CentralOfficeCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-14</UnitTestName>
+      <CountrySection>recIQXPGZxc1T6xcF</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>3</DefaultSectionOrder>
+      <SectionOrder>3</SectionOrder>
+      <ParameterMin>100</ParameterMin>
+      <ParameterMax>999</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ParameterDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
+</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>rechy8jZ3yyhiGyhs</AssertionId>
+      <createdTime>2022-07-11T01:53:07Z</createdTime>
+      <UnitTest>recscmu4BE26sPp5p</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>414</Section2>
+      <Section3>411</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <ExtractedValue>414</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>1</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>1</AssertionFailed>
+      <Name>AreaCode=414 - FAIL</Name>
+      <FailureDescription>Assertion is expected to fail because the value (414) is missing from the list of allowed values.</FailureDescription>
+      <TestValue>1-414-411-1234</TestValue>
+      <SectionName>AreaCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-13</UnitTestName>
+      <CountrySection>recJkndWmmqluwswT</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recBkAACuVdIuKl9Q</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>2</DefaultSectionOrder>
+      <SectionOrder>2</SectionOrder>
+      <ParameterMin>204</ParameterMin>
+      <ParameterMax>905</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <AllowedSectionValues>403</AllowedSectionValues>
+      <AllowedSectionValues>587</AllowedSectionValues>
+      <AllowedSectionValues>780</AllowedSectionValues>
+      <AllowedSectionValues>825</AllowedSectionValues>
+      <AllowedSectionValues>236</AllowedSectionValues>
+      <AllowedSectionValues>250</AllowedSectionValues>
+      <AllowedSectionValues>604</AllowedSectionValues>
+      <AllowedSectionValues>672</AllowedSectionValues>
+      <AllowedSectionValues>778</AllowedSectionValues>
+      <AllowedSectionValues>204</AllowedSectionValues>
+      <AllowedSectionValues>431</AllowedSectionValues>
+      <AllowedSectionValues>506</AllowedSectionValues>
+      <AllowedSectionValues>709</AllowedSectionValues>
+      <AllowedSectionValues>782</AllowedSectionValues>
+      <AllowedSectionValues>902</AllowedSectionValues>
+      <AllowedSectionValues>226</AllowedSectionValues>
+      <AllowedSectionValues>249</AllowedSectionValues>
+      <AllowedSectionValues>289</AllowedSectionValues>
+      <AllowedSectionValues>343</AllowedSectionValues>
+      <AllowedSectionValues>365</AllowedSectionValues>
+      <AllowedSectionValues>416</AllowedSectionValues>
+      <AllowedSectionValues>437</AllowedSectionValues>
+      <AllowedSectionValues>519</AllowedSectionValues>
+      <AllowedSectionValues>548</AllowedSectionValues>
+      <AllowedSectionValues>613</AllowedSectionValues>
+      <AllowedSectionValues>647</AllowedSectionValues>
+      <AllowedSectionValues>705</AllowedSectionValues>
+      <AllowedSectionValues>807</AllowedSectionValues>
+      <AllowedSectionValues>905</AllowedSectionValues>
+      <AllowedSectionValues>367</AllowedSectionValues>
+      <AllowedSectionValues>418</AllowedSectionValues>
+      <AllowedSectionValues>438</AllowedSectionValues>
+      <AllowedSectionValues>450</AllowedSectionValues>
+      <AllowedSectionValues>514</AllowedSectionValues>
+      <AllowedSectionValues>579</AllowedSectionValues>
+      <AllowedSectionValues>581</AllowedSectionValues>
+      <AllowedSectionValues>819</AllowedSectionValues>
+      <AllowedSectionValues>873</AllowedSectionValues>
+      <AllowedSectionValues>306</AllowedSectionValues>
+      <AllowedSectionValues>639</AllowedSectionValues>
+      <AllowedSectionValues>867</AllowedSectionValues>
+      <ParameterDescription>Most country phone numbers start with an area code, which locates the phone number within a specific section of the country.</ParameterDescription>
+    </Assertion>
+    <Assertion>
       <AssertionId>reciEFrWinIBiP7BQ</AssertionId>
       <createdTime>2022-07-09T23:58:54Z</createdTime>
       <UnitTest>recVv0mk7Yx8PyeKV</UnitTest>
@@ -2930,6 +4107,81 @@
       <TooLong>0</TooLong>
     </Assertion>
     <Assertion>
+      <AssertionId>reclONRqoH6fQEkDO</AssertionId>
+      <createdTime>2022-07-11T01:28:53Z</createdTime>
+      <UnitTest>reco2Wt6sX6j1ZtdI</UnitTest>
+      <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
+      <Name>CentralOfficeCode=911 - FAIL</Name>
+      <TestValue>--911-1234-88</TestValue>
+      <ParameterMin>100</ParameterMin>
+      <ParameterMax>999</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ExtractedValue>911</ExtractedValue>
+      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>1</AssertionFailed>
+      <ParameterDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
+</ParameterDescription>
+      <SectionOrder>3</SectionOrder>
+      <Section1 />
+      <Section2 />
+      <Section3>911</Section3>
+      <Section4>1234</Section4>
+      <Section5>88</Section5>
+      <DefaultSectionOrder>3</DefaultSectionOrder>
+      <SectionName>CentralOfficeCode</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-7UnitTest-12</UnitTestName>
+      <DisallowedSectionValues>555</DisallowedSectionValues>
+      <DisallowedSectionValues>911</DisallowedSectionValues>
+      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>1</FoundInDisallowedSectionValues>
+      <FailureDescription>Assertion is expected to fail because the value (911) is explicity excluded.</FailureDescription>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored />
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recli6pIdSO7KI41N</AssertionId>
+      <createdTime>2022-07-11T01:53:24Z</createdTime>
+      <UnitTest>recjFdx1koHgCVT2b</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>030</Section3>
+      <Section4>0000</Section4>
+      <Section5 />
+      <ExtractedValue>0000</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>SubscriberNumber=0000</Name>
+      <TestValue>1-608-030-0000</TestValue>
+      <SectionName>SubscriberNumber</SectionName>
+      <UnitTestName>Canada-10UnitTest-14</UnitTestName>
+      <CountrySection>recDMzkkk1emQkOBr</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recZ0CklAws9mZ4nF</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>4</DefaultSectionOrder>
+      <SectionOrder>4</SectionOrder>
+      <ParameterMin>0</ParameterMin>
+      <ParameterMax>9999</ParameterMax>
+      <SectionMinlength>4</SectionMinlength>
+      <SectionMaxLength>4</SectionMaxLength>
+      <ParameterDescription>This refers to whatever remaining parts of the number are left that identify the specific subscriber being called.</ParameterDescription>
+    </Assertion>
+    <Assertion>
       <AssertionId>recmmO7GHsbuU68If</AssertionId>
       <createdTime>2022-07-10T21:39:18Z</createdTime>
       <UnitTest>rec4HDxf81U7pbpWi</UnitTest>
@@ -2968,35 +4220,35 @@
     <Assertion>
       <AssertionId>reco7W3RiA0JL1g7d</AssertionId>
       <createdTime>2022-07-11T01:00:03Z</createdTime>
-      <HasCountryMismatch>0</HasCountryMismatch>
-      <ExtractedValue />
-      <TooLow>0</TooLow>
-      <TooHigh>0</TooHigh>
-      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
-      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
-      <AssertionFailed>0</AssertionFailed>
-      <Name>CountryCode=</Name>
-      <SectionName>CountryCode</SectionName>
       <UnitTest>recvMHLuLS6IPDRk6</UnitTest>
-      <CountryName>US</CountryName>
-      <Section1 />
-      <TestValue>---123</TestValue>
-      <UnitTestName>US-10UnitTest-10</UnitTestName>
       <CountrySection>recUdB1NVDOQsaZU4</CountrySection>
-      <CountrySectionCountry>US</CountrySectionCountry>
-      <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
-      <IsSectionIgnored />
-      <DefaultSectionOrder>1</DefaultSectionOrder>
-      <SectionOrder>1</SectionOrder>
+      <Name>CountryCode=</Name>
+      <TestValue>---123</TestValue>
       <ParameterMin>1</ParameterMin>
       <ParameterMax>1</ParameterMax>
       <SectionMinlength>1</SectionMinlength>
       <SectionMaxLength>1</SectionMaxLength>
+      <ExtractedValue />
+      <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
       <ParameterDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</ParameterDescription>
+      <SectionOrder>1</SectionOrder>
+      <Section1 />
       <Section2 />
       <Section3 />
       <Section4>123</Section4>
       <Section5 />
+      <DefaultSectionOrder>1</DefaultSectionOrder>
+      <SectionName>CountryCode</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-10UnitTest-10</UnitTestName>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
     </Assertion>
@@ -3141,6 +4393,38 @@
       <TooLong>0</TooLong>
     </Assertion>
     <Assertion>
+      <AssertionId>recqBSK22Dp6u1B1a</AssertionId>
+      <createdTime>2022-07-11T01:53:24Z</createdTime>
+      <UnitTest>recjFdx1koHgCVT2b</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>030</Section3>
+      <Section4>0000</Section4>
+      <Section5 />
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>ExtraNumbers=</Name>
+      <TestValue>1-608-030-0000</TestValue>
+      <SectionName>ExtraNumbers</SectionName>
+      <UnitTestName>Canada-10UnitTest-14</UnitTestName>
+      <CountrySection>recas7of8hug9Zetk</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <IsSectionIgnored>true</IsSectionIgnored>
+      <DefaultSectionOrder>5</DefaultSectionOrder>
+      <SectionOrder>5</SectionOrder>
+      <SectionMinlength>0</SectionMinlength>
+      <SectionMaxLength>0</SectionMaxLength>
+      <ParameterDescription>This refers to any extra numbers after the subscriber number.  In some situations these numbers are just ignored, in other cases, they will make the number unroutable.</ParameterDescription>
+    </Assertion>
+    <Assertion>
       <AssertionId>recqBcyOFUNdn0Q8H</AssertionId>
       <createdTime>2022-07-11T00:18:31Z</createdTime>
       <UnitTest>recJtQknhc4BuYrpx</UnitTest>
@@ -3211,6 +4495,42 @@
       <TooLong>0</TooLong>
     </Assertion>
     <Assertion>
+      <AssertionId>recr1nTVWYxCE7ENP</AssertionId>
+      <createdTime>2022-07-11T01:53:19Z</createdTime>
+      <UnitTest>recyLrMfWAsJJGKi4</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
+      <ExtractedValue>555</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>CentralOfficeCode=555</Name>
+      <TestValue>-212-555-2134-4544-12323</TestValue>
+      <SectionName>CentralOfficeCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-15</UnitTestName>
+      <CountrySection>recIQXPGZxc1T6xcF</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>3</DefaultSectionOrder>
+      <SectionOrder>3</SectionOrder>
+      <ParameterMin>100</ParameterMin>
+      <ParameterMax>999</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ParameterDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
+</ParameterDescription>
+    </Assertion>
+    <Assertion>
       <AssertionId>recrXALfrbepKumMC</AssertionId>
       <createdTime>2022-07-11T00:18:31Z</createdTime>
       <UnitTest>recJtQknhc4BuYrpx</UnitTest>
@@ -3242,6 +4562,38 @@
       <CountrySectionCountry>US</CountrySectionCountry>
       <HasCountryMismatch>0</HasCountryMismatch>
       <IsSectionIgnored />
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recrpkxVxWjcLmB3M</AssertionId>
+      <createdTime>2022-07-11T01:28:07Z</createdTime>
+      <UnitTest>recaB1pM1qvyLXNU5</UnitTest>
+      <CountrySection>recmY1uBqoloVWQyj</CountrySection>
+      <Name>ExtraNumbers=</Name>
+      <TestValue>--278-1234</TestValue>
+      <SectionMinlength>0</SectionMinlength>
+      <SectionMaxLength>0</SectionMaxLength>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
+      <ParameterDescription>This refers to any extra numbers after the subscriber number.  In some situations these numbers are just ignored, in other cases, they will make the number unroutable.</ParameterDescription>
+      <SectionOrder>5</SectionOrder>
+      <Section1 />
+      <Section2 />
+      <Section3>278</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <DefaultSectionOrder>5</DefaultSectionOrder>
+      <SectionName>ExtraNumbers</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-7UnitTest-11</UnitTestName>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored>true</IsSectionIgnored>
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
     </Assertion>
@@ -3279,6 +4631,41 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recsQqo562xU5PjX8</AssertionId>
+      <createdTime>2022-07-11T01:52:50Z</createdTime>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <ExtractedValue />
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>CountryCode=</Name>
+      <SectionName>CountryCode</SectionName>
+      <UnitTest>receQvqYMSMhmMaq5</UnitTest>
+      <CountryName>Canada</CountryName>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4>123</Section4>
+      <Section5 />
+      <TestValue>---123</TestValue>
+      <UnitTestName>Canada-10UnitTest-17</UnitTestName>
+      <CountrySection>recJ7wLWRrRovx3sS</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>1</DefaultSectionOrder>
+      <SectionOrder>1</SectionOrder>
+      <ParameterMin>1</ParameterMin>
+      <ParameterMax>1</ParameterMax>
+      <SectionMinlength>1</SectionMinlength>
+      <SectionMaxLength>1</SectionMaxLength>
+      <ParameterDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</ParameterDescription>
     </Assertion>
     <Assertion>
       <AssertionId>recsjKb0HUtfzTmKZ</AssertionId>
@@ -3358,6 +4745,77 @@
       <TooLong>0</TooLong>
     </Assertion>
     <Assertion>
+      <AssertionId>recu2j4chZZjiwSiT</AssertionId>
+      <createdTime>2022-07-11T01:27:43Z</createdTime>
+      <UnitTest>recaB1pM1qvyLXNU5</UnitTest>
+      <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
+      <Name>CentralOfficeCode=278</Name>
+      <TestValue>--278-1234</TestValue>
+      <ParameterMin>100</ParameterMin>
+      <ParameterMax>999</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ExtractedValue>278</ExtractedValue>
+      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <AssertionFailed>0</AssertionFailed>
+      <ParameterDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
+</ParameterDescription>
+      <SectionOrder>3</SectionOrder>
+      <Section1 />
+      <Section2 />
+      <Section3>278</Section3>
+      <Section4>1234</Section4>
+      <Section5 />
+      <DefaultSectionOrder>3</DefaultSectionOrder>
+      <SectionName>CentralOfficeCode</SectionName>
+      <CountryName>US</CountryName>
+      <UnitTestName>US-7UnitTest-11</UnitTestName>
+      <DisallowedSectionValues>555</DisallowedSectionValues>
+      <DisallowedSectionValues>911</DisallowedSectionValues>
+      <DisallowedSectionValues>411</DisallowedSectionValues>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <CountrySectionCountry>US</CountrySectionCountry>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <IsSectionIgnored />
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recuoAYOTBGfkfgAG</AssertionId>
+      <createdTime>2022-07-11T01:53:19Z</createdTime>
+      <UnitTest>recyLrMfWAsJJGKi4</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1 />
+      <Section2>212</Section2>
+      <Section3>555</Section3>
+      <Section4>2134</Section4>
+      <Section5>4544-12323</Section5>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>ExtraNumbers=</Name>
+      <TestValue>-212-555-2134-4544-12323</TestValue>
+      <SectionName>ExtraNumbers</SectionName>
+      <UnitTestName>Canada-10UnitTest-15</UnitTestName>
+      <CountrySection>recas7of8hug9Zetk</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
+      <IsSectionIgnored>true</IsSectionIgnored>
+      <DefaultSectionOrder>5</DefaultSectionOrder>
+      <SectionOrder>5</SectionOrder>
+      <SectionMinlength>0</SectionMinlength>
+      <SectionMaxLength>0</SectionMaxLength>
+      <ParameterDescription>This refers to any extra numbers after the subscriber number.  In some situations these numbers are just ignored, in other cases, they will make the number unroutable.</ParameterDescription>
+    </Assertion>
+    <Assertion>
       <AssertionId>recvK96NcEr7iwNUY</AssertionId>
       <createdTime>2022-07-10T23:50:42Z</createdTime>
       <UnitTest>recAeJBYacVEr4uFz</UnitTest>
@@ -3396,6 +4854,77 @@
       <IsSectionIgnored />
       <TooShort>0</TooShort>
       <TooLong>0</TooLong>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recvRoAx5JimIIi1j</AssertionId>
+      <createdTime>2022-07-11T01:52:35Z</createdTime>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <ExtractedValue>1</ExtractedValue>
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>CountryCode=1</Name>
+      <SectionName>CountryCode</SectionName>
+      <UnitTest>recjFdx1koHgCVT2b</UnitTest>
+      <CountryName>Canada</CountryName>
+      <Section1>1</Section1>
+      <Section2>608</Section2>
+      <Section3>030</Section3>
+      <Section4>0000</Section4>
+      <Section5 />
+      <TestValue>1-608-030-0000</TestValue>
+      <UnitTestName>Canada-10UnitTest-14</UnitTestName>
+      <CountrySection>recJ7wLWRrRovx3sS</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>rectGKwt1I1u1T9E0</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>1</DefaultSectionOrder>
+      <SectionOrder>1</SectionOrder>
+      <ParameterMin>1</ParameterMin>
+      <ParameterMax>1</ParameterMax>
+      <SectionMinlength>1</SectionMinlength>
+      <SectionMaxLength>1</SectionMaxLength>
+      <ParameterDescription>Country code locates the phone number within a specific country and is a specially formatted number between 1 and 999</ParameterDescription>
+    </Assertion>
+    <Assertion>
+      <AssertionId>recvfF1wuBqOGFbox</AssertionId>
+      <createdTime>2022-07-11T01:53:12Z</createdTime>
+      <UnitTest>receQvqYMSMhmMaq5</UnitTest>
+      <CountryName>Canada</CountryName>
+      <HasCountryMismatch>0</HasCountryMismatch>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4>123</Section4>
+      <Section5 />
+      <ExtractedValue />
+      <TooLow>0</TooLow>
+      <TooHigh>0</TooHigh>
+      <TooShort>0</TooShort>
+      <TooLong>0</TooLong>
+      <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
+      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <AssertionFailed>0</AssertionFailed>
+      <Name>CentralOfficeCode=</Name>
+      <TestValue>---123</TestValue>
+      <SectionName>CentralOfficeCode</SectionName>
+      <UnitTestName>Canada-10UnitTest-17</UnitTestName>
+      <CountrySection>recIQXPGZxc1T6xcF</CountrySection>
+      <CountrySectionCountry>Canada</CountrySectionCountry>
+      <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
+      <IsSectionIgnored />
+      <DefaultSectionOrder>3</DefaultSectionOrder>
+      <SectionOrder>3</SectionOrder>
+      <ParameterMin>100</ParameterMin>
+      <ParameterMax>999</ParameterMax>
+      <SectionMinlength>3</SectionMinlength>
+      <SectionMaxLength>3</SectionMaxLength>
+      <ParameterDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
+</ParameterDescription>
     </Assertion>
     <Assertion>
       <AssertionId>recytYxQdt8Oyo45d</AssertionId>

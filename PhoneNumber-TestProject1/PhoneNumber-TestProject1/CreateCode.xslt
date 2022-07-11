@@ -15,7 +15,7 @@
     <xsl:template match="/*">
         <FileSet>
             <FileSetFiles>
-                <xsl:for-each select="/*/Countries/Country"><xsl:variable name="country" /><xsl:variable name="phone-number-base">
+                <xsl:for-each select="/*/Countries/Country[Name='US']"><xsl:variable name="country" /><xsl:variable name="phone-number-base">
                     <xsl:value-of select="Name" />
                     <xsl:text>PhoneNumberBase</xsl:text>
                 </xsl:variable>
@@ -32,6 +32,8 @@ namespace PhoneNumber_TestProject1
 {
     public abstract partial class <xsl:value-of select="$phone-number-base" /> : PhoneNumberBase
     {
+        <xsl:for-each select="CountrySections/CountrySection[normalize-space(PhoneNumberSectionName) != '']">
+        public string <xsl:value-of select="PhoneNumberSectionName" /> { get; set; }</xsl:for-each>
     }
 }
 </xsl:element>

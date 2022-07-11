@@ -9,17 +9,16 @@ namespace PhoneNumber_TestProject1
         /// </summary>
         public int ExpectedLength { get; }
 
-        public string CountryCode { get; set; }
-        public string AreaCode { get; set; }
+        //public string AreaCode { get; set; }
 
-        // TODO: Implement USPhoneNumber.CentralOfficeCode property
-        public string CentralOfficeCode { get => throw new NotImplementedException(); }
+        //// TODO: Implement USPhoneNumber.CentralOfficeCode property
+        //public string CentralOfficeCode { get => throw new NotImplementedException(); }
 
-        // TODO: Implement USPhoneNumber.SubscriberNumber property
-        public string SubscriberNumber { get => throw new NotImplementedException(); }
+        //// TODO: Implement USPhoneNumber.SubscriberNumber property
+        //public string SubscriberNumber { get => throw new NotImplementedException(); }
 
-        // TODO: Implement USPhoneNumber.SubscriberNumber property
-        public string ExtraNumbers { get => throw new NotImplementedException(); }
+        //// TODO: Implement USPhoneNumber.SubscriberNumber property
+        //public string ExtraNumbers { get => throw new NotImplementedException(); }
 
         /// <summary>
         /// updated the US Phone Number

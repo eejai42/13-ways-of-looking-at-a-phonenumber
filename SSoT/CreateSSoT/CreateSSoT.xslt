@@ -95,14 +95,14 @@
     <xsl:template match="/*/Countries/Country">
         <Name><xsl:value-of select="Name" /></Name>
         <CountrySections>
-            <xsl:for-each select="//CountrySections/CountrySection[Country=current()/CountryId]"><xsl:sort select="SectionOrder" />
+            <xsl:for-each select="//CountrySections/CountrySection[CountryName=current()/Name]"><xsl:sort select="SectionOrder" />
                 <xsl:copy>
                     <xsl:apply-templates select="." />
                 </xsl:copy>             
             </xsl:for-each>
         </CountrySections>
         <CountryFormats>
-            <xsl:for-each select="/*/CountryFormats/CountryFormat[Country=current()/CountryId]"><xsl:sort select="FormatLength" order="descending" />
+            <xsl:for-each select="/*/CountryFormats/CountryFormat[CountryName=current()/Name]"><xsl:sort select="FormatLength" order="descending" />
                 <xsl:copy>
                     <xsl:apply-templates select="." />
                 </xsl:copy>
@@ -132,13 +132,13 @@
 
     <xsl:template match="/*/CountrySections/CountrySection">
         <Name><xsl:value-of select="Name" /></Name>
+        <PhoneNumberSectionName><xsl:value-of select="PhoneNumberSectionName" /></PhoneNumberSectionName>
         <xsl:choose>
             <xsl:when test="normalize-space(IsIgnored)='true'">
                 <IsIgnored>true</IsIgnored>
                 <IsRequired>false</IsRequired>
             </xsl:when>
             <xsl:otherwise>
-                <PhoneNumberSectionName><xsl:value-of select="PhoneNumberSectionName" /></PhoneNumberSectionName>
                 <CountryName><xsl:value-of select="CountryName" /></CountryName>
                 <CountryCode><xsl:value-of select="CountryCode" /></CountryCode>        
                 <IsRequired>

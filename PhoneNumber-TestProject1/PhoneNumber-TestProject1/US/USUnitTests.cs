@@ -18,20 +18,22 @@ namespace PhoneNumber_TestProject1
         public void US10PhoneNumberTest14143561234()
         {
             var parsedNumber = new US10PhoneNumber("+14143561234");
-            if (!parsedNumber.IsValid)
-            {
-                parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
-                Assert.Fail($"Invalid US Phone Number: {parsedNumber.E164Format}");
-            }
-            else
-            {
-                
-                Assert.IsTrue($"{parsedNumber.CountryCode}" == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
-                Assert.IsTrue($"{parsedNumber.AreaCode}" == "414", $"AreaCode {parsedNumber.AreaCode} not 414 as expected.");
-                Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "356", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 356 as expected.");
-                Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
-                Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
-            }
+
+            // Check that each of the parts was found/interpreted correctly
+            
+            Assert.IsTrue($"{parsedNumber.CountryCode}" == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
+            Assert.IsTrue($"{parsedNumber.AreaCode}" == "414", $"AreaCode {parsedNumber.AreaCode} not 414 as expected.");
+            Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "356", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 356 as expected.");
+            Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
+            Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
+
+    
+            
+            // List errors
+            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+
+            Assert.IsTrue(parsedNumber.IsValid, "Phone number was expected to be successfully parsed.");        
+    
         }
     
         /// <summary>
@@ -42,20 +44,80 @@ namespace PhoneNumber_TestProject1
         public void US10PhoneNumberTest2125552134454412323()
         {
             var parsedNumber = new US10PhoneNumber("+2125552134454412323");
-            if (!parsedNumber.IsValid)
-            {
-                parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
-                Assert.Fail($"Invalid US Phone Number: {parsedNumber.E164Format}");
-            }
-            else
-            {
-                
-                Assert.IsTrue($"{parsedNumber.CountryCode}" == "", $"CountryCode {parsedNumber.CountryCode} not  as expected.");
-                Assert.IsTrue($"{parsedNumber.AreaCode}" == "212", $"AreaCode {parsedNumber.AreaCode} not 212 as expected.");
-                Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "555", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 555 as expected.");
-                Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "2134", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 2134 as expected.");
-                Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "4544-12323", $"ExtraNumbers {parsedNumber.ExtraNumbers} not 4544-12323 as expected.");
-            }
+
+            // Check that each of the parts was found/interpreted correctly
+            
+            Assert.IsTrue($"{parsedNumber.CountryCode}" == "", $"CountryCode {parsedNumber.CountryCode} not  as expected.");
+            Assert.IsTrue($"{parsedNumber.AreaCode}" == "212", $"AreaCode {parsedNumber.AreaCode} not 212 as expected.");
+            Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "555", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 555 as expected.");
+            Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "2134", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 2134 as expected.");
+            Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
+
+    
+            
+            Console.WriteLine("Assertion is expected to fail because the value (555) is explicity excluded.");
+
+            // List errors
+            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+
+            Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
+    
+        }
+    
+        /// <summary>
+        /// Assertion is expected to fail because the value (030) is too low.
+        /// </summary>
+
+        [Test]
+        public void US10PhoneNumberTest16080300000()
+        {
+            var parsedNumber = new US10PhoneNumber("+16080300000");
+
+            // Check that each of the parts was found/interpreted correctly
+            
+            Assert.IsTrue($"{parsedNumber.CountryCode}" == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
+            Assert.IsTrue($"{parsedNumber.AreaCode}" == "608", $"AreaCode {parsedNumber.AreaCode} not 608 as expected.");
+            Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "030", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 030 as expected.");
+            Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "0000", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 0000 as expected.");
+            Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
+
+    
+            
+            Console.WriteLine("Assertion is expected to fail because the value (030) is too low.");
+
+            // List errors
+            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+
+            Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
+    
+        }
+    
+        /// <summary>
+        /// Assertion is expected to fail because the value (911) is explicity excluded.
+        /// </summary>
+
+        [Test]
+        public void US10PhoneNumberTest16089111234()
+        {
+            var parsedNumber = new US10PhoneNumber("+16089111234");
+
+            // Check that each of the parts was found/interpreted correctly
+            
+            Assert.IsTrue($"{parsedNumber.CountryCode}" == "1", $"CountryCode {parsedNumber.CountryCode} not 1 as expected.");
+            Assert.IsTrue($"{parsedNumber.AreaCode}" == "608", $"AreaCode {parsedNumber.AreaCode} not 608 as expected.");
+            Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "911", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not 911 as expected.");
+            Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "1234", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 1234 as expected.");
+            Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
+
+    
+            
+            Console.WriteLine("Assertion is expected to fail because the value (911) is explicity excluded.");
+
+            // List errors
+            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+
+            Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
+    
         }
     
     }

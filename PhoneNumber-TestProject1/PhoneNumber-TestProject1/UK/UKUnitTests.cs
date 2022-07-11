@@ -36,7 +36,7 @@ namespace PhoneNumber_TestProject1
         }
     
         /// <summary>
-        /// Assertion is expected to fail because the value (1) is too low.Assertion is expected to fail because the value (212) is missing from the list of allowed values.
+        /// Assertion is expected to fail because the value (1) is too low.to shortAssertion is expected to fail because the value (212) is missing from the list of allowed values.
         /// </summary>
 
         [Test]
@@ -53,7 +53,7 @@ namespace PhoneNumber_TestProject1
 
     
             
-            Console.WriteLine("Assertion is expected to fail because the value (1) is too low.Assertion is expected to fail because the value (212) is missing from the list of allowed values.");
+            Console.WriteLine("Assertion is expected to fail because the value (1) is too low.to shortAssertion is expected to fail because the value (212) is missing from the list of allowed values.");
 
             // List errors
             parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));

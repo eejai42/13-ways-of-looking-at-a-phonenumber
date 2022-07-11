@@ -39,6 +39,34 @@ namespace PhoneNumber_TestProject1
         }
     
         /// <summary>
+        /// Assertion is expected to fail because the value (123) is to short
+        /// </summary>
+
+        [Test]
+        public void US10PhoneNumberTest123()
+        {
+            var parsedNumber = new US10PhoneNumber("+123");
+
+            // Check that each of the parts was found/interpreted correctly
+            
+            Assert.IsTrue($"{parsedNumber.CountryCode}" == "", $"CountryCode {parsedNumber.CountryCode} not  as expected.");
+            Assert.IsTrue($"{parsedNumber.AreaCode}" == "", $"AreaCode {parsedNumber.AreaCode} not  as expected.");
+            Assert.IsTrue($"{parsedNumber.CentralOfficeCode}" == "", $"CentralOfficeCode {parsedNumber.CentralOfficeCode} not  as expected.");
+            Assert.IsTrue($"{parsedNumber.SubscriberNumber}" == "123", $"SubscriberNumber {parsedNumber.SubscriberNumber} not 123 as expected.");
+            Assert.IsTrue($"{parsedNumber.ExtraNumbers}" == "", $"ExtraNumbers {parsedNumber.ExtraNumbers} not  as expected.");
+
+    
+            
+            Console.WriteLine("Assertion is expected to fail because the value (123) is to short");
+
+            // List errors
+            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+
+            Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
+    
+        }
+    
+        /// <summary>
         /// Assertion is expected to fail because the value (555) is explicity excluded.
         /// </summary>
 

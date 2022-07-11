@@ -79,6 +79,8 @@
         <SectionMaxLength><xsl:value-of select="SectionMaxLength" /></SectionMaxLength>
         <TooLow><xsl:value-of select="TooLow" /></TooLow>
         <TooHigh><xsl:value-of select="TooHigh" /></TooHigh>
+        <TooShort><xsl:value-of select="TooShort" /></TooShort>
+        <TooLong><xsl:value-of select="TooLong" /></TooLong>
         <MissingFromAllowedSectionValues><xsl:value-of select="MissingFromAllowedSectionValues" /></MissingFromAllowedSectionValues>
         <FoundInDisallowedSectionValues><xsl:value-of select="FoundInDisallowedSectionValues" /></FoundInDisallowedSectionValues>
         <Section1><xsl:value-of select="Section1" /></Section1>

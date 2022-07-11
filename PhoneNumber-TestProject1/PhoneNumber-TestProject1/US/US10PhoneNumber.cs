@@ -16,15 +16,12 @@ namespace PhoneNumber_TestProject1
         {
             base.StripPlus();
             this.ParseCountryCode();
-            if (this.CheckLength())
-            {
-                base.ParseAreaCode();
+            base.ParseAreaCode();
              
-                // TODO: Call the rest of the parse methods
-                //base.ParseCentralOfficeCode();
-                //base.ParseSubscriberNumber();
-                //base.ParseExtraNumbers();
-            }
+            // TODO: Call the rest of the parse methods
+            //base.ParseCentralOfficeCode();
+            //base.ParseSubscriberNumber();
+            //base.ParseExtraNumbers();
         }
 
         // TODO: Implement the rest of the US10 PhoneNumber parsing logic

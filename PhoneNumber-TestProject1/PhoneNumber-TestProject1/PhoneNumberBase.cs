@@ -7,6 +7,11 @@ namespace PhoneNumber_TestProject1
     public abstract class PhoneNumberBase
     {
         /// <summary>
+        /// The expected length of the given phone number
+        /// </summary>
+        public int ExpectedLength { get; }
+
+        /// <summary>
         /// The name of the country that this phone number is expected to be.  
         /// </summary>
         public string CountryName { get; }
@@ -15,11 +20,6 @@ namespace PhoneNumber_TestProject1
         /// A standard E164 formatted version of the given phone number
         /// </summary>
         public string E164Format { get; set; }
-
-        /// <summary>
-        /// The length of the expected phone number
-        /// </summary>
-        public int ExpectedLength { get; }
 
         /// <summary>
         /// A boolean value indicating the current state of this object.  It will return false if there are no errors listed.

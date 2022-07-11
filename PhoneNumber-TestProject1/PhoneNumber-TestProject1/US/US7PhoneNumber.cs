@@ -13,12 +13,9 @@ namespace PhoneNumber_TestProject1
         public override void ParsePhoneNumber()
         {
             base.StripPlus();
-            if (this.CheckLength())
-            {
-                // TODO: Write US 7 digit Phone Section parsing methods
-                //this.ParseCentralOfficeCode();
-                //this.ParseSubscriberNumber();
-            }
+            // TODO: Write US 7 digit Phone Section parsing methods
+            //this.ParseCentralOfficeCode();
+            //this.ParseSubscriberNumber();
         }
 
         // Implement the rest of the parsing logic

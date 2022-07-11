@@ -48,10 +48,11 @@ namespace PhoneNumber_TestProject1
             var parsedNumber = new <xsl:value-of select="CountryName" /><xsl:value-of select="FormatLength" />PhoneNumber("<xsl:value-of select="E164Format" />");
 
             // Check that each of the parts was found/interpreted correctly
-            <xsl:for-each select="./Assertions/Assertion">
-            Assert.IsTrue($"{parsedNumber.<xsl:value-of select="SectionName" />}" == "<xsl:value-of select="ExtractedValue" />", $"<xsl:value-of select="SectionName" /> {parsedNumber.<xsl:value-of select="SectionName" />} not <xsl:value-of select="ExtractedValue" /> as expected.");</xsl:for-each>
-
-    
+            if (parsedNumber.IsValid)
+            {
+                <xsl:for-each select="./Assertions/Assertion">
+                Assert.IsTrue($"{parsedNumber.<xsl:value-of select="SectionName" />}" == "<xsl:value-of select="ExtractedValue" />", $"<xsl:value-of select="SectionName" /> {parsedNumber.<xsl:value-of select="SectionName" />} not '<xsl:value-of select="ExtractedValue" />' as expected.");</xsl:for-each>
+            }
             <xsl:choose>
     <xsl:when test="normalize-space(ExpectedFailedAssertionCount) = '0'">
             // List errors

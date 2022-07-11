@@ -79,7 +79,7 @@
     <UnitTest>
       <UnitTestId>recAG8JkHDKq39agU</UnitTestId>
       <createdTime>2022-03-12T19:51:43Z</createdTime>
-      <PhoneNumber>1-414-356-1234</PhoneNumber>
+      <PhoneNumber>1-414-411-1234</PhoneNumber>
       <CountryFormat>rec2LHC6hU3X65Lc4</CountryFormat>
       <Assertions>recqw4Kct8g5sPfKM</Assertions>
       <Assertions>rec2G8CXnQY93ecHF</Assertions>
@@ -90,21 +90,23 @@
       <Name>US-10UnitTest-1</Name>
       <CountryCode>1</CountryCode>
       <Section2>414</Section2>
-      <Section3>356</Section3>
+      <Section3>411</Section3>
       <Section1>1</Section1>
-      <Section2Plus>414-356-1234</Section2Plus>
-      <Section3Plus>356-1234</Section3Plus>
+      <Section2Plus>414-411-1234</Section2Plus>
+      <Section3Plus>411-1234</Section3Plus>
       <Section4Plus>1234</Section4Plus>
       <Section4>1234</Section4>
       <CountryName>US</CountryName>
-      <E164Format>+14143561234</E164Format>
-      <ExpectedFailedAssertionCount>0</ExpectedFailedAssertionCount>
+      <E164Format>+14144111234</E164Format>
+      <ExpectedFailedAssertionCount>1</ExpectedFailedAssertionCount>
+      <ExpectedFailedAssertionDescriptions>Assertion is expected to fail because the value (411) is explicity excluded.</ExpectedFailedAssertionDescriptions>
       <ExpectedFailedAssertionDescriptionsList />
       <ExpectedFailedAssertionDescriptionsList />
-      <ExpectedFailedAssertionDescriptionsList />
+      <ExpectedFailedAssertionDescriptionsList>Assertion is expected to fail because the value (411) is explicity excluded.</ExpectedFailedAssertionDescriptionsList>
       <ExpectedFailedAssertionDescriptionsList />
       <ExpectedFailedAssertionDescriptionsList />
       <FormatLength>10</FormatLength>
+      <ExpectedFailedAssertions>CentralOfficeCode=411 - FAIL</ExpectedFailedAssertions>
     </UnitTest>
     <UnitTest>
       <UnitTestId>recAeJBYacVEr4uFz</UnitTestId>
@@ -1177,11 +1179,10 @@
       <SpecialSectionValueId>recB3q0vywRFUE429</SpecialSectionValueId>
       <createdTime>2022-07-11T00:17:23Z</createdTime>
       <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
-      <Name>US-CentralOfficeCode-###-411:Exclude 411</Name>
+      <Name>US-CentralOfficeCode-###-411:-EXCLUDED</Name>
       <CountryName>US</CountryName>
       <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
       <Value>411</Value>
-      <SpecialName>Exclude 411</SpecialName>
       <IsExcluded>true</IsExcluded>
     </SpecialSectionValue>
     <SpecialSectionValue>
@@ -1248,10 +1249,9 @@
       <SpecialSectionValueId>recMBkyj0GY2BCJAM</SpecialSectionValueId>
       <createdTime>2022-07-11T00:17:05Z</createdTime>
       <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
-      <Name>US-CentralOfficeCode-###-911:Exclude 911</Name>
+      <Name>US-CentralOfficeCode-###-911:-EXCLUDED</Name>
       <CountryName>US</CountryName>
       <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
-      <SpecialName>Exclude 911</SpecialName>
       <Value>911</Value>
       <IsExcluded>true</IsExcluded>
     </SpecialSectionValue>
@@ -1348,9 +1348,8 @@
       <createdTime>2022-07-10T20:44:23Z</createdTime>
       <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
       <Value>555</Value>
-      <SpecialName>Exclude 555</SpecialName>
       <IsExcluded>true</IsExcluded>
-      <Name>US-CentralOfficeCode-###-555:Exclude 555</Name>
+      <Name>US-CentralOfficeCode-###-555:-EXCLUDED</Name>
       <CountryName>US</CountryName>
       <PhoneNumberSectionName>CentralOfficeCode</PhoneNumberSectionName>
     </SpecialSectionValue>
@@ -1823,7 +1822,7 @@
       <UnitTest>recAG8JkHDKq39agU</UnitTest>
       <CountrySection>recuHEv9m1Y006bTB</CountrySection>
       <Name>AreaCode=414</Name>
-      <TestValue>1-414-356-1234</TestValue>
+      <TestValue>1-414-411-1234</TestValue>
       <ParameterMin>200</ParameterMin>
       <ParameterMax>919</ParameterMax>
       <SectionMinlength>3</SectionMinlength>
@@ -1837,7 +1836,7 @@
       <SectionOrder>2</SectionOrder>
       <Section1>1</Section1>
       <Section2>414</Section2>
-      <Section3>356</Section3>
+      <Section3>411</Section3>
       <Section4>1234</Section4>
       <Section5 />
       <DefaultSectionOrder>2</DefaultSectionOrder>
@@ -1919,7 +1918,7 @@
       <UnitTest>recAG8JkHDKq39agU</UnitTest>
       <CountrySection>recmY1uBqoloVWQyj</CountrySection>
       <Name>ExtraNumbers=</Name>
-      <TestValue>1-414-356-1234</TestValue>
+      <TestValue>1-414-411-1234</TestValue>
       <SectionMinlength>0</SectionMinlength>
       <SectionMaxLength>0</SectionMaxLength>
       <PhoneNumberSection>rec1IgzDF8EeyJ4Ny</PhoneNumberSection>
@@ -1930,7 +1929,7 @@
       <SectionOrder>5</SectionOrder>
       <Section1>1</Section1>
       <Section2>414</Section2>
-      <Section3>356</Section3>
+      <Section3>411</Section3>
       <Section4>1234</Section4>
       <Section5 />
       <DefaultSectionOrder>5</DefaultSectionOrder>
@@ -2056,23 +2055,23 @@
       <createdTime>2022-03-14T09:06:30Z</createdTime>
       <UnitTest>recAG8JkHDKq39agU</UnitTest>
       <CountrySection>recxoHnpLmnUBL8WY</CountrySection>
-      <Name>CentralOfficeCode=356</Name>
-      <TestValue>1-414-356-1234</TestValue>
+      <Name>CentralOfficeCode=411 - FAIL</Name>
+      <TestValue>1-414-411-1234</TestValue>
       <ParameterMin>100</ParameterMin>
       <ParameterMax>999</ParameterMax>
       <SectionMinlength>3</SectionMinlength>
       <SectionMaxLength>3</SectionMaxLength>
-      <ExtractedValue>356</ExtractedValue>
+      <ExtractedValue>411</ExtractedValue>
       <PhoneNumberSection>recOzJBUafTHkRPD5</PhoneNumberSection>
       <TooLow>0</TooLow>
       <TooHigh>0</TooHigh>
-      <AssertionFailed>0</AssertionFailed>
+      <AssertionFailed>1</AssertionFailed>
       <ParameterDescription>Most phone numbers include a section after the area code which locates a specific district or region within the area code.
 </ParameterDescription>
       <SectionOrder>3</SectionOrder>
       <Section1>1</Section1>
       <Section2>414</Section2>
-      <Section3>356</Section3>
+      <Section3>411</Section3>
       <Section4>1234</Section4>
       <Section5 />
       <DefaultSectionOrder>3</DefaultSectionOrder>
@@ -2083,7 +2082,8 @@
       <DisallowedSectionValues>911</DisallowedSectionValues>
       <DisallowedSectionValues>411</DisallowedSectionValues>
       <MissingFromAllowedSectionValues>0</MissingFromAllowedSectionValues>
-      <FoundInDisallowedSectionValues>0</FoundInDisallowedSectionValues>
+      <FoundInDisallowedSectionValues>1</FoundInDisallowedSectionValues>
+      <FailureDescription>Assertion is expected to fail because the value (411) is explicity excluded.</FailureDescription>
       <CountrySectionCountry>US</CountrySectionCountry>
       <HasCountryMismatch>0</HasCountryMismatch>
       <IsSectionIgnored />
@@ -2443,7 +2443,7 @@
       <UnitTest>recAG8JkHDKq39agU</UnitTest>
       <CountrySection>reckrIBNTxMjhC18Q</CountrySection>
       <Name>SubscriberNumber=1234</Name>
-      <TestValue>1-414-356-1234</TestValue>
+      <TestValue>1-414-411-1234</TestValue>
       <ParameterMin>0000</ParameterMin>
       <ParameterMax>9999</ParameterMax>
       <SectionMinlength>4</SectionMinlength>
@@ -2457,7 +2457,7 @@
       <SectionOrder>4</SectionOrder>
       <Section1>1</Section1>
       <Section2>414</Section2>
-      <Section3>356</Section3>
+      <Section3>411</Section3>
       <Section4>1234</Section4>
       <Section5 />
       <DefaultSectionOrder>4</DefaultSectionOrder>
@@ -2908,7 +2908,7 @@
       <UnitTest>recAG8JkHDKq39agU</UnitTest>
       <CountrySection>recUdB1NVDOQsaZU4</CountrySection>
       <Name>CountryCode=1</Name>
-      <TestValue>1-414-356-1234</TestValue>
+      <TestValue>1-414-411-1234</TestValue>
       <ParameterMin>1</ParameterMin>
       <ParameterMax>1</ParameterMax>
       <SectionMinlength>1</SectionMinlength>
@@ -2922,7 +2922,7 @@
       <SectionOrder>1</SectionOrder>
       <Section1>1</Section1>
       <Section2>414</Section2>
-      <Section3>356</Section3>
+      <Section3>411</Section3>
       <Section4>1234</Section4>
       <Section5 />
       <DefaultSectionOrder>1</DefaultSectionOrder>

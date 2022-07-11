@@ -1,25 +1,22 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace PhoneNumber_TestProject1
 {
-    public class UKPhoneNumberBase : PhoneNumberBase
+    public abstract class UKPhoneNumberBase : PhoneNumberBase
     {
 
-        //public string CountryCode { get; set; }
-        //public string AreaCode { get; set; }
-        //public string CentralOfficeCode { get; set; }
-        //public string SubscriberNumber { get; set; }
+        public int ExpectedLength { get; }
+        public string CountryCode { get; set; }
+        // TODO: Create the rest of the UK Phone number sections properties
+        public object AreaCode { get => throw new NotImplementedException(); }
+        public object CentralOfficeCode { get => throw new NotImplementedException(); }
+        public object SubscriberNumber { get => throw new NotImplementedException(); }
 
-        public UKPhoneNumberBase(string e164Format) : base("UK", e164Format)
+
+        public UKPhoneNumberBase(string e164Format, int expectedLength) : base("UK", e164Format)
         {
-            
+            this.ExpectedLength = expectedLength;
         }
-
-        protected override void ParsePhoneNumber()
-        {
-            base.AddError("CountryCode", "ParsePhoneNumber() not implemented.  That's your job...");
-        }
-
-        // TO-DO: Implement the rest of the paring methods...
     }
 }

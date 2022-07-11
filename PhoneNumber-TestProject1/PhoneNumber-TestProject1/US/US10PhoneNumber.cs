@@ -17,33 +17,13 @@ namespace PhoneNumber_TestProject1
             if (this.CheckLength())
             {
                 this.ParseAreaCode();
-                this.ParseCentralOfficeCode();
-                this.ParseSubscriberNumber();
-                this.ParseExtraNumbers();
+                // TODO: Call the rest of the parse methods
             }
         }
 
-        private void ParseExtraNumbers()
-        {
-            this.ExtraNumbers = "";
-            this.RemainingNumber = "";
-        }
-
-        private void ParseCentralOfficeCode()
-        {
-            this.CentralOfficeCode = this.RemainingNumber.Substring(0, 3);
-            this.RemainingNumber = this.RemainingNumber.Substring(3);
-            if (Int32.Parse(this.CentralOfficeCode) < 100) this.AddError("CentralOfficeCode", "Too low!");
-            if (Int32.Parse(this.CentralOfficeCode) == 555) this.AddError("CentralOfficeCode", "555 is now allowed!");
-            if (Int32.Parse(this.CentralOfficeCode) == 911) this.AddError("CentralOfficeCode", "911 is now allowed!");
-        }
-
-        private void ParseSubscriberNumber()
-        {
-            this.SubscriberNumber = this.RemainingNumber.Substring(0, 4);
-            this.RemainingNumber = this.RemainingNumber.Substring(4);
-        }
-
+        /// <summary>
+        /// Check if the first code is a 1 - indicating that the countrycode was dialed
+        /// </summary>
         private void ParseCountryCode()
         {
             if (this.RemainingNumber.StartsWith("1"))
@@ -53,9 +33,13 @@ namespace PhoneNumber_TestProject1
             }
         }
 
+        /// <summary>
+        /// Check that the input number was the correct/expected length
+        /// </summary>
+        /// <returns>Returns true if the length is the expected length</returns>
         internal bool CheckLength()
         {
-            if (this.RemainingNumber.Length < this.ExpectedLength)
+            if (this.RemainingNumber.Length == this.ExpectedLength)
             {
                 this.AddError($"Input string {E164Format} not a valid {this.ExpectedLength} digit phone number.");
                 return false;
@@ -63,12 +47,16 @@ namespace PhoneNumber_TestProject1
             else return true;
         }
 
+
+        /// <summary>
+        /// Strip the area ocde off of the number
+        /// </summary>
         private void ParseAreaCode()
         {
             this.AreaCode = this.RemainingNumber.Substring(0, 3);
             this.RemainingNumber = this.RemainingNumber.Substring(3);
         }
 
-        // Implement the rest of the parsing logic
+        // TODO: Implement the rest of the US10 PhoneNumber parsing logic
     }
 }

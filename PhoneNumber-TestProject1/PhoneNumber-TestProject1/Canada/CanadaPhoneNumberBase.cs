@@ -3,23 +3,20 @@ using System.Collections.Generic;
 
 namespace PhoneNumber_TestProject1
 {
-    public class CanadaPhoneNumberBase : PhoneNumberBase
+    public abstract class CanadaPhoneNumberBase : PhoneNumberBase
     {
-        //public string CountryCode { get; set; }
-        //public string AreaCode { get; set; }
-        //public string CentralOfficeCode { get; set; }
-        //public string SubscriberNumber { get; set; }
 
-        public CanadaPhoneNumberBase(string e164Format) : base("Canada", e164Format)
+        public int ExpectedLength { get; }
+        public string CountryCode { get; set; }
+        // TODO: Create the rest of the Canada Phone number sections properties
+        public object AreaCode { get => throw new NotImplementedException(); }
+        public object CentralOfficeCode { get => throw new NotImplementedException(); }
+        public object SubscriberNumber { get => throw new NotImplementedException(); }
+        public object ExtraNumbers { get => throw new NotImplementedException(); }
+
+        public CanadaPhoneNumberBase(string e164Format, int expectedLength) : base("Canada", e164Format)
         {
-
+            this.ExpectedLength = expectedLength;
         }
-
-        protected override void ParsePhoneNumber()
-        {
-            base.AddError("CountryCode", "ParsePhoneNumber() not implemented.  That's your job...");
-        }
-
-        // TO-DO: Implement the rest of the paring methods...
     }
 }

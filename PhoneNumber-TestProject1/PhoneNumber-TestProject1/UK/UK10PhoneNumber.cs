@@ -13,11 +13,11 @@ namespace PhoneNumber_TestProject1
         public override void ParsePhoneNumber()
         {
             base.StripPlus();
-            this.ParseCountryCode();
             // TODO: Parse the rest of the fields in this number
-            //this.ParseAreaCode();
-            //this.ParseCentralOfficeCode();
-            //this.ParseSubscriberNumber();
+            //base.ParseCountryCode();
+            //base.ParseAreaCode();
+            //base.ParseCentralOfficeCode();
+            //base.ParseSubscriberNumber();
         }
 
     }

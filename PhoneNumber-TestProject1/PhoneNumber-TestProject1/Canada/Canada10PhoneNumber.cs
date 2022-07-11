@@ -14,11 +14,11 @@ namespace PhoneNumber_TestProject1
         public override void ParsePhoneNumber()
         {
             base.StripPlus();
-            base.ParseCountryCode();
             // TODO: Call the rest of the Canada digit Phone Section parsing methods
-            //this.ParseAreaCode();
-            //this.ParseCentralOfficeCode();
-            //this.ParseSubscriberNumber();
+            //base.ParseCountryCode();
+            //base.ParseAreaCode();
+            //base.ParseCentralOfficeCode();
+            //base.ParseSubscriberNumber();
         }
     }
 }

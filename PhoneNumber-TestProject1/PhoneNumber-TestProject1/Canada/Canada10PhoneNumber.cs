@@ -10,11 +10,6 @@ namespace PhoneNumber_TestProject1
 
         }
 
-        public object AreaCode { get => throw new NotImplementedException(); }
-        public object CentralOfficeCode { get; internal set; }
-        public object SubscriberNumber { get; internal set; }
-        public object ExtraNumbers { get; internal set; }
-
         // TODO: Write the rest of the Canda 10 digit Phone number parsing method
         protected override void ParsePhoneNumber()
         {

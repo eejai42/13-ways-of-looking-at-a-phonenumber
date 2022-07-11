@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System;
+using System.Collections.Generic;
 
 namespace PhoneNumber_TestProject1
 {
@@ -17,7 +18,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void US10PhoneNumberTest14144111234()
         {
-            var parsedNumber = new US10PhoneNumber("+14144111234");
+            dynamic parsedNumber = new US10PhoneNumber("+14144111234");
 
             // Check that each of the parts was found/interpreted correctly
             if (parsedNumber.IsValid)
@@ -33,7 +34,7 @@ namespace PhoneNumber_TestProject1
             Console.WriteLine("Assertion is expected to fail because the value (411) is explicity excluded.");
 
             // List errors
-            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+            ((List<String>)parsedNumber.Errors).ForEach(err => Console.WriteLine($"{err}"));
 
             Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
     
@@ -46,7 +47,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void US10PhoneNumberTest123()
         {
-            var parsedNumber = new US10PhoneNumber("+123");
+            dynamic parsedNumber = new US10PhoneNumber("+123");
 
             // Check that each of the parts was found/interpreted correctly
             if (parsedNumber.IsValid)
@@ -62,7 +63,7 @@ namespace PhoneNumber_TestProject1
             Console.WriteLine("Assertion is expected to fail because the value (123) is to short");
 
             // List errors
-            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+            ((List<String>)parsedNumber.Errors).ForEach(err => Console.WriteLine($"{err}"));
 
             Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
     
@@ -75,7 +76,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void US10PhoneNumberTest2125552134454412323()
         {
-            var parsedNumber = new US10PhoneNumber("+2125552134454412323");
+            dynamic parsedNumber = new US10PhoneNumber("+2125552134454412323");
 
             // Check that each of the parts was found/interpreted correctly
             if (parsedNumber.IsValid)
@@ -91,7 +92,7 @@ namespace PhoneNumber_TestProject1
             Console.WriteLine("Assertion is expected to fail because the value (555) is explicity excluded.");
 
             // List errors
-            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+            ((List<String>)parsedNumber.Errors).ForEach(err => Console.WriteLine($"{err}"));
 
             Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
     
@@ -104,7 +105,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void US10PhoneNumberTest16080300000()
         {
-            var parsedNumber = new US10PhoneNumber("+16080300000");
+            dynamic parsedNumber = new US10PhoneNumber("+16080300000");
 
             // Check that each of the parts was found/interpreted correctly
             if (parsedNumber.IsValid)
@@ -120,7 +121,7 @@ namespace PhoneNumber_TestProject1
             Console.WriteLine("Assertion is expected to fail because the value (030) is too low.");
 
             // List errors
-            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+            ((List<String>)parsedNumber.Errors).ForEach(err => Console.WriteLine($"{err}"));
 
             Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
     
@@ -133,7 +134,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void US10PhoneNumberTest16089111234()
         {
-            var parsedNumber = new US10PhoneNumber("+16089111234");
+            dynamic parsedNumber = new US10PhoneNumber("+16089111234");
 
             // Check that each of the parts was found/interpreted correctly
             if (parsedNumber.IsValid)
@@ -149,7 +150,7 @@ namespace PhoneNumber_TestProject1
             Console.WriteLine("Assertion is expected to fail because the value (911) is explicity excluded.");
 
             // List errors
-            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+            ((List<String>)parsedNumber.Errors).ForEach(err => Console.WriteLine($"{err}"));
 
             Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
     
@@ -162,7 +163,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void US7PhoneNumberTest2781234()
         {
-            var parsedNumber = new US7PhoneNumber("+2781234");
+            dynamic parsedNumber = new US7PhoneNumber("+2781234");
 
             // Check that each of the parts was found/interpreted correctly
             if (parsedNumber.IsValid)
@@ -174,7 +175,7 @@ namespace PhoneNumber_TestProject1
             }
             
             // List errors
-            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+            ((List<String>)parsedNumber.Errors).ForEach(err => Console.WriteLine($"{err}"));
 
             Assert.IsTrue(parsedNumber.IsValid, "Phone number was expected to be successfully parsed.");        
     
@@ -187,7 +188,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void US7PhoneNumberTest911123488()
         {
-            var parsedNumber = new US7PhoneNumber("+911123488");
+            dynamic parsedNumber = new US7PhoneNumber("+911123488");
 
             // Check that each of the parts was found/interpreted correctly
             if (parsedNumber.IsValid)
@@ -201,7 +202,7 @@ namespace PhoneNumber_TestProject1
             Console.WriteLine("Assertion is expected to fail because the value (911) is explicity excluded.");
 
             // List errors
-            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+            ((List<String>)parsedNumber.Errors).ForEach(err => Console.WriteLine($"{err}"));
 
             Assert.IsFalse(parsedNumber.IsValid, $"US Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
     

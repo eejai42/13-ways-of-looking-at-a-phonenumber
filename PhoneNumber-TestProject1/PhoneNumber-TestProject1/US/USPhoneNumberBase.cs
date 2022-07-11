@@ -5,13 +5,6 @@ namespace PhoneNumber_TestProject1
 {
     public abstract partial class USPhoneNumberBase : PhoneNumberBase
     {
-        public string CountryCode { get; set; }
-
-        public string AreaCode { get; set; }
-        public string CentralOfficeCode { get; set; }
-        public string SubscriberNumber { get; set; }
-        public string ExtraNumbers { get; set; }
-
         /// <summary>
         /// updated the US Phone Number
         /// </summary>
@@ -21,21 +14,29 @@ namespace PhoneNumber_TestProject1
         {
         }
 
-        /// <summary>
-        /// Strip the area ocde off of the number
-        /// </summary>
-        public void ParseAreaCode()
+        internal void ParseCountryCode()
         {
-            this.AreaCode = this.Take(3);
+            throw new NotImplementedException();
         }
 
-        /// <summary>
-        /// Check if the first code is a 1 - indicating that the countrycode was dialed
-        /// </summary>
-        public void ParseCountryCode()
+        internal void ParseAreaCode()
         {
-            this.CountryCode = "1";
-            if (this.RemainingNumber.StartsWith("1")) this.Take(1);
+            throw new NotImplementedException();
+        }
+
+        internal void ParseCentralOfficeCode()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void ParseExtraNumbers()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void ParseSubscriberNumber()
+        {
+            throw new NotImplementedException();
         }
     }
 }

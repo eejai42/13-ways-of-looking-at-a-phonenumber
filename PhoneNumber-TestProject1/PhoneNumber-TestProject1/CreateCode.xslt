@@ -34,6 +34,16 @@ namespace PhoneNumber_TestProject1
 {
     public abstract partial class <xsl:value-of select="$phone-number-base" /> : PhoneNumberBase
     {
+  
+        <xsl:for-each select="$country/CountrySections/CountrySection">
+        public string <xsl:value-of select="Name" /> { get; set; }</xsl:for-each>
+
+        <xsl:for-each select="$country/CountrySections/CountrySection">
+        private void Parse_<xsl:value-of select="Name" /> ()
+        {
+            this.<xsl:value-of select="Name" />  = this.Take(1);
+        }
+</xsl:for-each>
 
     }
 }

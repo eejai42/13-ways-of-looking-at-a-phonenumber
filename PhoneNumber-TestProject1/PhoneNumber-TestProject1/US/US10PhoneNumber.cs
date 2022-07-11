@@ -15,15 +15,23 @@ namespace PhoneNumber_TestProject1
         public override void ParsePhoneNumber()
         {
             base.StripPlus();
-            this.ParseCountryCode();
-            base.ParseAreaCode();
-             
+            base.ParseCountryCode();
+            
+            if (this.RemainingNumber.Length < this.ExpectedLength)
+            {
+                this.AddError("Length is to short.");
+            } else
+            {
+                base.ParseAreaCode();
+                base.ParseCentralOfficeCode();
+                base.ParseSubscriberNumber();
+                base.ParseExtraNumbers();
+            }
+
             // TODO: Call the rest of the parse methods
-            //base.ParseCentralOfficeCode();
-            //base.ParseSubscriberNumber();
-            //base.ParseExtraNumbers();
         }
 
+        
         // TODO: Implement the rest of the US10 PhoneNumber parsing logic
     }
 }

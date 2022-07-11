@@ -27,6 +27,7 @@
                     </RelativePath>
                     <xsl:element name="FileContents" xml:space="preserve">using NUnit.Framework;
 using System;
+using System.Collections.Generic;
 
 namespace PhoneNumber_TestProject1
 {
@@ -45,7 +46,7 @@ namespace PhoneNumber_TestProject1
         [Test]
         public void <xsl:value-of select="CountryName" /><xsl:value-of select="FormatLength" />PhoneNumberTest<xsl:value-of select="substring(E164Format, 2, string-length(E164Format))" />()
         {
-            var parsedNumber = new <xsl:value-of select="CountryName" /><xsl:value-of select="FormatLength" />PhoneNumber("<xsl:value-of select="E164Format" />");
+            dynamic parsedNumber = new <xsl:value-of select="CountryName" /><xsl:value-of select="FormatLength" />PhoneNumber("<xsl:value-of select="E164Format" />");
 
             // Check that each of the parts was found/interpreted correctly
             if (parsedNumber.IsValid)
@@ -56,7 +57,7 @@ namespace PhoneNumber_TestProject1
             <xsl:choose>
     <xsl:when test="normalize-space(ExpectedFailedAssertionCount) = '0'">
             // List errors
-            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+            ((List&lt;String>)parsedNumber.Errors).ForEach(err => Console.WriteLine($"{err}"));
 
             Assert.IsTrue(parsedNumber.IsValid, "Phone number was expected to be successfully parsed.");        
     </xsl:when>
@@ -64,7 +65,7 @@ namespace PhoneNumber_TestProject1
             Console.WriteLine("<xsl:value-of select="ExpectedFailedAssertionDescriptions" />");
 
             // List errors
-            parsedNumber.Errors.ForEach(err => Console.WriteLine($"{err}"));
+            ((List&lt;String>)parsedNumber.Errors).ForEach(err => Console.WriteLine($"{err}"));
 
             Assert.IsFalse(parsedNumber.IsValid, $"<xsl:value-of select="CountryName" /> Phone Number: {parsedNumber.E164Format} did not FAIL to parse (as expected)");
     </xsl:otherwise>

@@ -14,19 +14,8 @@ namespace PhoneNumber_TestProject1
         public override void ParsePhoneNumber()
         {
             base.StripPlus();
-             this.ParseCountryCode();
+            base.ParseCountryCode();
             // TODO: Call the rest of the Canada digit Phone Section parsing methods
         }
-
-        private void ParseCountryCode()
-        {
-            if (this.RemainingNumber.StartsWith("1"))
-            {
-                this.CountryCode = "1";
-                this.RemainingNumber = this.RemainingNumber.Substring(1);
-            }
-        }
-
-        // TODO: Write the rest of the Canada digit Phone Section parsing methods
     }
 }

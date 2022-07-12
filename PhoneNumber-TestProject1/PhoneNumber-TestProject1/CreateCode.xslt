@@ -17,11 +17,9 @@
             <FileSetFiles>
                 <xsl:for-each select="/*/Countries/Country">
                     <xsl:variable name="country" />
-                    <xsl:variable name="phone-number-base">
-                        <xsl:value-of select="Name" />
-                        <xsl:text>PhoneNumberBase</xsl:text>
-                    </xsl:variable>
-                <FileSetFile>
+                    <xsl:variable name="phone-number-base"><xsl:value-of select="Name" /><xsl:text>PhoneNumberBase</xsl:text></xsl:variable>
+                    <xsl:variable name="sections" select="CountrySections/CountrySection" />
+                    <FileSetFile>
                     <RelativePath>
                         <xsl:value-of select="Name" />
                         <xsl:text>/</xsl:text>
@@ -34,15 +32,6 @@ namespace PhoneNumber_TestProject1
 {
     public abstract partial class <xsl:value-of select="$phone-number-base" /> : PhoneNumberBase
     {
-        <xsl:for-each select="CountrySections/CountrySection">
-        public string <xsl:value-of select="PhoneNumberSectionName" /> { get; set; }</xsl:for-each>
-
-        <xsl:for-each select="CountrySections/CountrySection">
-        public void Parse<xsl:value-of select="PhoneNumberSectionName" /> ()
-        {
-            this.<xsl:value-of select="PhoneNumberSectionName" />  = this.Take(1);
-        }
-</xsl:for-each>
 
     }
 }

@@ -15,18 +15,19 @@ namespace PhoneNumber_TestProject1
         public override void ParsePhoneNumber()
         {
             base.StripPlus();
-            base.ParseCountryCode();
+            throw new NotImplementedException();
+            //base.ParseCountryCode();
             
-            if (this.RemainingNumber.Length < this.ExpectedLength)
-            {
-                this.AddError("Length is to short.");
-            } else
-            {
-                base.ParseAreaCode();
-                base.ParseCentralOfficeCode();
-                base.ParseSubscriberNumber();
-                base.ParseExtraNumbers();
-            }
+            //if (this.RemainingNumber.Length < this.ExpectedLength)
+            //{
+            //    this.AddError("Length is to short.");
+            //} else
+            //{
+            //    base.ParseAreaCode();
+            //    base.ParseCentralOfficeCode();
+            //    base.ParseSubscriberNumber();
+            //    base.ParseExtraNumbers();
+            //}
         }   
     }
 }
